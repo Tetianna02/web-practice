@@ -1,29 +1,154 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Practice</title>
+  <title>Exclusive | Online Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Навчальна практика</h1>
-    <nav>
-      <a href="index.html">Головна</a>
-      <a href="about.html">Про мене</a>
-      <a href="contact.html">Контакти</a>
-    </nav>
+
+  <div class="top-bar">
+    <div class="content-wrap d-flex top-bar-wrap">
+      <div class="top-bar-center d-flex vertical-center">
+        <p class="top-bar-text">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+        <a href="#" class="top-bar-link">ShopNow</a>
+      </div>
+      <div class="top-bar-lang d-flex vertical-center">
+        <span>English</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12.364 12.95L17.314 8L18.728 9.414L12.364 15.778L6.00003 9.414L7.41403 8L12.364 12.95Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <div class="navbar content-wrap d-flex vertical-center">
+
+      <a href="#" class="logo">Exclusive</a>
+
+      <ul id="mainMenu" class="main-menu d-flex">
+        <li><a href="#" class="main-menu-link active">Home</a></li>
+        <li><a href="#" class="main-menu-link">Contact</a></li>
+        <li><a href="#" class="main-menu-link">About</a></li>
+        <li><a href="#" class="main-menu-link">Sign Up</a></li>
+      </ul>
+
+      <div class="search-box d-flex vertical-center">
+        <input type="text" placeholder="What are you looking for?">
+        <img src="assets/images/icons/icon-search.svg" alt="Search" class="search-box-icon">
+      </div>
+
+      <div class="header-actions d-flex vertical-center">
+        <div class="header-icons d-flex vertical-center">
+          <a href="#" class="icon-link d-flex item-center">
+            <img src="assets/images/icons/icon-heart.svg" alt="Wishlist">
+          </a>
+          <a href="#" class="icon-link d-flex item-center">
+            <img src="assets/images/icons/icon-cart.svg" alt="Cart">
+          </a>
+        </div>
+        <div id="iconBlock" class="menu-icon d-flex vertical-center">
+          <span id="iconOpen" class="menu-icon-open">☰</span>
+          <span id="iconClose" class="menu-icon-close d-none">✖</span>
+        </div>
+      </div>
+
+    </div>
   </header>
+
   <main>
-    <section>
-      <h2>Вітаю!</h2>
-      <p>Це мій навчальний вебпроєкт.</p>
+
+    <section class="hero-section">
+      <div class="content-wrap row d-flex">
+
+        <aside class="hero-sidebar">
+          <ul id="categoriesList" class="sidebar-list d-flex"></ul>
+        </aside>
+
+        <div class="hero-banner d-flex">
+          <div class="banner-content">
+            <div class="banner-top d-flex vertical-center">
+              <img src="assets/images/icons/apple-logo.svg" alt="Apple" width="34" height="34">
+              <span class="banner-subtitle">iPhone 14 Series</span>
+            </div>
+            <h1 class="banner-title">Up to 10%<br>off Voucher</h1>
+            <a href="#" class="banner-link d-flex vertical-center">
+              <span>Shop Now</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M3.5 12H21M21 12L14 5M21 12L14 19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+          <div class="banner-image">
+            <img src="assets/images/slider-iphone.png" alt="iPhone 14 Series">
+          </div>
+          <div class="banner-pagination d-flex">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+      </div>
     </section>
+    <section class="flash-section">
+        <div class="content-wrap">
+      
+          <div class="section-label d-flex vertical-center">
+            <span class="label-bar"></span>
+            <span class="label-text">Today's</span>
+          </div>
+      
+          <div class="section-header d-flex vertical-center">
+            <h2 class="section-title">Flash Sales</h2>
+            <div class="countdown d-flex vertical-center">
+              <div class="countdown-item">
+                <span class="countdown-label">Days</span>
+                <span class="countdown-number">03</span>
+              </div>
+              <span class="countdown-sep">:</span>
+              <div class="countdown-item">
+                <span class="countdown-label">Hours</span>
+                <span class="countdown-number">23</span>
+              </div>
+              <span class="countdown-sep">:</span>
+              <div class="countdown-item">
+                <span class="countdown-label">Minutes</span>
+                <span class="countdown-number">19</span>
+              </div>
+              <span class="countdown-sep">:</span>
+              <div class="countdown-item">
+                <span class="countdown-label">Seconds</span>
+                <span class="countdown-number">56</span>
+              </div>
+            </div>
+            <div class="section-arrows d-flex vertical-center">
+                <button class="arrow-btn"><img src="assets/images/icons/icon-arrow-left.svg" alt="prev"></button>
+                <button class="arrow-btn"><img src="assets/images/icons/icon-arrow-right1.svg" alt="next"></button>
+            </div>
+          </div>
+      
+          <div id="productsList" class="products-list d-flex"></div>
+      
+          <div class="section-footer d-flex item-center">
+            <a href="#" class="btn-view-all">View All Products</a>
+          </div>
+      
+        </div>
+      </section>
+
   </main>
-  <footer>
-    <p>© 2026 Навчальна практика</p>
-  </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
