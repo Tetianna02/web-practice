@@ -401,7 +401,6 @@ img {
 .flash-section {
   padding-top: 32px;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -617,6 +616,83 @@ img {
   background-color: var(--primary-hover);
 }
 
+.category-section {
+  padding: 0;
+}
+
+.category-section .content-wrap {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.flash-section {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.category-arrows {
+  gap: 8px;
+  margin-left: auto;
+  display: none;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.category-card {
+  width: calc(50% - 8px);
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-card img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  filter: brightness(0);
+  transition: filter 0.2s ease;
+}
+.category-card:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.category-card:hover .category-name,
+.category-card.active .category-name {
+  color: var(--light-color);
+}
+
+.category-card:hover img,
+.category-card.active img {
+  filter: brightness(0) invert(1);
+}
+
+.category-card.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.category-name {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-color);
+}
+
 @media screen and (min-width: 481px) {
   .top-bar-text {
     font-size: 14px;
@@ -632,6 +708,10 @@ img {
 
   .section-title {
     font-size: 28px;
+  }
+
+  .category-card {
+    width: calc(33.333% - 11px);
   }
 }
 
@@ -809,6 +889,14 @@ img {
   .product-card {
     width: calc(25% - 12px);
   }
+
+  .category-arrows {
+    display: flex;
+  }
+
+  .category-card {
+    width: calc(16.666% - 13px);
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -823,6 +911,7 @@ img {
   .products-list {
     flex-wrap: nowrap;
     gap: 30px;
+    overflow: hidden;
   }
 
   .product-card {
@@ -839,6 +928,19 @@ img {
 
   .product-name {
     font-size: 16px;
+  }
+
+  .categories-list {
+    flex-wrap: nowrap;
+    gap: 30px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .category-card {
+    width: 170px;
+    height: 145px;
+    flex-shrink: 0;
   }
 }
 

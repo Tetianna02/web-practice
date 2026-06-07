@@ -135,3 +135,51 @@ if (bannerPrev && bannerNext) {
   bannerPrev.addEventListener('click', () => updateBanner(currentSlide - 1))
   bannerNext.addEventListener('click', () => updateBanner(currentSlide + 1))
 }
+
+const categoriesGrid = document.getElementById('categoriesGrid')
+
+const categoryItems = [
+  { name: 'Phones',     icon: 'assets/images/icons/icon-phone.svg' },
+  { name: 'Computers',  icon: 'assets/images/icons/icon-computer.svg' },
+  { name: 'SmartWatch', icon: 'assets/images/icons/icon-smartwatch.svg' },
+  { name: 'Camera',     icon: 'assets/images/icons/icon-camera.svg', active: true },
+  { name: 'HeadPhones', icon: 'assets/images/icons/icon-headphones.svg' },
+  { name: 'Gaming',     icon: 'assets/images/icons/icon-gaming.svg' },
+]
+
+if (categoriesGrid) {
+  categoriesGrid.innerHTML = categoryItems
+    .map(item => `
+      <div class="category-card${item.active ? ' active' : ''}">
+        <img src="${item.icon}" alt="${item.name}">
+        <span class="category-name">${item.name}</span>
+      </div>
+    `)
+    .join('')
+
+  categoriesGrid.querySelectorAll('.category-card').forEach(card => {
+    card.addEventListener('click', () => {
+      categoriesGrid.querySelectorAll('.category-card').forEach(c => c.classList.remove('active'))
+      card.classList.add('active')
+    })
+  })
+}
+
+const categoryPrev = document.getElementById('categoryPrev')
+const categoryNext = document.getElementById('categoryNext')
+
+if (categoryPrev && categoryNext && categoriesGrid) {
+  categoryNext.addEventListener('click', () => {
+    if (window.innerWidth < 1025) return
+    const card = categoriesGrid.querySelector('.category-card')
+    const cardWidth = card.offsetWidth + 30
+    categoriesGrid.scrollBy({ left: cardWidth, behavior: 'smooth' })
+  })
+
+  categoryPrev.addEventListener('click', () => {
+    if (window.innerWidth < 1025) return
+    const card = categoriesGrid.querySelector('.category-card')
+    const cardWidth = card.offsetWidth + 30
+    categoriesGrid.scrollBy({ left: -cardWidth, behavior: 'smooth' })
+  })
+}
