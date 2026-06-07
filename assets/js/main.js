@@ -183,3 +183,42 @@ if (categoryPrev && categoryNext && categoriesGrid) {
     categoriesGrid.scrollBy({ left: -cardWidth, behavior: 'smooth' })
   })
 }
+
+const bestSellingData = [
+  { name: "The north coat",       newPrice: "$260", oldPrice: "$360", rating: 5,   reviews: 65, img: "assets/images/product-coat-north.png" },
+  { name: "Gucci duffle bag",     newPrice: "$960", oldPrice: "$1160", rating: 4.5, reviews: 65, img: "assets/images/product-bag-gucci.png" },
+  { name: "RGB liquid CPU Cooler",newPrice: "$160", oldPrice: "$170", rating: 4.5, reviews: 65, img: "assets/images/product-cpu-cooler.png" },
+  { name: "Small BookSelf",       newPrice: "$360", oldPrice: null,   rating: 5,   reviews: 65, img: "assets/images/product-bookshelf.png" },
+]
+
+const bestSellingList = document.getElementById('bestSellingList')
+
+if (bestSellingList) {
+  bestSellingList.innerHTML = bestSellingData.map(prod => `
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="${prod.img}" alt="${prod.name}">
+        <div class="product-actions">
+          <button class="product-action-btn"><img src="assets/images/icons/icon-heart.svg" alt="Wishlist"></button>
+          <button class="product-action-btn"><img src="assets/images/icons/icon-eye.svg" alt="Quick view"></button>
+        </div>
+        <button class="product-add-cart">Add To Cart</button>
+      </div>
+      <h3 class="product-name">${prod.name}</h3>
+      <div class="product-prices">
+        <span class="product-price-new">${prod.newPrice}</span>
+        ${prod.oldPrice ? `<span class="product-price-old">${prod.oldPrice}</span>` : ''}
+      </div>
+      <div class="product-rating">
+        <div class="product-stars">
+          ${Array.from({length: 5}, (_, i) => {
+            if (i < Math.floor(prod.rating)) return '<img src="assets/images/icons/icon-star.svg" alt="star">'
+            if (i < prod.rating) return '<img src="assets/images/icons/icon-star-half.svg" alt="half star">'
+            return '<img src="assets/images/icons/icon-star-empty.svg" alt="empty star">'
+          }).join('')}
+        </div>
+        <span class="product-reviews">(${prod.reviews})</span>
+      </div>
+    </div>
+  `).join('')
+}

@@ -400,7 +400,7 @@ img {
 
 .flash-section {
   padding-top: 32px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -618,17 +618,14 @@ img {
 
 .category-section {
   padding: 0;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .category-section .content-wrap {
   border-top: 0.5px solid rgba(0, 0, 0, 0.3);
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
   padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.flash-section {
-  padding-top: 32px;
   padding-bottom: 60px;
 }
 
@@ -691,6 +688,30 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: var(--dark-color);
+}
+.best-selling-section {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.btn-view-all-sm {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 44px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.2s ease;
+}
+
+.btn-view-all-sm:hover {
+  background-color: var(--primary-hover);
 }
 
 @media screen and (min-width: 481px) {
@@ -897,6 +918,33 @@ img {
   .category-card {
     width: calc(16.666% - 13px);
   }
+  
+  .best-selling-section .section-label {
+    margin-bottom: 12px;
+  }
+  
+  .best-selling-section .section-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 0;
+  }
+  
+  .best-selling-section .section-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--dark-color);
+    width: auto;
+    margin-right: 0;
+  }
+  .btn-view-all-sm {
+    width: 159px;
+    height: 56px;
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -941,6 +989,24 @@ img {
     width: 170px;
     height: 145px;
     flex-shrink: 0;
+  }
+
+  #bestSellingList {
+    flex-wrap: wrap;
+    overflow: visible;
+    gap: 30px;
+  }
+
+  #bestSellingList .product-card {
+    width: calc(25% - 23px);
+    flex-shrink: 0;
+  }
+
+  #bestSellingList .product-card-img {
+    width: 100%;
+    height: 250px;
+    aspect-ratio: unset;
+    padding: 35px 40px;
   }
 }
 
