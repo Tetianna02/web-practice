@@ -222,3 +222,69 @@ if (bestSellingList) {
     </div>
   `).join('')
 }
+
+const exploreData = [
+  { name: "Breed Dry Dog Food",      newPrice: "$100",  oldPrice: null,    rating: 3,   reviews: 35,  img: "assets/images/product-dog-food.jpg",           badge: null },
+  { name: "CANON EOS DSLR Camera",   newPrice: "$360",  oldPrice: null,    rating: 4,   reviews: 95,  img: "assets/images/product-camera-canon.png",        badge: null },
+  { name: "ASUS FHD Gaming Laptop",  newPrice: "$700",  oldPrice: null,    rating: 5,   reviews: 325, img: "assets/images/product-laptop-asus.png",         badge: null },
+  { name: "Curology Product Set",    newPrice: "$500",  oldPrice: null,    rating: 4,   reviews: 145, img: "assets/images/product-cosmetics-curology.png",  badge: null },
+  { name: "Kids Electric Car",        newPrice: "$960",  oldPrice: "$1160", rating: 5,   reviews: 65,  img: "assets/images/product-toy-car.png",          badge: "new", colors: ["#DB4444", "#000000"] },
+  { name: "Jr. Zoom Soccer Cleats",   newPrice: "$1160", oldPrice: null,    rating: 5,   reviews: 35,  img: "assets/images/product-shoes-cleats.png",     badge: null,  colors: ["#EEFF00", "#DB4444"] },
+  { name: "GP11 Shooter USB Gamepad", newPrice: "$660",  oldPrice: null,    rating: 4.5, reviews: 55,  img: "assets/images/product-gamepad-fantech.png",  badge: "new", colors: ["#000000", "#DB4444"] },
+  { name: "Quilted Satin Jacket",     newPrice: "$660",  oldPrice: null,    rating: 4.5, reviews: 55,  img: "assets/images/product-jacket-satin.png",     badge: null,  colors: ["#1B4532", "#DB4444"] },
+]
+
+const exploreList = document.getElementById('exploreList')
+
+if (exploreList) {
+  exploreList.innerHTML = exploreData.map(prod => `
+    <div class="product-card">
+      <div class="product-card-img">
+        ${prod.badge ? `<span class="product-badge-new">${prod.badge}</span>` : ''}
+        <img src="${prod.img}" alt="${prod.name}">
+        <div class="product-actions">
+          <button class="product-action-btn"><img src="assets/images/icons/icon-heart.svg" alt="Wishlist"></button>
+          <button class="product-action-btn"><img src="assets/images/icons/icon-eye.svg" alt="Quick view"></button>
+        </div>
+        <button class="product-add-cart">Add To Cart</button>
+      </div>
+      <h3 class="product-name">${prod.name}</h3>
+      <div class="product-info-row">
+        <div class="product-prices">
+          <span class="product-price-new">${prod.newPrice}</span>
+          ${prod.oldPrice ? `<span class="product-price-old">${prod.oldPrice}</span>` : ''}
+        </div>
+        <div class="product-rating">
+          <div class="product-stars">
+            ${Array.from({length: 5}, (_, i) => {
+              if (i < Math.floor(prod.rating)) return '<img src="assets/images/icons/icon-star.svg" alt="star">'
+              if (i < prod.rating) return '<img src="assets/images/icons/icon-star-half.svg" alt="half star">'
+              return '<img src="assets/images/icons/icon-star-empty.svg" alt="empty star">'
+            }).join('')}
+          </div>
+          <span class="product-reviews">(${prod.reviews})</span>
+        </div>
+      </div>
+      ${prod.colors ? `
+      <div class="product-colors">
+  ${prod.colors.map((c, i) => `<span class="color-dot${i === 0 ? ' active' : ''}" style="background-color:${c}"></span>`).join('')}
+      </div>` : ''}
+    </div>
+  `).join('')
+}
+const explorePrev = document.getElementById('explorePrev')
+const exploreNext = document.getElementById('exploreNext')
+
+if (explorePrev && exploreNext && exploreList) {
+  exploreNext.addEventListener('click', () => {
+    const cardWidth = exploreList.querySelector('.product-card').offsetWidth
+    const gap = parseInt(window.getComputedStyle(exploreList).gap) || 30
+    exploreList.scrollBy({ left: cardWidth + gap, behavior: 'smooth' })
+  })
+
+  explorePrev.addEventListener('click', () => {
+    const cardWidth = exploreList.querySelector('.product-card').offsetWidth
+    const gap = parseInt(window.getComputedStyle(exploreList).gap) || 30
+    exploreList.scrollBy({ left: -(cardWidth + gap), behavior: 'smooth' })
+  })
+}
