@@ -38,6 +38,13 @@ img {
   display: block;
 }
 
+.service-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
+
 .product-action-btn img,
 .arrow-btn img {
   width: auto;
@@ -540,14 +547,14 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .product-prices {
   display: flex;
   gap: 8px;
   align-items: center;
-  margin-bottom: 4px;
+  margin-bottom: 0;
 }
 
 .product-price-new {
@@ -900,12 +907,13 @@ img {
 
 .product-colors {
   display: flex;
-  align-items: center;
   gap: 8px;
+  margin-top: 8px;
+  align-items: center;
 }
 
 .color-dot {
-  width: 20px;
+  width:20px;
   height: 20px;
   border-radius: 50%;
   display: inline-block;
@@ -920,7 +928,7 @@ img {
   width: 12px;
   height: 12px;
   outline: 2px solid var(--dark-color);
-  outline-offset: 3px;
+  outline-offset: 2px;
 }
 
 .color-dot:hover {
@@ -932,12 +940,225 @@ img {
   display: inline-flex;
   align-items: center;
 }
+.product-card .product-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 .explore-section .product-card .product-info-row {
   display: flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+.explore-list .product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-list .product-card-img {
+  flex-shrink: 0;
+}
+
+.explore-list .product-info-row {
+  margin-top: auto;
+}
+
+.flash-section .product-card .product-prices,
+.best-selling-section .product-card .product-prices,
+.explore-section .product-card .product-prices {
+  margin-bottom: 0;
+}
+
+.flash-section .product-card .product-name,
+.best-selling-section .product-card .product-name {
+  margin-bottom: 8px;
+}
+
+.flash-section .product-card .product-info-row,
+.best-selling-section .product-card .product-info-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.new-arrival-section {
+  padding: 40px 0;
+  margin-top: 40px;
+}
+.new-arrival-title {
+  margin-bottom: 60px;
+}
+
+.new-arrival-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.arrival-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: var(--dark-color);
+}
+
+.arrival-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
+}
+
+.arrival-card-large img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 120%;
+  height: 120%; 
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.arrival-card-wide img {
+  object-position: right bottom;
+}
+
+.arrival-card-small img {
+  object-position: center;
+  padding: 30px; 
+}
+
+.arrival-card-content {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: var(--light-color);
+  z-index: 2;
+}
+
+.arrival-card-title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 6px;
+  color: var(--light-color);
+}
+
+.arrival-card-large .arrival-card-title,
+.arrival-card-wide .arrival-card-title {
+  margin-bottom: 16px; 
+}
+
+.arrival-card-desc {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--light-color);
+  margin-bottom: 16px;
+  max-width: 255px;
+}
+
+.arrival-card-link {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light-color);
+  display: inline-block;
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--light-color); 
+}
+
+.new-arrival-title {
+  margin-bottom: 60px;
+}
+
+.arrival-card-large {
+  height: 280px;
+  position: relative;
+}
+
+.arrival-card-wide {
+  height: 160px;
+  margin-bottom: 0;
+}
+
+.arrival-card-small {
+  flex: 1;
+  height: 140px;
+}
+
+.arrival-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.arrival-bottom {
+  display: flex;
+  gap: 16px;
+}
+
+/* ── Services ── */
+.services-section {
+  padding: 40px 0 40px;
+}
+
+.services-list {
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.service-item {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.service-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 8px #c1c1c1;
+  flex-shrink: 0;
+}
+
+.service-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+.service-title {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark-color);
+  margin-bottom: 4px;
+}
+
+.service-desc {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--dark-color);
+  text-align: center;
 }
 
 @media screen and (min-width: 481px) {
@@ -962,6 +1183,101 @@ img {
   }
   .explore-list .product-card {
     width: calc(33.333% - 11px);
+  }
+  .new-arrival-grid {
+    flex-direction: row;
+    gap: 16px;
+    align-items: stretch;
+  }
+  
+  .arrival-card-large {
+    width: 50%;
+    flex-shrink: 0;
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  .arrival-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  .arrival-card-wide {
+    flex: 1;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  
+  .arrival-bottom {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .arrival-card-small {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .arrival-card-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .arrival-card-desc {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 6px;
+    max-width: 100%;
+  }
+  
+  .arrival-card-content {
+    bottom: 12px;
+    left: 12px;
+  }
+  
+  .arrival-card-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .services-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .service-item {
+    width: calc(50% - 20px);
+  }
+  .services-section {
+    padding: 60px 0 60px;
+  }
+
+  .services-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .service-item {
+    width: calc(33.333% - 16px);
+  }
+
+  .service-title {
+    font-size: 13px;
+  }
+
+  .service-desc {
+    font-size: 11px;
   }
 }
 
@@ -1178,6 +1494,102 @@ img {
   .explore-list .product-card {
     width: calc(25% - 12px);
   }
+  .new-arrival-section {
+    margin-top: 140px;
+  }
+  
+  .new-arrival-grid {
+    flex-direction: row;
+    gap: 30px;
+    align-items: stretch;
+  }
+  
+  .arrival-card-large {
+    width: 50%;
+    flex-shrink: 0;
+    height: auto;
+    min-height: 600px;
+  }
+  
+  .arrival-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 600px;
+  }
+  
+  .arrival-card-wide {
+    height: 286px;
+    margin-bottom: 0;
+  }
+  
+  .arrival-bottom {
+    gap: 30px;
+    flex: 1;
+    display: flex;
+  }
+  
+  .arrival-card-small {
+    flex: 1;
+    height: 284px;
+  }
+  
+  .arrival-card-title {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .arrival-card-desc {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    max-width: 255px;
+  }
+  .arrival-card-content {
+    bottom: 32px;
+    left: 32px;
+  }
+
+  .services-section {
+    padding: 80px 0 80px;
+  }
+
+  .services-list {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .service-item {
+    width: auto;
+    flex: 1;
+    min-width: 200px;
+    flex-shrink: 1;
+  }
+
+  .service-icon {
+    width: 58px;
+    height: 58px;
+    box-shadow: 0 0 0 10px #c1c1c1;
+  }
+
+  .service-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .service-title {
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+
+  .service-desc {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -1258,11 +1670,32 @@ img {
     aspect-ratio: unset;
     padding: 35px 40px;
   }
+
+  .arrival-card-large {
+    width: 570px; 
+  }
+  .services-list {
+    gap: 88px;
+    flex-wrap: nowrap;
+  }
+  
+  .service-item {
+    width: 249px;
+    flex-shrink: 0;
+  }
+  
+  .services-section {
+    padding: 140px 0 80px;
+  }
+
 }
 
 @media screen and (min-width: 1201px) {
   .content-wrap {
     padding: 0;
+  }
+  .services-section {
+    padding: 140px 0 100px;
   }
 }
 
@@ -1284,7 +1717,7 @@ img {
   .promo-title {
     font-size: 36px;
     line-height: 44px;
-    white-space: normal; 
+    white-space: normal;
   }
   .promo-image {
     position: relative;
@@ -1301,9 +1734,8 @@ img {
     height: 300px;
   }
   .promo-image img {
-    transform: translate(-50%, -50%) scale(-1.2, 1.2); 
+    transform: translate(-50%, -50%) scale(-1.2, 1.2);
   }
-
 }
 
 @media screen and (max-width: 576px) {
@@ -1322,6 +1754,56 @@ img {
     height: 250px;
   }
   .promo-image img {
-    transform: translate(-50%, -50%) scale(-1.5, 1.5); 
+    transform: translate(-50%, -50%) scale(-1.5, 1.5);
   }
+}
+
+@media screen and (max-width: 768px) {
+  .new-arrival-section {
+    padding: 40px 0;
+    margin-top: 60px;
+  }
+  .arrival-card-large {
+    height: 380px;
+  }
+  .arrival-card-wide {
+    height: 220px;
+  }
+  .arrival-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .arrival-card-small {
+    flex: 1;
+    height: 190px;
+  }
+  .arrival-card-content {
+    bottom: 16px;
+    left: 16px;
+    z-index: 2;
+  }
+  .arrival-card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .arrival-card-desc {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 90%;
+  }
+ 
+}
+
+
+/* ── Анімація при скролі ── */
+.anim-item {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.anim-item.anim-visible {
+  opacity: 1;
+  transform: translateY(0);
 }

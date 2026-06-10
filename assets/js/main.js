@@ -228,7 +228,7 @@ const exploreData = [
   { name: "CANON EOS DSLR Camera",   newPrice: "$360",  oldPrice: null,    rating: 4,   reviews: 95,  img: "assets/images/product-camera-canon.png",        badge: null },
   { name: "ASUS FHD Gaming Laptop",  newPrice: "$700",  oldPrice: null,    rating: 5,   reviews: 325, img: "assets/images/product-laptop-asus.png",         badge: null },
   { name: "Curology Product Set",    newPrice: "$500",  oldPrice: null,    rating: 4,   reviews: 145, img: "assets/images/product-cosmetics-curology.png",  badge: null },
-  { name: "Kids Electric Car",        newPrice: "$960",  oldPrice: "$1160", rating: 5,   reviews: 65,  img: "assets/images/product-toy-car.png",          badge: "new", colors: ["#DB4444", "#000000"] },
+  { name: "Kids Electric Car",        newPrice: "$960",  oldPrice: null, rating: 5,   reviews: 65,  img: "assets/images/product-toy-car.png",          badge: "new", colors: ["#DB4444", "#000000"] },
   { name: "Jr. Zoom Soccer Cleats",   newPrice: "$1160", oldPrice: null,    rating: 5,   reviews: 35,  img: "assets/images/product-shoes-cleats.png",     badge: null,  colors: ["#EEFF00", "#DB4444"] },
   { name: "GP11 Shooter USB Gamepad", newPrice: "$660",  oldPrice: null,    rating: 4.5, reviews: 55,  img: "assets/images/product-gamepad-fantech.png",  badge: "new", colors: ["#000000", "#DB4444"] },
   { name: "Quilted Satin Jacket",     newPrice: "$660",  oldPrice: null,    rating: 4.5, reviews: 55,  img: "assets/images/product-jacket-satin.png",     badge: null,  colors: ["#1B4532", "#DB4444"] },
@@ -288,3 +288,17 @@ if (explorePrev && exploreNext && exploreList) {
     exploreList.scrollBy({ left: -(cardWidth + gap), behavior: 'smooth' })
   })
 }
+// ── Анімація при скролі ──
+const animItems = document.querySelectorAll('.anim-item')
+
+const animOnScroll = () => {
+  animItems.forEach(item => {
+    const itemTop = item.getBoundingClientRect().top
+    if (itemTop < window.innerHeight - 60) {
+      item.classList.add('anim-visible')
+    }
+  })
+}
+
+window.addEventListener('scroll', animOnScroll)
+animOnScroll()
