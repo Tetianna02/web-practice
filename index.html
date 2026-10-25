@@ -103,7 +103,7 @@
         <div class="hero-image-wrap">
           <img class="hero-image" data-hero-image src="assets/images/slider-iphone.png" alt="Смартфон iPhone 14" width="496" height="328">
         </div>
-        <div class="hero-pagination" data-hero-pagination aria-label="Слайди банера"></div>
+        <div class="hero-pagination" data-hero-pagination role="group" aria-label="Слайди банера"></div>
       </div>
     </section>
 
@@ -335,7 +335,7 @@
             </button>
           </div>
         </div>
-        <div class="social-links" aria-label="Соціальні мережі">
+        <div class="social-links" role="group" aria-label="Соціальні мережі">
           <button type="button" data-coming-soon aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-facebook"></use></svg></button>
           <button type="button" data-coming-soon aria-label="X"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-twitter"></use></svg></button>
           <button type="button" data-coming-soon aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-instagram"></use></svg></button>
@@ -357,34 +357,36 @@
       <button id="auth-tab-register" type="button" role="tab" aria-selected="true" aria-controls="auth-panel" data-auth-mode="register">Реєстрація</button>
       <button id="auth-tab-login" type="button" role="tab" aria-selected="false" aria-controls="auth-panel" tabindex="-1" data-auth-mode="login">Вхід</button>
     </div>
-    <form class="auth-form" id="auth-panel" role="tabpanel" aria-labelledby="auth-tab-register" novalidate>
-      <div class="form-field" data-field="name">
-        <label for="auth-name">Ім’я</label>
-        <input id="auth-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="auth-name-error">
-        <span class="field-error" id="auth-name-error"></span>
-      </div>
-      <div class="form-field" data-field="email">
-        <label for="auth-email">Електронна пошта</label>
-        <input id="auth-email" name="email" type="email" autocomplete="email" required aria-describedby="auth-email-error">
-        <span class="field-error" id="auth-email-error"></span>
-      </div>
-      <div class="form-field" data-field="password">
-        <label for="auth-password">Пароль</label>
-        <input id="auth-password" name="password" type="password" autocomplete="new-password" required minlength="8" aria-describedby="auth-password-error">
-        <span class="field-error" id="auth-password-error"></span>
-      </div>
-      <div class="form-field" data-field="confirm-password">
-        <label for="auth-confirm-password">Підтвердження пароля</label>
-        <input id="auth-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" required aria-describedby="auth-confirm-password-error">
-        <span class="field-error" id="auth-confirm-password-error"></span>
-      </div>
-      <div class="form-field consent-field" data-field="consent">
-        <label class="checkbox-label" for="auth-consent"><input id="auth-consent" name="consent" type="checkbox" required aria-describedby="auth-consent-error"><span>Погоджуюся з умовами користування та політикою конфіденційності</span></label>
-        <span class="field-error" id="auth-consent-error"></span>
-      </div>
-      <p class="form-status" data-form-status aria-live="polite"></p>
-      <button class="primary-button form-submit" type="submit">Створити обліковий запис</button>
-    </form>
+    <div id="auth-panel" role="tabpanel" aria-labelledby="auth-tab-register">
+      <form class="auth-form" novalidate>
+        <div class="form-field" data-field="name">
+          <label for="auth-name">Ім’я</label>
+          <input id="auth-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="auth-name-error">
+          <span class="field-error" id="auth-name-error"></span>
+        </div>
+        <div class="form-field" data-field="email">
+          <label for="auth-email">Електронна пошта</label>
+          <input id="auth-email" name="email" type="email" autocomplete="email" required aria-describedby="auth-email-error">
+          <span class="field-error" id="auth-email-error"></span>
+        </div>
+        <div class="form-field" data-field="password">
+          <label for="auth-password">Пароль</label>
+          <input id="auth-password" name="password" type="password" autocomplete="new-password" required minlength="8" aria-describedby="auth-password-error">
+          <span class="field-error" id="auth-password-error"></span>
+        </div>
+        <div class="form-field" data-field="confirm-password">
+          <label for="auth-confirm-password">Підтвердження пароля</label>
+          <input id="auth-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" required aria-describedby="auth-confirm-password-error">
+          <span class="field-error" id="auth-confirm-password-error"></span>
+        </div>
+        <div class="form-field consent-field" data-field="consent">
+          <label class="checkbox-label" for="auth-consent"><input id="auth-consent" name="consent" type="checkbox" required aria-describedby="auth-consent-error"><span>Погоджуюся з умовами користування та політикою конфіденційності</span></label>
+          <span class="field-error" id="auth-consent-error"></span>
+        </div>
+        <p class="form-status" data-form-status aria-live="polite"></p>
+        <button class="primary-button form-submit" type="submit">Створити обліковий запис</button>
+      </form>
+    </div>
   </dialog>
 </body>
 </html>

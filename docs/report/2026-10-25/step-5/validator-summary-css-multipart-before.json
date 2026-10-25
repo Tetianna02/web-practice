@@ -1,0 +1,24 @@
+{
+  "Timestamp": "2026-10-25T19:54:05.6992055Z",
+  "Results": [
+    {
+      "Errors": 0,
+      "Input": "_variables",
+      "Status": 200,
+      "Service": "Jigsaw CSS3 SOAP",
+      "Warnings": 0,
+      "Validity": "true",
+      "Output": "jigsaw-_variables-css-multipart-before.xml"
+    },
+    {
+      "Errors": 17,
+      "Input": "style",
+      "Status": 200,
+      "Service": "Jigsaw CSS3 SOAP",
+      "Warnings": 766,
+      "Validity": "false",
+      "Output": "jigsaw-style-css-multipart-before.xml"
+    }
+  ],
+  "Stage": "css-multipart-before"
+}

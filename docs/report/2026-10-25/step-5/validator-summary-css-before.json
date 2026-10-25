@@ -1,0 +1,16 @@
+{
+  "Stage": "css-before",
+  "Timestamp": "2026-10-25T19:53:16.0054289Z",
+  "Results": [
+    {
+      "Service": "Jigsaw CSS3",
+      "Failure": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Input": "_variables"
+    },
+    {
+      "Service": "Jigsaw CSS3",
+      "Failure": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Input": "style"
+    }
+  ]
+}

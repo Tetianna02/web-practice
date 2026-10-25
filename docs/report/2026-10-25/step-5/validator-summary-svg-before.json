@@ -1,0 +1,24 @@
+{
+  "Results": [
+    {
+      "Service": "Jigsaw css3svg SOAP",
+      "Output": "jigsaw-_variables-svg-before.xml",
+      "Input": "_variables",
+      "Validity": "true",
+      "Warnings": 0,
+      "Errors": 0,
+      "Status": 200
+    },
+    {
+      "Service": "Jigsaw css3svg SOAP",
+      "Output": "jigsaw-style-svg-before.xml",
+      "Input": "style",
+      "Validity": "false",
+      "Warnings": 771,
+      "Errors": 8,
+      "Status": 200
+    }
+  ],
+  "Stage": "svg-before",
+  "Timestamp": "2026-10-25T19:55:03.9391526Z"
+}

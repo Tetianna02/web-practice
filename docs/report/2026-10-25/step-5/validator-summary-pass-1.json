@@ -1,0 +1,72 @@
+{
+  "Timestamp": "2026-10-25T19:58:56.3183518Z",
+  "Stage": "after",
+  "Results": [
+    {
+      "Input": "source",
+      "Service": "Nu HTML",
+      "Output": "nu-source-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Input": "chrome-rendered",
+      "Service": "Nu HTML",
+      "Output": "nu-chrome-rendered-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 18
+    },
+    {
+      "Input": "edge-menu-open",
+      "Service": "Nu HTML",
+      "Output": "nu-edge-menu-open-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 18
+    },
+    {
+      "Input": "edge-modal-login",
+      "Service": "Nu HTML",
+      "Output": "nu-edge-modal-login-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 18
+    },
+    {
+      "Input": "edge-modal-register",
+      "Service": "Nu HTML",
+      "Output": "nu-edge-modal-register-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 18
+    },
+    {
+      "Input": "edge-rendered",
+      "Service": "Nu HTML",
+      "Output": "nu-edge-rendered-after.json",
+      "Status": 200,
+      "Warnings": 0,
+      "Errors": 18
+    },
+    {
+      "Input": "_variables",
+      "Service": "Jigsaw css3svg SOAP",
+      "Errors": 0,
+      "Status": 200,
+      "Output": "jigsaw-_variables-after.xml",
+      "Warnings": 0,
+      "Validity": "true"
+    },
+    {
+      "Input": "style",
+      "Service": "Jigsaw css3svg SOAP",
+      "Errors": 8,
+      "Status": 200,
+      "Output": "jigsaw-style-after.xml",
+      "Warnings": 771,
+      "Validity": "false"
+    }
+  ]
+}

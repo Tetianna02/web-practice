@@ -160,6 +160,7 @@ function createProductCard(product) {
   const rating = document.createElement('div');
   rating.className = 'product-rating';
   const stars = document.createElement('span');
+  stars.setAttribute('role', 'img');
   stars.setAttribute('aria-label', 'Оцінка ' + product.rating + ' з 5');
   stars.className = 'rating-stars';
   const score = Math.max(0, Math.min(5, product.rating || 0));
@@ -430,6 +431,7 @@ window.addEventListener('resize', function () {
 
 const authDialog = document.querySelector('.auth-dialog');
 const authForm = document.querySelector('.auth-form');
+const authPanel = document.getElementById('auth-panel');
 const authStatus = document.querySelector('[data-form-status]');
 const authNameField = document.querySelector('[data-field="name"]');
 const authConfirmField = document.querySelector('[data-field="confirm-password"]');
@@ -467,7 +469,7 @@ function setAuthMode(mode) {
     button.setAttribute('aria-selected', String(button.dataset.authMode === mode));
     button.tabIndex = button.dataset.authMode === mode ? 0 : -1;
   });
-  if (authForm) authForm.setAttribute('aria-labelledby', 'auth-tab-' + mode);
+  if (authPanel) authPanel.setAttribute('aria-labelledby', 'auth-tab-' + mode);
   const submit = document.querySelector('.form-submit');
   if (submit) submit.textContent = isRegister ? 'Створити обліковий запис' : 'Увійти';
   if (authStatus) authStatus.textContent = '';

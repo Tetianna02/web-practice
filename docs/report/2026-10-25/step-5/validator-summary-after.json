@@ -1,0 +1,54 @@
+{
+  "Stage": "after",
+  "Results": [
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-source-after.json",
+      "Status": 200,
+      "Input": "source",
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-chrome-rendered-after.json",
+      "Status": 200,
+      "Input": "chrome-rendered",
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-edge-menu-open-after.json",
+      "Status": 200,
+      "Input": "edge-menu-open",
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-edge-modal-login-after.json",
+      "Status": 200,
+      "Input": "edge-modal-login",
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-edge-modal-register-after.json",
+      "Status": 200,
+      "Input": "edge-modal-register",
+      "Warnings": 0,
+      "Errors": 0
+    },
+    {
+      "Service": "Nu HTML",
+      "Output": "nu-edge-rendered-after.json",
+      "Status": 200,
+      "Input": "edge-rendered",
+      "Warnings": 0,
+      "Errors": 0
+    }
+  ],
+  "Timestamp": "2026-10-25T20:01:45.2114940Z"
+}
