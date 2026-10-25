@@ -1,0 +1,3137 @@
+{
+  "ErrorCount": 8,
+  "Errors": [
+    {
+      "Message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                “min(100% - (var(--page-gutter) * 2), var(--container-width))” is not a “width” value : \n                            ",
+      "Line": "115",
+      "Context": ".container"
+    },
+    {
+      "Message": "\n\n                                Property “container-type” doesn't exist : \n                            ",
+      "Line": "1109",
+      "Context": ".explore-section > .container"
+    },
+    {
+      "Message": "\n\n                                Parse Error\n                            ",
+      "Line": "1117",
+      "Context": "#explore-grid"
+    },
+    {
+      "Message": "\n\n                                Property “container-type” doesn't exist : \n                            ",
+      "Line": "1829",
+      "Context": ".hero-section"
+    },
+    {
+      "Message": "\n\n                                Parse Error\n                            ",
+      "Line": "1833",
+      "Context": ".hero-banner"
+    },
+    {
+      "Message": "\n\n                                Parse Error\n                            ",
+      "Line": "1916",
+      "Context": ".hero-banner"
+    },
+    {
+      "Message": "\n\n                                Property “container-type” doesn't exist : \n                            ",
+      "Line": "2617",
+      "Context": ".flash-section"
+    },
+    {
+      "Message": "\n\n                                Value Error :  width (nullvisudet.html#propdef-width)\n\n                                Parse Error\n                            ",
+      "Line": "2720",
+      "Context": ".horizontal-product-list"
+    }
+  ],
+  "Validity": "false",
+  "WarningCount": 772,
+  "Warnings": [
+    {
+      "Line": "11",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "12",
+      "Message": "Redefinition of “font-style”"
+    },
+    {
+      "Line": "13",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "14",
+      "Message": "Redefinition of “font-display”"
+    },
+    {
+      "Line": "15",
+      "Message": "Redefinition of “src”"
+    },
+    {
+      "Line": "16",
+      "Message": "Redefinition of “unicode-range”"
+    },
+    {
+      "Line": "20",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "21",
+      "Message": "Redefinition of “font-style”"
+    },
+    {
+      "Line": "22",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "23",
+      "Message": "Redefinition of “font-display”"
+    },
+    {
+      "Line": "24",
+      "Message": "Redefinition of “src”"
+    },
+    {
+      "Line": "28",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "29",
+      "Message": "Redefinition of “font-style”"
+    },
+    {
+      "Line": "30",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "31",
+      "Message": "Redefinition of “font-display”"
+    },
+    {
+      "Line": "32",
+      "Message": "Redefinition of “src”"
+    },
+    {
+      "Line": "36",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "37",
+      "Message": "Redefinition of “font-style”"
+    },
+    {
+      "Line": "38",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "39",
+      "Message": "Redefinition of “font-display”"
+    },
+    {
+      "Line": "40",
+      "Message": "Redefinition of “src”"
+    },
+    {
+      "Line": "44",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "45",
+      "Message": "Redefinition of “font-style”"
+    },
+    {
+      "Line": "46",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "47",
+      "Message": "Redefinition of “font-display”"
+    },
+    {
+      "Line": "48",
+      "Message": "Redefinition of “src”"
+    },
+    {
+      "Line": "67",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "68",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "69",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "69",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "86",
+      "Message": "“-webkit-tap-highlight-color” is a vendor extension"
+    },
+    {
+      "Line": "90",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "94",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "110",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "127",
+      "Message": "The property “clip” is deprecated"
+    },
+    {
+      "Line": "138",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "139",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "150",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "151",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "199",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "200",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "218",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "218",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "250",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "250",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "250",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "262",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "275",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "282",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "303",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "322",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "337",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "353",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "354",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "363",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "368",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "391",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "392",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "393",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "402",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "402",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "410",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "410",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "423",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "447",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "448",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "449",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "475",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "482",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "482",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "544",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "545",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "574",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "599",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "609",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "610",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "615",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "615",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "634",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "667",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "673",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "673",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "682",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "688",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "693",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "713",
+      "Message": "“::-webkit-scrollbar” is a vendor extended pseudo-element"
+    },
+    {
+      "Line": "718",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "723",
+      "Message": "“-webkit-box” is a vendor extension"
+    },
+    {
+      "Line": "724",
+      "Message": "“-webkit-box-orient” is a vendor extension"
+    },
+    {
+      "Line": "725",
+      "Message": "“-webkit-line-clamp” is a vendor extension"
+    },
+    {
+      "Line": "735",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "763",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "764",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "786",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "803",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "804",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "809",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "829",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "846",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "847",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "853",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "874",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "879",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "889",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "894",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "912",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "913",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "914",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "924",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "942",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "943",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "944",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "968",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "968",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "969",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "977",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "980",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "980",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "997",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "998",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1010",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1017",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1017",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "1044",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1045",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1057",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1060",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "1061",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1065",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1120",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1125",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1130",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1132",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1147",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1175",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1176",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1177",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1215",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1215",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "1224",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1290",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1291",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1354",
+      "Message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers"
+    },
+    {
+      "Line": "1359",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1360",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1386",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1396",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1423",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1470",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1481",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1516",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1543",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1552",
+      "Message": "Redefinition of “opacity”"
+    },
+    {
+      "Line": "1552",
+      "Message": "Redefinition of “transform”"
+    },
+    {
+      "Line": "1553",
+      "Message": "Redefinition of “opacity”"
+    },
+    {
+      "Line": "1553",
+      "Message": "Redefinition of “transform”"
+    },
+    {
+      "Line": "1561",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "1566",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1567",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1572",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1587",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1587",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "1598",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1599",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1605",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1606",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1612",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1613",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1642",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1643",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1652",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1673",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1679",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "1738",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1744",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1754",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1759",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "1764",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1766",
+      "Message": "Redefinition of “grid-template-rows”"
+    },
+    {
+      "Line": "1768",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "1768",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "1768",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "1768",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "1772",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "1776",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1777",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "1777",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "1777",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "1777",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "1781",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "1785",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1789",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1790",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "1794",
+      "Message": "Redefinition of “min-width”"
+    },
+    {
+      "Line": "1798",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1802",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1806",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1810",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1814",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "1815",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "1819",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1823",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1834",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "1834",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "1841",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "1841",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "1841",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "1841",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "1845",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "1847",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "1848",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "1852",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1856",
+      "Message": "Redefinition of “flex-wrap”"
+    },
+    {
+      "Line": "1878",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "1878",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "1882",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1887",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1891",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "1895",
+      "Message": "Redefinition of “grid-column”"
+    },
+    {
+      "Line": "1899",
+      "Message": "Redefinition of “grid-column”"
+    },
+    {
+      "Line": "1910",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1911",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "1915",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1921",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1922",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "1926",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "1927",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "1931",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1935",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "1936",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1937",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "1938",
+      "Message": "Redefinition of “letter-spacing”"
+    },
+    {
+      "Line": "1942",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1946",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "1947",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "1951",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "1955",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1959",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "1963",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1971",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "1976",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1980",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "1981",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1986",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1986",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "1990",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "1998",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2002",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2003",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2007",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2011",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2015",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2019",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2023",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2027",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2031",
+      "Message": "Redefinition of “padding-block”"
+    },
+    {
+      "Line": "2035",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "2036",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2040",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2041",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2042",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2053",
+      "Message": "“-webkit-box” is a vendor extension"
+    },
+    {
+      "Line": "2054",
+      "Message": "“-webkit-box-orient” is a vendor extension"
+    },
+    {
+      "Line": "2055",
+      "Message": "“-webkit-line-clamp” is a vendor extension"
+    },
+    {
+      "Line": "2060",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2061",
+      "Message": "Redefinition of “flex-direction”"
+    },
+    {
+      "Line": "2062",
+      "Message": "Redefinition of “justify-content”"
+    },
+    {
+      "Line": "2063",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2063",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2063",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2063",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2067",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2068",
+      "Message": "Redefinition of “text-align”"
+    },
+    {
+      "Line": "2072",
+      "Message": "Redefinition of “justify-content”"
+    },
+    {
+      "Line": "2073",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2077",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2078",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2082",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2083",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2087",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2088",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "2092",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2096",
+      "Message": "Redefinition of “justify-content”"
+    },
+    {
+      "Line": "2100",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2101",
+      "Message": "Redefinition of “flex-wrap”"
+    },
+    {
+      "Line": "2105",
+      "Message": "Redefinition of “min-width”"
+    },
+    {
+      "Line": "2106",
+      "Message": "Redefinition of “flex”"
+    },
+    {
+      "Line": "2107",
+      "Message": "Redefinition of “aspect-ratio”"
+    },
+    {
+      "Line": "2111",
+      "Message": "Redefinition of “aspect-ratio”"
+    },
+    {
+      "Line": "2112",
+      "Message": "Redefinition of “overflow”"
+    },
+    {
+      "Line": "2112",
+      "Message": "Redefinition of “overflow-x”"
+    },
+    {
+      "Line": "2112",
+      "Message": "Redefinition of “overflow-y”"
+    },
+    {
+      "Line": "2116",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2117",
+      "Message": "Redefinition of “left”"
+    },
+    {
+      "Line": "2118",
+      "Message": "Redefinition of “top”"
+    },
+    {
+      "Line": "2119",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2120",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "2132",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2136",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "2140",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2144",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2145",
+      "Message": "Redefinition of “justify-content”"
+    },
+    {
+      "Line": "2146",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2150",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2160",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2172",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2185",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2192",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2198",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2198",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2202",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "2205",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "2206",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2207",
+      "Message": "Redefinition of “padding-block”"
+    },
+    {
+      "Line": "2212",
+      "Message": "Redefinition of “grid-column”"
+    },
+    {
+      "Line": "2218",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "2219",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2220",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2224",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2233",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2238",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2243",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2247",
+      "Message": "Redefinition of “right”"
+    },
+    {
+      "Line": "2248",
+      "Message": "Redefinition of “bottom”"
+    },
+    {
+      "Line": "2249",
+      "Message": "Redefinition of “left”"
+    },
+    {
+      "Line": "2254",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2254",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2259",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2265",
+      "Message": "Redefinition of “pointer-events”"
+    },
+    {
+      "Line": "2271",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2271",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2271",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2271",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2272",
+      "Message": "Redefinition of “object-fit”"
+    },
+    {
+      "Line": "2390",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2390",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2390",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2390",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2394",
+      "Message": "Redefinition of “flex-wrap”"
+    },
+    {
+      "Line": "2400",
+      "Message": "Redefinition of “justify-content”"
+    },
+    {
+      "Line": "2402",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2407",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2414",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2415",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2424",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2425",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2429",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2429",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2429",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2429",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2430",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2435",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2437",
+      "Message": "Redefinition of “flex”"
+    },
+    {
+      "Line": "2438",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2443",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2447",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2451",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2452",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2461",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "2462",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2467",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2479",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "2484",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2495",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2503",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2512",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2514",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2515",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2515",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2515",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2515",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2520",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2524",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "2529",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2530",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2531",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2535",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2536",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2541",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "2542",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2543",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2544",
+      "Message": "Redefinition of “letter-spacing”"
+    },
+    {
+      "Line": "2548",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2550",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2551",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2553",
+      "Message": "Redefinition of “border-bottom”"
+    },
+    {
+      "Line": "2559",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2560",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2564",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2569",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2570",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2570",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2570",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2570",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "2574",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2575",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2576",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "2577",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "2581",
+      "Message": "Redefinition of “bottom”"
+    },
+    {
+      "Line": "2582",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2585",
+      "Message": "Redefinition of “left”"
+    },
+    {
+      "Line": "2589",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2590",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2592",
+      "Message": "Redefinition of “background-color”"
+    },
+    {
+      "Line": "2592",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2616",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2623",
+      "Message": "Redefinition of “flex-wrap”"
+    },
+    {
+      "Line": "2624",
+      "Message": "Redefinition of “align-items”"
+    },
+    {
+      "Line": "2625",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2626",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2635",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2636",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2637",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2638",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2643",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2644",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2648",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2649",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2650",
+      "Message": "Redefinition of “letter-spacing”"
+    },
+    {
+      "Line": "2657",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2658",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2662",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2663",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2667",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2668",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2682",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "2692",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2693",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2697",
+      "Message": "Redefinition of “min-width”"
+    },
+    {
+      "Line": "2698",
+      "Message": "Redefinition of “align-items”"
+    },
+    {
+      "Line": "2702",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2707",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2708",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2712",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2713",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2728",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2729",
+      "Message": "Redefinition of “aspect-ratio”"
+    },
+    {
+      "Line": "2734",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2736",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2736",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2736",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2736",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "2738",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2739",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2749",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2754",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2755",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2760",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2761",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2762",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2771",
+      "Message": "Redefinition of “top”"
+    },
+    {
+      "Line": "2772",
+      "Message": "Redefinition of “left”"
+    },
+    {
+      "Line": "2773",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2773",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2773",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2773",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2774",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2780",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "2780",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2784",
+      "Message": "Redefinition of “top”"
+    },
+    {
+      "Line": "2785",
+      "Message": "Redefinition of “right”"
+    },
+    {
+      "Line": "2786",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2790",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2791",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2795",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2796",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2800",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2801",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2813",
+      "Message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers"
+    },
+    {
+      "Line": "2817",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2824",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2824",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2824",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2825",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2826",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2826",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2826",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2835",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2837",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2843",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "2853",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2854",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2855",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2855",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2855",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2855",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2860",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2861",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2869",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2882",
+      "Message": "Redefinition of “padding-inline”"
+    },
+    {
+      "Line": "2883",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2887",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2891",
+      "Message": "Redefinition of “display”"
+    },
+    {
+      "Line": "2893",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2894",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2894",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "2894",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2894",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "2898",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2901",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2905",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "2905",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "2905",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2905",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "2906",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2911",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2912",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "2913",
+      "Message": "Redefinition of “letter-spacing”"
+    },
+    {
+      "Line": "2917",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "2918",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2922",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "2922",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "2923",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2929",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "2935",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "2936",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "2936",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2940",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2943",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2945",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "2951",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2953",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "2959",
+      "Message": "Redefinition of “position”"
+    },
+    {
+      "Line": "2960",
+      "Message": "Redefinition of “left”"
+    },
+    {
+      "Line": "2961",
+      "Message": "Redefinition of “top”"
+    },
+    {
+      "Line": "2962",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "2963",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2964",
+      "Message": "Redefinition of “max-width”"
+    },
+    {
+      "Line": "2965",
+      "Message": "Redefinition of “max-height”"
+    },
+    {
+      "Line": "2970",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "2974",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2979",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "2980",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "2999",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "3003",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "3007",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3009",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "3013",
+      "Message": "Redefinition of “grid-template-rows”"
+    },
+    {
+      "Line": "3014",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3018",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3034",
+      "Message": "You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3064",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3065",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3071",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "3071",
+      "Message": "Redefinition of “margin-left”"
+    },
+    {
+      "Line": "3071",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "3071",
+      "Message": "Redefinition of “margin-right”"
+    },
+    {
+      "Line": "3072",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3073",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3077",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3100",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3101",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "3105",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3106",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3107",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "3109",
+      "Message": "Redefinition of “box-shadow”"
+    },
+    {
+      "Line": "3117",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3118",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3122",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "3123",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3123",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3124",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3134",
+      "Message": "Redefinition of “grid-template-columns”"
+    },
+    {
+      "Line": "3135",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3136",
+      "Message": "Redefinition of “padding-block”"
+    },
+    {
+      "Line": "3140",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3144",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "3145",
+      "Message": "Due to their dynamic nature, CSS variables are currently not statically checked"
+    },
+    {
+      "Line": "3145",
+      "Message": "Redefinition of “font-family”"
+    },
+    {
+      "Line": "3145",
+      "Message": "“font-family”: You are encouraged to offer a generic family as a last alternative"
+    },
+    {
+      "Line": "3146",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3147",
+      "Message": "Redefinition of “font-weight”"
+    },
+    {
+      "Line": "3155",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3155",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3155",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3155",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3155",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3155",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3156",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3156",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3156",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3157",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3157",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3157",
+      "Message": "Redefinition of “line-height”"
+    },
+    {
+      "Line": "3161",
+      "Message": "Redefinition of “margin-bottom”"
+    },
+    {
+      "Line": "3168",
+      "Message": "Redefinition of “min-height”"
+    },
+    {
+      "Line": "3172",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3173",
+      "Message": "Redefinition of “min-width”"
+    },
+    {
+      "Line": "3174",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "3174",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "3174",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "3174",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "3176",
+      "Message": "Redefinition of “background-color”"
+    },
+    {
+      "Line": "3177",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3178",
+      "Message": "Redefinition of “font”"
+    },
+    {
+      "Line": "3183",
+      "Message": "Redefinition of “flex”"
+    },
+    {
+      "Line": "3184",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3185",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3186",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "3186",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "3186",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "3186",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "3188",
+      "Message": "Redefinition of “background-color”"
+    },
+    {
+      "Line": "3189",
+      "Message": "Redefinition of “color”"
+    },
+    {
+      "Line": "3190",
+      "Message": "Redefinition of “cursor”"
+    },
+    {
+      "Line": "3196",
+      "Message": "You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible."
+    },
+    {
+      "Line": "3201",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3202",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3203",
+      "Message": "Redefinition of “padding-bottom”"
+    },
+    {
+      "Line": "3203",
+      "Message": "Redefinition of “padding-left”"
+    },
+    {
+      "Line": "3203",
+      "Message": "Redefinition of “padding-top”"
+    },
+    {
+      "Line": "3203",
+      "Message": "Redefinition of “padding-right”"
+    },
+    {
+      "Line": "3207",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3211",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3212",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3223",
+      "Message": "Redefinition of “gap”"
+    },
+    {
+      "Line": "3224",
+      "Message": "Redefinition of “margin-top”"
+    },
+    {
+      "Line": "3229",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3229",
+      "Message": "Redefinition of “width”"
+    },
+    {
+      "Line": "3230",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3230",
+      "Message": "Redefinition of “height”"
+    },
+    {
+      "Line": "3234",
+      "Message": "Redefinition of “padding-block”"
+    },
+    {
+      "Line": "3238",
+      "Message": "Redefinition of “font-size”"
+    },
+    {
+      "Line": "3245",
+      "Message": "Redefinition of “opacity”"
+    },
+    {
+      "Line": "3246",
+      "Message": "Redefinition of “transform”"
+    },
+    {
+      "Line": "3247",
+      "Message": "“auto” is not defined by any specification as an allowed value for “pointer-events”, but is supported in multiple browsers"
+    },
+    {
+      "Line": "3247",
+      "Message": "Redefinition of “pointer-events”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-start”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-end”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-start”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-end”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-basis”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-grow”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-shrink”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-start”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “grid-row-end”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-basis”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-grow”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-shrink”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-left-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-right-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-left-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-right-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-left-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-right-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-left-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-right-radius”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-color”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-color”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-color”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-color”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-style”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-style”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-style”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-style”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-basis”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-grow”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “flex-shrink”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-top-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-right-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-bottom-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “border-left-width”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “column-gap”"
+    },
+    {
+      "Line": "0",
+      "Message": "Redefinition of “row-gap”"
+    }
+  ]
+}

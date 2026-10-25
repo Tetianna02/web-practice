@@ -527,7 +527,7 @@ input:focus-visible {
   left: 0;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 14px;
 }
 
 .hero-dot {
@@ -543,6 +543,37 @@ input:focus-visible {
 .hero-dot[aria-current="true"] {
   border: 2px solid var(--color-white);
   background: var(--color-red);
+}
+
+/* Прозорі зони натискання не змінюють видимий розмір іконок і desktop-геометрію. */
+.hero-dot,
+.product-swatch,
+.social-links button,
+.footer-column a:not(.brand),
+.footer-column > button:not(.footer-subscribe),
+.announcement-note {
+  position: relative;
+}
+
+.hero-dot::after,
+.product-swatch::after,
+.social-links button::after,
+.footer-column a:not(.brand)::after,
+.footer-column > button:not(.footer-subscribe)::after,
+.announcement-note::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, 24px);
+  height: max(100%, 24px);
+  content: '';
+  transform: translate(-50%, -50%);
+}
+
+.product-swatch::after {
+  /* Перша кнопка біля лівого й нижнього краю стрічки: зона 24px росте всередину. */
+  top: calc(50% - 2px);
+  left: calc(50% + 2px);
 }
 
 .content-section {

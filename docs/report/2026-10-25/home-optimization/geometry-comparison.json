@@ -1,0 +1,233 @@
+[
+  {
+    "width": 1440,
+    "beforeCount": 557,
+    "afterCount": 557,
+    "documentBefore": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 5902
+    },
+    "documentAfter": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 5902
+    },
+    "geometryChanges": [],
+    "colorOrFontChanges": [],
+    "screenshot": {
+      "sameSize": true,
+      "changedPixels": 1459,
+      "totalPixels": 8498880,
+      "changedPercent": 0.017167,
+      "bbox": [
+        778,
+        4770,
+        1268,
+        4987
+      ],
+      "maxChannelDifference": 2
+    }
+  },
+  {
+    "width": 360,
+    "beforeCount": 534,
+    "afterCount": 534,
+    "documentBefore": {
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 6249
+    },
+    "documentAfter": {
+      "width": 360,
+      "scrollWidth": 360,
+      "height": 6249
+    },
+    "geometryChanges": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -12
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 12
+        }
+      }
+    ],
+    "colorOrFontChanges": [],
+    "screenshot": {
+      "sameSize": true,
+      "changedPixels": 16520,
+      "totalPixels": 2249640,
+      "changedPercent": 0.73434,
+      "bbox": [
+        15,
+        569,
+        344,
+        6152
+      ],
+      "maxChannelDifference": 239
+    }
+  },
+  {
+    "width": 768,
+    "beforeCount": 532,
+    "afterCount": 532,
+    "documentBefore": {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 4788
+    },
+    "documentAfter": {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 4788
+    },
+    "geometryChanges": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -12
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 12
+        }
+      }
+    ],
+    "colorOrFontChanges": [],
+    "screenshot": {
+      "sameSize": true,
+      "changedPixels": 8679,
+      "totalPixels": 3677184,
+      "changedPercent": 0.236023,
+      "bbox": [
+        57,
+        510,
+        722,
+        3967
+      ],
+      "maxChannelDifference": 239
+    }
+  },
+  {
+    "width": 1024,
+    "beforeCount": 538,
+    "afterCount": 538,
+    "documentBefore": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 5585
+    },
+    "documentAfter": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 5585
+    },
+    "geometryChanges": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -12
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": -6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 6
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "class": "hero-dot",
+        "text": "",
+        "delta": {
+          "x": 12
+        }
+      }
+    ],
+    "colorOrFontChanges": [],
+    "screenshot": {
+      "sameSize": true,
+      "changedPixels": 1405,
+      "totalPixels": 5719040,
+      "changedPercent": 0.024567,
+      "bbox": [
+        342,
+        563,
+        970,
+        4768
+      ],
+      "maxChannelDifference": 228
+    }
+  }
+]

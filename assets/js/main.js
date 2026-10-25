@@ -53,7 +53,7 @@ const exploreProducts = [
 const heroSlides = [
   { eyebrow: 'Аудіотехніка JBL', title: 'Музика без меж', image: 'assets/images/optimized/figma-jbl-boombox.webp', alt: 'Портативна колонка JBL Boombox' },
   { eyebrow: 'PlayStation 5', title: 'Більше гри', image: 'assets/images/optimized/figma-arrival-ps5.webp', alt: 'Ігрова консоль PlayStation 5' },
-  { eyebrow: 'iPhone 14 Series', title: 'До 10% знижки', image: 'assets/images/slider-iphone.png', alt: 'Фіолетовий смартфон iPhone 14' },
+  { eyebrow: 'iPhone 14 Series', title: 'До 10% знижки', image: 'assets/images/optimized/slider-iphone-lossless.webp', alt: 'Фіолетовий смартфон iPhone 14' },
   { eyebrow: 'Техніка для творчості', title: 'Створюй історії', image: 'assets/images/optimized/product-camera-canon.webp', alt: 'Цифрова камера Canon' },
   { eyebrow: 'Товари для дому', title: 'Комфорт щодня', image: 'assets/images/optimized/product-chair-comfort.webp', alt: 'Сіре м’яке крісло для дому' }
 ];
@@ -195,15 +195,16 @@ function createProductCard(product) {
   return card;
 }
 
-function renderProductList(name, products) {
+function renderProductList(name, products, deferVisibility) {
   const container = document.querySelector('[data-product-list="' + name + '"]');
   if (!container) return;
-  container.replaceChildren();
+  const fragment = document.createDocumentFragment();
   const displayedProducts = name === 'best' ? products.slice(0, 4) : products;
   displayedProducts.forEach(function (product) {
-    container.append(createProductCard(product));
+    fragment.append(createProductCard(product));
   });
-  updateProductVisibility();
+  container.replaceChildren(fragment);
+  if (!deferVisibility) updateProductVisibility();
 }
 
 function createCategoryButton(category, className) {
@@ -259,7 +260,9 @@ let activeCategory = null;
 let activeQuery = '';
 const searchStatus = document.querySelector('[data-search-status]');
 
-function updateProductVisibility() {
+function updateProductVisibility(resetScroll = true) {
+  const catalog = document.getElementById('explore-grid');
+  const shouldResetScroll = resetScroll && catalog && catalog.scrollLeft !== 0;
   const cards = Array.from(document.querySelectorAll('.product-card'));
   let visible = 0;
   cards.forEach(function (card) {
@@ -270,7 +273,6 @@ function updateProductVisibility() {
     card.hidden = !show;
     if (show) visible += 1;
   });
-  const catalog = document.getElementById('explore-grid');
   if (catalog) {
     const matchingCards = Array.from(catalog.children).filter(function (card) { return !card.hidden; });
     // Два ряди зберігають порядок макета: перші чотири зверху, наступні чотири знизу.
@@ -283,7 +285,7 @@ function updateProductVisibility() {
       card.style.setProperty('--catalog-order', groupStart + (top ? local * 2 : (local - topCount) * 2 + 1));
       card.classList.toggle('catalog-top-row', top);
     });
-    catalog.scrollLeft = 0;
+    if (shouldResetScroll) catalog.scrollLeft = 0;
   }
   if (searchStatus && (activeQuery || activeCategory)) {
     searchStatus.textContent = visible ? 'Знайдено товарних карток: ' + visible : 'За цим запитом товарів не знайдено.';
@@ -292,9 +294,10 @@ function updateProductVisibility() {
   }
 }
 
-renderProductList('flash', saleProducts);
-renderProductList('best', bestProducts);
-renderProductList('explore', exploreProducts);
+renderProductList('flash', saleProducts, true);
+renderProductList('best', bestProducts, true);
+renderProductList('explore', exploreProducts, true);
+updateProductVisibility(false);
 
 function selectCategory(categoryId) {
   activeCategory = activeCategory === categoryId ? null : categoryId;
@@ -676,19 +679,37 @@ if (heroPagination && heroEyebrow && heroTitle && heroImage) {
   hero.addEventListener('focusout', restartHeroTimer);
 }
 
+const railControls = [];
+let railControlsFrame = null;
+function scheduleRailControls() {
+  if (railControlsFrame !== null) return;
+  railControlsFrame = window.requestAnimationFrame(function () {
+    railControlsFrame = null;
+    // Спочатку читаємо всі розміри, потім оновлюємо кнопки — без чергування layout read/write.
+    const states = railControls.map(function (controller) { return controller.measure(); });
+    railControls.forEach(function (controller, index) { controller.apply(states[index]); });
+  });
+}
+
 document.querySelectorAll('.scroll-rail').forEach(function (target) {
   const controls = Array.from(document.querySelectorAll('[data-scroll="' + target.id + '"]'));
-  const updateControls = function () {
+  const measure = function () {
     const max = Math.max(0, target.scrollWidth - target.clientWidth);
     const overflows = max > 2;
     const keepVisible = target.id === 'explore-grid' && window.matchMedia('(min-width: 1024px)').matches;
+    return { max: max, overflows: overflows, keepVisible: keepVisible, left: target.scrollLeft };
+  };
+  const apply = function (state) {
+    const hidden = !state.overflows && !state.keepVisible;
     controls.forEach(function (button) {
       const direction = Number(button.dataset.direction);
-      button.hidden = !overflows && !keepVisible;
-      button.disabled = !overflows || (direction < 0 ? target.scrollLeft <= 2 : target.scrollLeft >= max - 2);
-      button.parentElement.hidden = !overflows && !keepVisible;
+      const disabled = !state.overflows || (direction < 0 ? state.left <= 2 : state.left >= state.max - 2);
+      if (button.hidden !== hidden) button.hidden = hidden;
+      if (button.disabled !== disabled) button.disabled = disabled;
+      if (button.parentElement.hidden !== hidden) button.parentElement.hidden = hidden;
     });
   };
+  railControls.push({ measure: measure, apply: apply });
   const move = function (direction, edge) {
     const first = Array.from(target.children).find(function (item) { return !item.hidden; });
     if (!first) return;
@@ -700,23 +721,23 @@ document.querySelectorAll('.scroll-rail').forEach(function (target) {
     const max = Math.max(0, target.scrollWidth - target.clientWidth);
     const left = edge ? (direction < 0 ? 0 : max) : Math.max(0, Math.min(max, target.scrollLeft + direction * stride * steps));
     target.scrollTo({ left: left, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
-    updateControls();
+    scheduleRailControls();
   };
   controls.forEach(function (button) {
     button.setAttribute('aria-controls', target.id);
     button.addEventListener('click', function () { move(Number(button.dataset.direction)); });
   });
-  target.addEventListener('scroll', updateControls, { passive: true });
+  target.addEventListener('scroll', scheduleRailControls, { passive: true });
   target.addEventListener('keydown', function (event) {
     if (event.target !== target || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
     event.preventDefault();
     move(event.key === 'ArrowLeft' || event.key === 'Home' ? -1 : 1, event.key === 'Home' || event.key === 'End');
   });
-  const resizeObserver = new ResizeObserver(updateControls);
+  const resizeObserver = new ResizeObserver(scheduleRailControls);
   resizeObserver.observe(target);
-  const itemsObserver = new MutationObserver(updateControls);
+  const itemsObserver = new MutationObserver(scheduleRailControls);
   itemsObserver.observe(target, { childList: true, subtree: true, attributes: true, attributeFilter: ['hidden'] });
-  updateControls();
+  scheduleRailControls();
 });
 
 const scrollTopButton = document.querySelector('.scroll-top');

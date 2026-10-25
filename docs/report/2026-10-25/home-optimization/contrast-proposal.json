@@ -1,0 +1,1120 @@
+{
+  "applied": false,
+  "groups": [
+    {
+      "element": "Підписи секцій",
+      "scope": "«Сьогодні», «Категорії», «Цього місяця», «Наш асортимент», «Рекомендоване»; той самий червоний підпис модалки",
+      "before": {
+        "foreground": "#db4444",
+        "background": "#ffffff",
+        "ratio": 4.27
+      },
+      "proposedAfter": {
+        "foreground": "#d13e3e",
+        "background": "#ffffff",
+        "ratio": 4.7
+      },
+      "applied": false
+    },
+    {
+      "element": "Поточні ціни — усі 18 карток",
+      "scope": ".product-price-current у розпродажі, популярних товарах і каталозі",
+      "before": {
+        "foreground": "#db4444",
+        "background": "#ffffff",
+        "ratio": 4.27
+      },
+      "proposedAfter": {
+        "foreground": "#d13e3e",
+        "background": "#ffffff",
+        "ratio": 4.7
+      },
+      "applied": false
+    },
+    {
+      "element": "Бейджі знижок — 6 карток",
+      "scope": "−40%, −35%, −30%, −25% (двічі), −12%",
+      "before": {
+        "foreground": "#ffffff",
+        "background": "#db4444",
+        "ratio": 4.27
+      },
+      "proposedAfter": {
+        "foreground": "#ffffff",
+        "background": "#d13e3e",
+        "ratio": 4.7
+      },
+      "applied": false
+    },
+    {
+      "element": "Червоні кнопки",
+      "scope": "«Усі товари» у двох секціях, «Переглянути», кнопка відправлення у модалці",
+      "before": {
+        "foreground": "#ffffff",
+        "background": "#db4444",
+        "ratio": 4.27
+      },
+      "proposedAfter": {
+        "foreground": "#ffffff",
+        "background": "#d13e3e",
+        "ratio": 4.7
+      },
+      "applied": false
+    },
+    {
+      "element": "Hover червоних кнопок — додаткова перевірка",
+      "scope": "Наведення мишею: нинішній світлий --color-red-hover робить білий текст ще менш контрастним",
+      "before": {
+        "foreground": "#ffffff",
+        "background": "#e07575",
+        "ratio": 3.01
+      },
+      "proposedAfter": {
+        "foreground": "#ffffff",
+        "background": "#b52f2f",
+        "ratio": 6.15
+      },
+      "applied": false
+    },
+    {
+      "element": "Зелені кнопка JBL та бейджі «Новинка»",
+      "scope": "На широкому desktop текст білий. Пропонується лише чорний текст; яскраво-зелений фон залишається",
+      "before": {
+        "foreground": "#ffffff",
+        "background": "#00ff66",
+        "ratio": 1.36
+      },
+      "proposedAfter": {
+        "foreground": "#000000",
+        "background": "#00ff66",
+        "ratio": 15.5
+      },
+      "applied": false
+    },
+    {
+      "element": "Копірайт у футері",
+      "scope": "«© Exclusive. Усі права захищені.»; змінюється тільки сірий текст",
+      "before": {
+        "foreground": "#333333",
+        "background": "#000000",
+        "ratio": 1.66
+      },
+      "proposedAfter": {
+        "foreground": "#808080",
+        "background": "#000000",
+        "ratio": 5.32
+      },
+      "applied": false
+    }
+  ],
+  "rawLighthouseFindings": [
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-0-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 674,
+        "bottom": 694,
+        "left": 42,
+        "right": 100,
+        "width": 58,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "РЎСЊРѕРіРѕРґРЅС–",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-2-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 26,
+        "right": 70,
+        "width": 44,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-40%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-3-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1123,
+        "bottom": 1141,
+        "left": 16,
+        "right": 53,
+        "width": 37,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "1В 199 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-4-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 250,
+        "right": 294,
+        "width": 44,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-35%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-5-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1123,
+        "bottom": 1141,
+        "left": 240,
+        "right": 283,
+        "width": 43,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "2В 599 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-6-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,2,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 474,
+        "right": 518,
+        "width": 44,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-30%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-7-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,3,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 698,
+        "right": 742,
+        "width": 44,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-25%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-8-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,4,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 922,
+        "right": 966,
+        "width": 44,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-25%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-9-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,5,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 831,
+        "bottom": 854,
+        "left": 1146,
+        "right": 1186,
+        "width": 40,
+        "height": 23
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-12%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-10-A",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,2,DIV,0,A",
+      "selector": "section#flash-sales > div.container > div.section-action-row > a.primary-button",
+      "boundingRect": {
+        "top": 1197,
+        "bottom": 1241,
+        "left": 151,
+        "right": 261,
+        "width": 110,
+        "height": 44
+      },
+      "snippet": "<a class=\"primary-button\" href=\"#explore-products\">",
+      "nodeLabel": "РЈСЃС– С‚РѕРІР°СЂРё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-11-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 1377,
+        "bottom": 1397,
+        "left": 42,
+        "right": 102,
+        "width": 60,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "РљР°С‚РµРіРѕСЂС–С—",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-12-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 1761,
+        "bottom": 1781,
+        "left": 42,
+        "right": 128,
+        "width": 86,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "Р¦СЊРѕРіРѕ РјС–СЃСЏС†СЏ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-13-A",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,0,DIV,1,A",
+      "selector": "section.content-section > div.container > div.section-heading-row > a.secondary-button",
+      "boundingRect": {
+        "top": 1788,
+        "bottom": 1828,
+        "left": 277,
+        "right": 396,
+        "width": 119,
+        "height": 40
+      },
+      "snippet": "<a class=\"secondary-button\" href=\"#explore-products\">",
+      "nodeLabel": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-14-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2122,
+        "bottom": 2140,
+        "left": 16,
+        "right": 59,
+        "width": 43,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "9В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-15-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2122,
+        "bottom": 2140,
+        "left": 212,
+        "right": 259,
+        "width": 47,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "12В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-16-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,2,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2465,
+        "bottom": 2483,
+        "left": 16,
+        "right": 59,
+        "width": 43,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "3В 499 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-17-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,3,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2465,
+        "bottom": 2483,
+        "left": 212,
+        "right": 254,
+        "width": 42,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "2В 299 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-18-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3626,
+        "bottom": 3644,
+        "left": 16,
+        "right": 48,
+        "width": 32,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "799 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-19-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3626,
+        "bottom": 3644,
+        "left": 240,
+        "right": 287,
+        "width": 47,
+        "height": 18
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "21В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-20-BUTTON",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,3,DIV,0,BUTTON",
+      "selector": "section#explore-products > div.container > div.section-action-row > button.primary-button",
+      "boundingRect": {
+        "top": 3730,
+        "bottom": 3774,
+        "left": 151,
+        "right": 261,
+        "width": 110,
+        "height": 44
+      },
+      "snippet": "<button class=\"primary-button\" type=\"button\" data-coming-soon=\"\">",
+      "nodeLabel": "РЈСЃС– С‚РѕРІР°СЂРё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-21-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,6,SECTION,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.container > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 3854,
+        "bottom": 3874,
+        "left": 42,
+        "right": 146,
+        "width": 104,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "Р РµРєРѕРјРµРЅРґРѕРІР°РЅРµ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "mobile",
+      "type": "node",
+      "lhId": "1-22-P",
+      "path": "1,HTML,1,BODY,7,FOOTER,1,DIV,0,DIV,0,P",
+      "selector": "footer#footer > div.footer-bottom > div.container > p",
+      "boundingRect": {
+        "top": 6334,
+        "bottom": 6351,
+        "left": 16,
+        "right": 396,
+        "width": 380,
+        "height": 17
+      },
+      "snippet": "<p>",
+      "nodeLabel": "В© Exclusive. РЈСЃС– РїСЂР°РІР° Р·Р°С…РёС‰РµРЅС–.",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.66 (foreground color: #333333, background color: #000000, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-0-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 676,
+        "bottom": 696,
+        "left": 119,
+        "right": 190,
+        "width": 72,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "РЎСЊРѕРіРѕРґРЅС–",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-2-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,0,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 95,
+        "right": 149,
+        "width": 55,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-40%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-3-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1107,
+        "bottom": 1131,
+        "left": 83,
+        "right": 131,
+        "width": 49,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "1В 199 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-4-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,1,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 395,
+        "right": 449,
+        "width": 54,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-35%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-5-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1107,
+        "bottom": 1131,
+        "left": 383,
+        "right": 440,
+        "width": 57,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "2В 599 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-6-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,2,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 695,
+        "right": 749,
+        "width": 54,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-30%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-7-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,2,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1107,
+        "bottom": 1131,
+        "left": 683,
+        "right": 739,
+        "width": 57,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "7В 499 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-8-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,3,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 995,
+        "right": 1049,
+        "width": 54,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-25%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-9-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,3,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 1107,
+        "bottom": 1131,
+        "left": 983,
+        "right": 1041,
+        "width": 58,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "5В 499 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-10-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,4,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 1295,
+        "right": 1349,
+        "width": 54,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-25%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-11-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,1,DIV,5,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#flash-products > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 821,
+        "bottom": 847,
+        "left": 1595,
+        "right": 1645,
+        "width": 50,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge\">",
+      "nodeLabel": "-12%",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-12-A",
+      "path": "1,HTML,1,BODY,5,MAIN,1,SECTION,0,DIV,2,DIV,0,A",
+      "selector": "section#flash-sales > div.container > div.section-action-row > a.primary-button",
+      "boundingRect": {
+        "top": 1219,
+        "bottom": 1275,
+        "left": 551,
+        "right": 785,
+        "width": 234,
+        "height": 56
+      },
+      "snippet": "<a class=\"primary-button\" href=\"#explore-products\">",
+      "nodeLabel": "РЈСЃС– С‚РѕРІР°СЂРё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-13-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 1425,
+        "bottom": 1445,
+        "left": 119,
+        "right": 192,
+        "width": 73,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "РљР°С‚РµРіРѕСЂС–С—",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-14-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 1878,
+        "bottom": 1898,
+        "left": 119,
+        "right": 225,
+        "width": 106,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "Р¦СЊРѕРіРѕ РјС–СЃСЏС†СЏ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-15-A",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,0,DIV,1,A",
+      "selector": "section.content-section > div.container > div.section-heading-row > a.secondary-button",
+      "boundingRect": {
+        "top": 1920,
+        "bottom": 1976,
+        "left": 1094,
+        "right": 1253,
+        "width": 159,
+        "height": 56
+      },
+      "snippet": "<a class=\"secondary-button\" href=\"#explore-products\">",
+      "nodeLabel": "РџРµСЂРµРіР»СЏРЅСѓС‚Рё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-16-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2334,
+        "bottom": 2358,
+        "left": 83,
+        "right": 140,
+        "width": 58,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "9В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-17-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2334,
+        "bottom": 2358,
+        "left": 383,
+        "right": 445,
+        "width": 63,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "12В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-18-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,2,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2334,
+        "bottom": 2358,
+        "left": 683,
+        "right": 740,
+        "width": 57,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "3В 499 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-19-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,3,SECTION,0,DIV,1,DIV,3,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 2334,
+        "bottom": 2358,
+        "left": 983,
+        "right": 1039,
+        "width": 56,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "2В 299 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-20-A",
+      "path": "1,HTML,1,BODY,5,MAIN,4,SECTION,0,DIV,0,DIV,3,A",
+      "selector": "section.promo-section > div.promo-banner > div.promo-content > a.promo-button",
+      "boundingRect": {
+        "top": 2901,
+        "bottom": 2957,
+        "left": 139,
+        "right": 310,
+        "width": 171,
+        "height": 56
+      },
+      "snippet": "<a class=\"promo-button\" href=\"#explore-products\">",
+      "nodeLabel": "РљСѓРїРёС‚Рё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.35 (foreground color: #ffffff, background color: #00ff66, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-21-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.section-heading-row > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 3107,
+        "bottom": 3127,
+        "left": 119,
+        "right": 253,
+        "width": 135,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "РќР°С€ Р°СЃРѕСЂС‚РёРјРµРЅС‚",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-22-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,0,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3563,
+        "bottom": 3587,
+        "left": 83,
+        "right": 125,
+        "width": 42,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "799 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-23-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,1,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3563,
+        "bottom": 3587,
+        "left": 383,
+        "right": 445,
+        "width": 63,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "21В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-24-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,2,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3563,
+        "bottom": 3587,
+        "left": 683,
+        "right": 750,
+        "width": 68,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "34В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-25-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,3,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3563,
+        "bottom": 3587,
+        "left": 983,
+        "right": 1035,
+        "width": 52,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "1В 299 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-26-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,4,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#explore-grid > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 3659,
+        "bottom": 3685,
+        "left": 95,
+        "right": 169,
+        "width": 74,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge is-new\">",
+      "nodeLabel": "РќРѕРІРёРЅРєР°",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.35 (foreground color: #ffffff, background color: #00ff66, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-27-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,4,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3945,
+        "bottom": 3969,
+        "left": 83,
+        "right": 140,
+        "width": 58,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "8В 999 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-28-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,5,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3945,
+        "bottom": 3969,
+        "left": 383,
+        "right": 439,
+        "width": 57,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "2В 899 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-29-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,6,ARTICLE,0,DIV,0,SPAN",
+      "selector": "div#explore-grid > article.product-card > div.product-media > span.product-badge",
+      "boundingRect": {
+        "top": 3659,
+        "bottom": 3685,
+        "left": 695,
+        "right": 769,
+        "width": 74,
+        "height": 26
+      },
+      "snippet": "<span class=\"product-badge is-new\">",
+      "nodeLabel": "РќРѕРІРёРЅРєР°",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.35 (foreground color: #ffffff, background color: #00ff66, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-30-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,6,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3945,
+        "bottom": 3969,
+        "left": 683,
+        "right": 736,
+        "width": 53,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "1В 699 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-31-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,2,DIV,7,ARTICLE,2,DIV,0,DIV,0,SPAN",
+      "selector": "article.product-card > div.product-meta > div.product-prices > span.product-price-current",
+      "boundingRect": {
+        "top": 3945,
+        "bottom": 3969,
+        "left": 983,
+        "right": 1039,
+        "width": 56,
+        "height": 24
+      },
+      "snippet": "<span class=\"product-price-current\">",
+      "nodeLabel": "3В 299 в‚ґ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-32-BUTTON",
+      "path": "1,HTML,1,BODY,5,MAIN,5,SECTION,0,DIV,3,DIV,0,BUTTON",
+      "selector": "section#explore-products > div.container > div.section-action-row > button.primary-button",
+      "boundingRect": {
+        "top": 4057,
+        "bottom": 4113,
+        "left": 551,
+        "right": 785,
+        "width": 234,
+        "height": 56
+      },
+      "snippet": "<button class=\"primary-button\" type=\"button\" data-coming-soon=\"\">",
+      "nodeLabel": "РЈСЃС– С‚РѕРІР°СЂРё",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #ffffff, background color: #db4444, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-33-SPAN",
+      "path": "1,HTML,1,BODY,5,MAIN,6,SECTION,0,DIV,0,DIV,0,DIV,1,SPAN",
+      "selector": "div.container > div.section-heading-copy > div.section-kicker > span",
+      "boundingRect": {
+        "top": 4263,
+        "bottom": 4283,
+        "left": 119,
+        "right": 246,
+        "width": 128,
+        "height": 20
+      },
+      "snippet": "<span>",
+      "nodeLabel": "Р РµРєРѕРјРµРЅРґРѕРІР°РЅРµ",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #db4444, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "mode": "desktop",
+      "type": "node",
+      "lhId": "1-34-P",
+      "path": "1,HTML,1,BODY,7,FOOTER,1,DIV,0,DIV,0,P",
+      "selector": "footer#footer > div.footer-bottom > div.container > p",
+      "boundingRect": {
+        "top": 5854,
+        "bottom": 5878,
+        "left": 83,
+        "right": 1253,
+        "width": 1170,
+        "height": 24
+      },
+      "snippet": "<p>",
+      "nodeLabel": "В© Exclusive. РЈСЃС– РїСЂР°РІР° Р·Р°С…РёС‰РµРЅС–.",
+      "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.66 (foreground color: #333333, background color: #000000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+    }
+  ]
+}

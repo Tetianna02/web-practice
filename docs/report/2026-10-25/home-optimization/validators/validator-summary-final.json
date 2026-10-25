@@ -1,0 +1,24 @@
+{
+  "Results": [
+    {
+      "Validity": "true",
+      "Service": "Jigsaw css3svg SOAP",
+      "Warnings": 0,
+      "Errors": 0,
+      "Output": "jigsaw-_variables-final.xml",
+      "Input": "_variables",
+      "Status": 200
+    },
+    {
+      "Validity": "false",
+      "Service": "Jigsaw css3svg SOAP",
+      "Warnings": 774,
+      "Errors": 8,
+      "Output": "jigsaw-style-final.xml",
+      "Input": "style",
+      "Status": 200
+    }
+  ],
+  "Stage": "final",
+  "Timestamp": "2026-10-25T21:12:56.3219775Z"
+}
