@@ -18,7 +18,9 @@
     <div class="container announcement-content">
       <p>Літній розпродаж: знижки до 50% на вибрані товари</p>
       <a href="#flash-sales">Переглянути пропозиції</a>
-      <span class="announcement-note">Доставка по Україні</span>
+      <button class="announcement-note" type="button" data-coming-soon aria-label="Мова сайту: українська">Українська
+        <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+      </button>
     </div>
   </div>
 
@@ -28,9 +30,9 @@
 
       <nav class="desktop-navigation" aria-label="Основна навігація">
         <a class="navigation-link is-current" href="#top" aria-current="page">Головна</a>
-        <a class="navigation-link" href="#services">Про нас</a>
         <a class="navigation-link" href="#footer">Контакти</a>
-        <button class="navigation-link navigation-button" type="button" data-open-auth>Вхід / Реєстрація</button>
+        <a class="navigation-link" href="#services">Про нас</a>
+        <button class="navigation-link navigation-button" type="button" data-open-auth>Вхід</button>
       </nav>
 
       <form class="search-form desktop-search" role="search">
@@ -93,14 +95,13 @@
             <img src="assets/images/icons/apple-logo.svg" alt="Apple" width="40" height="40">
             <p class="hero-eyebrow" data-hero-eyebrow>iPhone 14 Series</p>
           </div>
-          <h1 class="hero-title" data-hero-title>Знижка до 10% на вибрані товари</h1>
-          <p class="hero-description" data-hero-description>Техніка для роботи, навчання та відпочинку.</p>
+          <h1 class="hero-title" data-hero-title>До 10% знижки</h1>
           <a class="hero-link" href="#explore-products">До пропозиції
-            <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-next"></use></svg>
           </a>
         </div>
         <div class="hero-image-wrap">
-          <img class="hero-image" data-hero-image src="assets/images/optimized/figma-hero-iphone.webp" alt="Смартфон iPhone 14">
+          <img class="hero-image" data-hero-image src="assets/images/slider-iphone.png" alt="Смартфон iPhone 14" width="496" height="328">
         </div>
         <div class="hero-pagination" data-hero-pagination aria-label="Слайди банера"></div>
       </div>
@@ -111,7 +112,7 @@
         <div class="section-heading-row">
           <div class="section-heading-copy">
             <div class="section-kicker"><span class="section-marker"></span><span>Сьогодні</span></div>
-            <h2 class="section-title">Гарячі пропозиції</h2>
+            <h2 class="section-title">Розпродаж</h2>
           </div>
           <div class="countdown-wrap" data-countdown="flash" aria-label="До завершення розпродажу" aria-live="polite">
             <div class="countdown countdown-horizontal">
@@ -130,7 +131,7 @@
               <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-left"></use></svg>
             </button>
             <button class="round-button" type="button" data-scroll="flash-products" data-direction="1" aria-label="Наступні пропозиції">
-              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-next"></use></svg>
             </button>
           </div>
         </div>
@@ -151,7 +152,7 @@
               <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-left"></use></svg>
             </button>
             <button class="round-button" type="button" data-scroll="category-grid" data-direction="1" aria-label="Наступні категорії">
-              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-next"></use></svg>
             </button>
           </div>
         </div>
@@ -186,10 +187,10 @@
             </div>
             <p class="countdown-expired" data-countdown-expired hidden>Акцію завершено</p>
           </div>
-          <a class="promo-button" href="#explore-products">Обрати колонку</a>
+          <a class="promo-button" href="#explore-products">Купити</a>
         </div>
         <div class="promo-image-wrap">
-          <img src="assets/images/optimized/figma-jbl-boombox.webp" alt="Портативна колонка JBL Boombox" loading="lazy" decoding="async">
+          <img src="assets/images/promo-banner-jbl.png" alt="Портативна колонка JBL Boombox" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -206,7 +207,7 @@
               <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-left"></use></svg>
             </button>
             <button class="round-button" type="button" data-scroll="explore-grid" data-direction="1" aria-label="Наступні товари">
-              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-next"></use></svg>
             </button>
           </div>
         </div>
@@ -224,25 +225,25 @@
         </div>
         <div class="arrival-grid">
           <article class="arrival-card arrival-card-large">
-            <img src="assets/images/optimized/figma-arrival-ps5.webp" alt="Ігрова консоль PlayStation 5" loading="lazy" decoding="async">
+            <img src="assets/images/featured-ps5.png" alt="Ігрова консоль PlayStation 5" loading="lazy" decoding="async">
             <div class="arrival-card-copy">
               <h3>PlayStation 5</h3>
-              <p>Нове покоління ігор та розваг</p>
+              <p>Чорно-біла версія PS5 вже у продажу.</p>
               <a href="#explore-products">Переглянути</a>
             </div>
           </article>
           <div class="arrival-side">
             <article class="arrival-card arrival-card-wide">
-              <img src="assets/images/optimized/figma-arrival-women.webp" alt="Добірка модного одягу" loading="lazy" decoding="async">
+              <img src="assets/images/featured-women-collection.png" alt="Добірка модного одягу" loading="lazy" decoding="async">
               <div class="arrival-card-copy">
-                <h3>Модні добірки</h3>
-                <p>Речі для щоденного стилю</p>
+                <h3>Жіноча колекція</h3>
+                <p>Добірка жіночого одягу для нового образу</p>
                 <a href="#explore-products">Переглянути</a>
               </div>
             </article>
             <div class="arrival-small-grid">
               <article class="arrival-card arrival-card-small">
-                <img src="assets/images/optimized/figma-arrival-speaker.webp" alt="Розумна бездротова колонка" loading="lazy" decoding="async">
+                <img src="assets/images/featured-speakers.png" alt="Розумні бездротові колонки" loading="lazy" decoding="async">
                 <div class="arrival-card-copy">
                   <h3>Аудіотехніка</h3>
                   <p>Звук для вашого дому</p>
@@ -250,7 +251,7 @@
                 </div>
               </article>
               <article class="arrival-card arrival-card-small">
-                <img src="assets/images/optimized/figma-arrival-perfume.webp" alt="Парфумована вода" loading="lazy" decoding="async">
+                <img src="assets/images/featured-perfume-gucci.png" alt="Парфумована вода Gucci" loading="lazy" decoding="async">
                 <div class="arrival-card-copy">
                   <h3>Парфумерія</h3>
                   <p>Знайдіть свій аромат</p>
@@ -267,15 +268,15 @@
       <div class="container services-grid">
         <article class="service-card">
           <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-delivery"></use></svg></span>
-          <h2>Швидка доставка</h2><p>Доставляємо замовлення по Україні</p>
+          <h2>Швидка доставка</h2><p>Доставка по всій Україні</p>
         </article>
         <article class="service-card">
           <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-support"></use></svg></span>
-          <h2>Підтримка клієнтів</h2><p>Допомагаємо з вибором і замовленням</p>
+          <h2>Підтримка клієнтів</h2><p>Допомога з вибором товарів</p>
         </article>
         <article class="service-card">
           <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-shield"></use></svg></span>
-          <h2>Безпечні покупки</h2><p>Дбаємо про надійність кожного замовлення</p>
+          <h2>Безпечні покупки</h2><p>Надійне оформлення замовлень</p>
         </article>
       </div>
     </section>
@@ -289,35 +290,40 @@
     <div class="container footer-grid">
       <div class="footer-column footer-brand-column">
         <a class="brand footer-brand" href="#top">Exclusive</a>
-        <h2>Будьте в курсі</h2>
-        <p>Дізнавайтеся першими про нові пропозиції</p>
-        <button class="footer-subscribe" type="button" data-open-auth>Увійти або зареєструватися
-          <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-send"></use></svg>
-        </button>
+        <h2>Підписка</h2>
+        <p>Новинки та пропозиції</p>
+        <form class="footer-subscribe" data-subscribe>
+          <label class="visually-hidden" for="subscribe-email">Електронна пошта для підписки</label>
+          <input id="subscribe-email" name="email" type="email" placeholder="Ваша пошта" required>
+          <button type="submit" aria-label="Підписатися">
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-send"></use></svg>
+          </button>
+        </form>
       </div>
       <div class="footer-column">
         <h2>Підтримка</h2>
         <address>Україна<br>Пн–Пт, 09:00–18:00</address>
-        <a href="mailto:support@exclusive.example">support@exclusive.example</a>
+        <a href="mailto:demo@example.com">demo@example.com</a>
         <a href="tel:+380000000000">+38 (000) 000-00-00</a>
       </div>
       <div class="footer-column">
-        <h2>Покупцям</h2>
-        <a href="#categories">Категорії</a>
-        <button type="button" data-coming-soon>Мій профіль</button>
+        <h2>Акаунт</h2>
+        <button type="button" data-coming-soon>Мій акаунт</button>
+        <button type="button" data-open-auth>Вхід</button>
         <button type="button" data-coming-soon>Кошик</button>
         <button type="button" data-coming-soon>Обране</button>
+        <a href="#explore-products">Каталог</a>
       </div>
       <div class="footer-column">
         <h2>Корисне</h2>
-        <a href="#services">Про маркетплейс</a>
+        <button type="button" data-coming-soon>Приватність</button>
+        <button type="button" data-coming-soon>Умови</button>
+        <button type="button" data-coming-soon>Питання</button>
         <a href="#footer">Контакти</a>
-        <button type="button" data-coming-soon>Умови користування</button>
-        <button type="button" data-coming-soon>Політика конфіденційності</button>
       </div>
       <div class="footer-column footer-app-column">
-        <h2>Мобільний застосунок</h2>
-        <p>Застосунок з’явиться на наступному етапі</p>
+        <h2>Застосунок</h2>
+        <p>Навчальна демонстрація</p>
         <div class="footer-app-row">
           <img class="footer-qr" src="assets/images/icons/qr-code.svg" alt="Декоративний QR-код застосунку" width="80" height="80" loading="lazy">
           <div class="store-badges">
@@ -337,7 +343,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom"><div class="container"><p>© Exclusive. Маркетплейс електроніки та споживчих товарів.</p></div></div>
+    <div class="footer-bottom"><div class="container"><p>© Exclusive. Усі права захищені.</p></div></div>
   </footer>
 
   <div class="toast-region" aria-live="polite" aria-atomic="true"></div>

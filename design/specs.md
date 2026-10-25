@@ -37,3 +37,15 @@
 На цьому етапі не отримано повні властивості стилів, компонентів та векторів. Figma MCP повернув повідомлення про вичерпаний ліміт запитів Starter; обліковий запис підтверджений як Starter із seat `View`, `specs_enabled=false`. Попередній запис точних стилів, текстур, іконок та параметрів карток був би припущенням, тому код не змінювався.
 
 Для завершення pixel-perfect специфікації потрібне відновлення ліміту/доступу Figma MCP або експорт специфікацій та SVG/PNG з Figma. Після цього слід доповнити цей файл значеннями шрифтів, кольорів, відступів, радіусів, тіней, фото-area та розмірів іконок для кожної секції.
+
+## Уточнення під час етапу 1, кроку 2 — 25.10.2026
+
+- Локальний еталон: `design/png/home-desktop.png/E-Commerce HomePage.png`, 1440 × 5902 px. `home-desktop.png` є папкою, а не файлом. Вимірювання геометрії проводяться за цим PNG і попередньою metadata, без повторного читання Figma.
+- Користувачка підтвердила: червона плитка Camera в PNG — стан наведення. При відкритті Home усі плитки світлі, фільтр не вибраний.
+- За окремим дозволом користувачки виконано рівно один запит `get_variable_defs` для `ous448jLim7yOyJdNiACkP`, node `1:1108`, щоб отримати типографіку. Запит повернув `isError: true`, `error_code: INVALID_ARGUMENT` та наведений нижче текст. Додаткових запитів (включно з whoami, metadata, screenshot, design_context) не робити.
+
+```text
+You've reached the Figma MCP tool call limit on the Starter plan. Upgrade your plan for more tool calls: https://www.figma.com/files/team/1638323421914293462/all-projects?upgrade=mcp_rate_limit_paywall Use the whoami tool for more plan details. Learn more: https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/
+```
+
+Точні Figma font-family/font-size/font-weight/line-height/letter-spacing для hero, заголовків секцій, назв товарів, цін, меню й кнопок не отримані. Не видавати підібрані за PNG параметри за підтверджені стилі Figma та не заявляти повний збіг тексту до 2 px. Поточні локальні Poppins мають ваги 400/500/600/700, Inter — змінну вагу 100–900; українських літер у наявних Poppins немає, використовується локальний Inter. Макет англійською, реалізація за вимогами курсової українською.

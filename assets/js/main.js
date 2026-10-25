@@ -11,48 +11,50 @@ const categories = [
 ];
 
 const sidebarCategories = [
-  { name: 'Одяг та взуття', filter: 'clothing' },
-  { name: 'Електроніка', filter: 'electronics', expandable: true },
+  { name: 'Жіночий одяг', filter: 'clothing', expandable: true },
+  { name: 'Чоловічий одяг', filter: 'clothing', expandable: true },
+  { name: 'Електроніка', filter: 'electronics' },
   { name: 'Дім і стиль життя', filter: 'home' },
-  { name: 'Здоров’я та краса', filter: 'beauty' },
+  { name: 'Медичні товари', filter: 'health' },
   { name: 'Спорт і відпочинок', filter: 'sports' },
-  { name: 'Дитячі товари', filter: 'children', expandable: true },
-  { name: 'Товари для тварин', filter: 'pets' }
+  { name: 'Дитячі товари', filter: 'children' },
+  { name: 'Продукти й зоотовари', filter: 'pets' },
+  { name: 'Здоров’я та краса', filter: 'beauty' }
 ];
 
 const saleProducts = [
-  { id: 'gamepad-havit', name: 'Бездротовий ігровий контролер Havit', category: 'gaming', price: 1199, oldPrice: 1999, discount: 40, rating: 5, reviews: 88, image: 'product-gamepad-havit.webp', alt: 'Червоний ігровий контролер Havit' },
-  { id: 'keyboard-ak900', name: 'Ігрова клавіатура AK-900 з підсвічуванням', category: 'computers', price: 2599, oldPrice: 3999, discount: 35, rating: 4, reviews: 75, image: 'product-keyboard-ak900.webp', alt: 'Чорна клавіатура AK-900' },
-  { id: 'monitor-ips', name: 'Монітор IPS для ігор та роботи', category: 'computers', price: 7499, oldPrice: 9999, discount: 25, rating: 5, reviews: 99, image: 'product-monitor-ips.webp', alt: 'Монітор із тонкою рамкою' },
-  { id: 'comfort-chair', name: 'Ергономічне крісло для дому й офісу', category: 'home', price: 5499, oldPrice: 6999, discount: 21, rating: 4, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре м’яке крісло' },
-  { id: 'asus-laptop', name: 'Ноутбук ASUS для роботи та розваг', category: 'computers', price: 28999, oldPrice: 32999, discount: 12, rating: 5, reviews: 325, image: 'product-laptop-asus.webp', alt: 'Ноутбук ASUS з відкритим екраном' },
+  { id: 'gamepad-havit', name: 'Геймпад HAVIT HV-G92', category: 'gaming', price: 1199, oldPrice: 1999, discount: 40, rating: 5, reviews: 88, image: 'product-gamepad-havit.webp', alt: 'Червоний ігровий контролер Havit' },
+  { id: 'keyboard-ak900', name: 'Дротова клавіатура AK-900', category: 'computers', price: 2599, oldPrice: 3999, discount: 35, rating: 4, reviews: 75, image: 'product-keyboard-ak900.webp', alt: 'Чорна клавіатура AK-900' },
+  { id: 'monitor-ips', name: 'Ігровий IPS LCD монітор', category: 'computers', price: 7499, oldPrice: 9999, discount: 30, rating: 5, reviews: 99, image: 'product-monitor-ips.webp', alt: 'Монітор із тонкою рамкою' },
+  { id: 'comfort-chair', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре м’яке крісло' },
+  { id: 'comfort-chair-beige', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре крісло S-Series Comfort' },
   { id: 'canon-camera', name: 'Цифрова камера Canon для подорожей', category: 'camera', price: 14999, oldPrice: 16999, discount: 12, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Цифрова камера Canon' }
 ];
 
 const bestProducts = [
-  { id: 'north-coat', name: 'Тепле пальто North', category: 'clothing', price: 9999, oldPrice: 13999, rating: 5, reviews: 65, image: 'product-coat-north.webp', alt: 'Рожеве зимове пальто' },
-  { id: 'gucci-bag', name: 'Шкіряна сумка на кожен день', category: 'clothing', price: 12999, oldPrice: 15999, rating: 4, reviews: 65, image: 'product-bag-gucci.webp', alt: 'Шкіряна сумка з кольоровою стрічкою' },
-  { id: 'cpu-cooler', name: 'Система охолодження для ПК', category: 'computers', price: 3499, oldPrice: 3999, rating: 4, reviews: 65, image: 'product-cpu-cooler.webp', alt: 'Система охолодження з RGB-підсвічуванням' },
-  { id: 'bookshelf', name: 'Компактна книжкова полиця', category: 'home', price: 2299, rating: 5, reviews: 65, image: 'product-bookshelf.webp', alt: 'Дерев’яна книжкова полиця' }
+  { id: 'north-coat', name: 'Пальто The North', category: 'clothing', price: 9999, oldPrice: 13999, rating: 5, reviews: 65, image: 'product-coat-north.webp', alt: 'Рожеве зимове пальто' },
+  { id: 'gucci-bag', name: 'Сумка Gucci', category: 'clothing', price: 12999, oldPrice: 15999, rating: 4.5, reviews: 65, image: 'product-bag-gucci.webp', alt: 'Шкіряна сумка з кольоровою стрічкою' },
+  { id: 'cpu-cooler', name: 'Кулер RGB Liquid CPU', category: 'computers', price: 3499, oldPrice: 3999, rating: 4.5, reviews: 65, image: 'product-cpu-cooler.webp', alt: 'Система охолодження з RGB-підсвічуванням' },
+  { id: 'bookshelf', name: 'Книжкова полиця', category: 'home', price: 2299, rating: 5, reviews: 65, image: 'product-bookshelf.webp', alt: 'Дерев’яна книжкова полиця' }
 ];
 
 const exploreProducts = [
-  { id: 'dog-food', name: 'Сухий корм для собак із куркою та овочами', category: 'pets', price: 799, rating: 4, reviews: 35, image: 'product-dog-food.webp', alt: 'Паковання сухого корму для собак' },
-  { id: 'canon-eos', name: 'Фотоапарат Canon EOS для створення чітких кадрів', category: 'camera', price: 21999, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Фотоапарат Canon з об’єктивом' },
-  { id: 'gaming-laptop', name: 'Ігровий ноутбук ASUS із великим екраном', category: 'computers', price: 34999, rating: 5, reviews: 325, image: 'product-laptop-asus.webp', alt: 'Ігровий ноутбук ASUS' },
-  { id: 'skin-care', name: 'Набір засобів для щоденного догляду за шкірою обличчя', category: 'beauty', price: 1299, rating: 4, reviews: 145, image: 'product-cosmetics-curology.webp', alt: 'Набір косметичних засобів' },
-  { id: 'toy-car', name: 'Дитячий електромобіль з ременем безпеки та музикою', category: 'children', price: 8999, rating: 5, reviews: 65, image: 'product-toy-car.webp', alt: 'Червоний дитячий електромобіль' },
-  { id: 'football-cleats', name: 'Футбольні бутси з надійною фіксацією стопи', category: 'sports', price: 2899, rating: 5, reviews: 35, image: 'product-shoes-cleats.webp', alt: 'Футбольні бутси жовтого кольору' },
-  { id: 'wireless-gamepad', name: 'Бездротовий контролер для комп’ютера та консолі', category: 'gaming', price: 1699, rating: 4, reviews: 55, image: 'product-gamepad-fantech.webp', alt: 'Чорний бездротовий ігровий контролер' },
-  { id: 'satin-jacket', name: 'Сатинова куртка вільного крою для прохолодної погоди', category: 'clothing', price: 3299, rating: 4, reviews: 55, image: 'product-jacket-satin.webp', alt: 'Темно-зелена сатинова куртка' }
+  { id: 'dog-food', name: 'Сухий корм для собак', category: 'pets', price: 799, rating: 3, reviews: 35, image: 'product-dog-food.webp', alt: 'Паковання сухого корму для собак' },
+  { id: 'canon-eos', name: 'Фотоапарат CANON EOS', category: 'camera', price: 21999, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Фотоапарат Canon з об’єктивом' },
+  { id: 'gaming-laptop', name: 'Ігровий ноутбук ASUS', category: 'computers', price: 34999, rating: 5, reviews: 325, image: 'product-laptop-asus.webp', alt: 'Ігровий ноутбук ASUS' },
+  { id: 'skin-care', name: 'Набір догляду Curology', category: 'beauty', price: 1299, rating: 4, reviews: 145, image: 'product-cosmetics-curology.webp', alt: 'Набір косметичних засобів' },
+  { id: 'toy-car', isNew: true, colors: ['#fb1313', '#db4444'], name: 'Дитячий електромобіль', category: 'children', price: 8999, rating: 5, reviews: 65, image: 'product-toy-car.webp', alt: 'Червоний дитячий електромобіль' },
+  { id: 'football-cleats', colors: ['#e2ff54', '#db4444'], name: 'Бутси Jr. Zoom Soccer', category: 'sports', price: 2899, rating: 5, reviews: 35, image: 'product-shoes-cleats.webp', alt: 'Футбольні бутси жовтого кольору' },
+  { id: 'wireless-gamepad', isNew: true, colors: ['#000000', '#db4444'], name: 'Геймпад GP11 Shooter USB', category: 'gaming', price: 1699, rating: 4.5, reviews: 55, image: 'product-gamepad-fantech.webp', alt: 'Чорний бездротовий ігровий контролер' },
+  { id: 'satin-jacket', colors: ['#184a48', '#db4444'], name: 'Сатинова куртка Quilted', category: 'clothing', price: 3299, rating: 4.5, reviews: 55, image: 'product-jacket-satin.webp', alt: 'Темно-зелена сатинова куртка' }
 ];
 
 const heroSlides = [
-  { eyebrow: 'iPhone 14 Series', title: 'Знижка до 10% на вибрані товари', description: 'Техніка для роботи, навчання та відпочинку.', image: 'figma-hero-iphone.webp', alt: 'Фіолетовий смартфон iPhone 14' },
-  { eyebrow: 'Аудіотехніка JBL', title: 'Чистий звук для улюбленої музики', description: 'Відкрийте для себе портативні колонки JBL.', image: 'figma-jbl-boombox.webp', alt: 'Портативна колонка JBL Boombox' },
-  { eyebrow: 'PlayStation 5', title: 'Більше можливостей для гри', description: 'Знайдіть техніку та аксесуари для дозвілля.', image: 'figma-arrival-ps5.webp', alt: 'Ігрова консоль PlayStation 5' },
-  { eyebrow: 'Техніка для творчості', title: 'Збережіть важливі моменти', description: 'Камери й аксесуари для ваших історій.', image: 'product-camera-canon.webp', alt: 'Цифрова камера Canon' },
-  { eyebrow: 'Товари для дому', title: 'Комфорт у кожній деталі', description: 'Практичні речі для дому та щоденного життя.', image: 'product-chair-comfort.webp', alt: 'Сіре м’яке крісло для дому' }
+  { eyebrow: 'Аудіотехніка JBL', title: 'Музика без меж', image: 'assets/images/optimized/figma-jbl-boombox.webp', alt: 'Портативна колонка JBL Boombox' },
+  { eyebrow: 'PlayStation 5', title: 'Більше гри', image: 'assets/images/optimized/figma-arrival-ps5.webp', alt: 'Ігрова консоль PlayStation 5' },
+  { eyebrow: 'iPhone 14 Series', title: 'До 10% знижки', image: 'assets/images/slider-iphone.png', alt: 'Фіолетовий смартфон iPhone 14' },
+  { eyebrow: 'Техніка для творчості', title: 'Створюй історії', image: 'assets/images/optimized/product-camera-canon.webp', alt: 'Цифрова камера Canon' },
+  { eyebrow: 'Товари для дому', title: 'Комфорт щодня', image: 'assets/images/optimized/product-chair-comfort.webp', alt: 'Сіре м’яке крісло для дому' }
 ];
 
 function createIcon(name, className) {
@@ -115,9 +117,18 @@ function createProductCard(product) {
   favorite.setAttribute('aria-label', 'Додати товар до обраного');
   favorite.dataset.comingSoon = '';
   favorite.append(createIcon('heart'));
-  tools.append(favorite);
+  const preview = document.createElement('button');
+  preview.className = 'product-tool';
+  preview.type = 'button';
+  preview.setAttribute('aria-label', 'Переглянути товар: ' + product.name);
+  preview.dataset.comingSoon = '';
+  preview.append(createIcon('eye'));
+  tools.append(favorite, preview);
 
-  media.append(image, fallback, tools);
+  const imageFrame = document.createElement('div');
+  imageFrame.className = 'product-image-frame';
+  imageFrame.append(image);
+  media.append(imageFrame, fallback, tools);
 
   const addButton = document.createElement('button');
   addButton.className = 'product-add-button';
@@ -129,6 +140,7 @@ function createProductCard(product) {
   const name = document.createElement('h3');
   name.className = 'product-name';
   name.textContent = product.name;
+  name.title = product.name;
 
   const prices = document.createElement('div');
   prices.className = 'product-prices';
@@ -147,13 +159,35 @@ function createProductCard(product) {
   rating.className = 'product-rating';
   const stars = document.createElement('span');
   stars.setAttribute('aria-label', 'Оцінка ' + product.rating + ' з 5');
-  stars.textContent = '★'.repeat(Math.max(0, Math.min(5, Math.round(product.rating || 0))));
+  stars.className = 'rating-stars';
+  const score = Math.max(0, Math.min(5, product.rating || 0));
+  for (let index = 0; index < 5; index += 1) {
+    stars.append(createIcon(score >= index + 1 ? 'star' : score >= index + 0.5 ? 'star-half' : 'star-empty'));
+  }
   const reviewCount = document.createElement('span');
   reviewCount.className = 'product-rating-count';
   reviewCount.textContent = '(' + (product.reviews || 0) + ')';
   rating.append(stars, reviewCount);
 
-  card.append(media, name, prices, rating);
+  const meta = document.createElement('div');
+  meta.className = 'product-meta';
+  meta.append(prices, rating);
+  card.append(media, name, meta);
+  if (product.colors) {
+    const swatches = document.createElement('div');
+    swatches.className = 'product-swatches';
+    product.colors.forEach(function (color, index) {
+      const swatch = document.createElement('button');
+      swatch.type = 'button';
+      swatch.className = 'product-swatch';
+      swatch.style.setProperty('--swatch-color', color);
+      swatch.setAttribute('aria-label', product.name + ': варіант ' + (index + 1));
+      swatch.setAttribute('aria-pressed', String(index === 0));
+      swatch.dataset.comingSoon = '';
+      swatches.append(swatch);
+    });
+    card.append(swatches);
+  }
   return card;
 }
 
@@ -527,19 +561,19 @@ countdownDefinitions.forEach(function (definition) {
 
 const heroEyebrow = document.querySelector('[data-hero-eyebrow]');
 const heroTitle = document.querySelector('[data-hero-title]');
-const heroDescription = document.querySelector('[data-hero-description]');
 const heroImage = document.querySelector('[data-hero-image]');
 const heroPagination = document.querySelector('[data-hero-pagination]');
-let currentSlide = 0;
+let currentSlide = 2;
 let slideTimer = null;
 
 function showHeroSlide(index) {
   currentSlide = (index + heroSlides.length) % heroSlides.length;
   const slide = heroSlides[currentSlide];
   heroEyebrow.textContent = slide.eyebrow;
+  const brandLogo = document.querySelector('.hero-brand-line img');
+  if (brandLogo) brandLogo.hidden = currentSlide !== 2;
   heroTitle.textContent = slide.title;
-  heroDescription.textContent = slide.description;
-  heroImage.src = 'assets/images/optimized/' + slide.image;
+  heroImage.src = slide.image;
   heroImage.alt = slide.alt;
   heroPagination.querySelectorAll('button').forEach(function (dot, dotIndex) {
     dot.setAttribute('aria-current', String(dotIndex === currentSlide));
@@ -558,7 +592,7 @@ if (heroPagination && heroEyebrow && heroTitle && heroImage) {
     });
     heroPagination.append(dot);
   });
-  showHeroSlide(0);
+  showHeroSlide(currentSlide);
 
   function restartHeroTimer() {
     if (slideTimer) window.clearInterval(slideTimer);
@@ -586,15 +620,26 @@ document.querySelectorAll('[data-scroll]').forEach(function (button) {
     button.hidden = true;
     return;
   }
+  let focusedItem = -1;
   const updateControl = function () {
-    button.hidden = target.scrollWidth <= target.clientWidth + 2;
+    button.hidden = !target.children.length;
   };
   updateControl();
   window.addEventListener('resize', updateControl);
   button.addEventListener('click', function () {
     const direction = Number(button.dataset.direction) || 1;
-    const amount = Math.max(180, target.clientWidth * 0.75) * direction;
-    target.scrollBy({ left: amount, behavior: 'smooth' });
+    if (target.scrollWidth > target.clientWidth + 2) {
+      const amount = Math.max(180, target.clientWidth * 0.75) * direction;
+      target.scrollBy({ left: amount, behavior: 'smooth' });
+      return;
+    }
+    const items = Array.from(target.children).filter(function (item) { return !item.hidden; });
+    if (!items.length) return;
+    focusedItem = (focusedItem + direction + items.length) % items.length;
+    const item = items[focusedItem];
+    item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    const focusTarget = item.matches('button') ? item : item.querySelector('button');
+    if (focusTarget) focusTarget.focus({ preventScroll: true });
   });
 });
 
@@ -610,5 +655,13 @@ updateScrollState();
 if (scrollTopButton) {
   scrollTopButton.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+const subscribeForm = document.querySelector('[data-subscribe]');
+if (subscribeForm) {
+  subscribeForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    showToast('Буде доступно на наступному етапі');
   });
 }

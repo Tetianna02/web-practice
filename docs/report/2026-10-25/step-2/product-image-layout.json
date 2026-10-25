@@ -1,0 +1,386 @@
+{
+  "gamepad-havit": {
+    "sourceSize": [
+      172,
+      152
+    ],
+    "alphaBounds": [
+      1,
+      0,
+      172,
+      152
+    ],
+    "visibleWidth": 171.0,
+    "visibleHeight": 152.0,
+    "left": 9.5,
+    "top": 14.0,
+    "scale": 0.9999749999999998,
+    "meanRedChannelDifference": 4.79,
+    "css": {
+      "width": 90.5241,
+      "height": 84.4423,
+      "left": 4.4748,
+      "top": 7.7788
+    }
+  },
+  "keyboard-ak900": {
+    "sourceSize": [
+      500,
+      500
+    ],
+    "alphaBounds": [
+      15,
+      170,
+      465,
+      362
+    ],
+    "visibleWidth": 185.04,
+    "visibleHeight": 78.95,
+    "left": 1.48,
+    "top": 31.53,
+    "scale": 0.41119166666666673,
+    "meanRedChannelDifference": 9.05,
+    "css": {
+      "width": 108.2083,
+      "height": 114.2199,
+      "left": -2.4663,
+      "top": -21.3205
+    }
+  },
+  "monitor-ips": {
+    "sourceSize": [
+      170,
+      129
+    ],
+    "alphaBounds": [
+      0,
+      0,
+      170,
+      129
+    ],
+    "visibleWidth": 170.0,
+    "visibleHeight": 129.0,
+    "left": 10.0,
+    "top": 25.5,
+    "scale": 0.9999749999999998,
+    "meanRedChannelDifference": 3.65,
+    "css": {
+      "width": 89.4714,
+      "height": 71.6649,
+      "left": 5.2643,
+      "top": 14.1676
+    }
+  },
+  "chair-comfort": {
+    "sourceSize": [
+      576,
+      720
+    ],
+    "alphaBounds": [
+      117,
+      71,
+      463,
+      665
+    ],
+    "visibleWidth": 104.85,
+    "visibleHeight": 180.0,
+    "left": 41.58,
+    "top": 0.0,
+    "scale": 0.3030227272727272,
+    "meanRedChannelDifference": 2.58,
+    "css": {
+      "width": 91.8637,
+      "height": 121.2091,
+      "left": 3.2228,
+      "top": -11.9513
+    }
+  },
+  "coat-north": {
+    "sourceSize": [
+      720,
+      720
+    ],
+    "alphaBounds": [
+      71,
+      33,
+      650,
+      643
+    ],
+    "visibleWidth": 135.76,
+    "visibleHeight": 143.03,
+    "left": 27.12,
+    "top": 17.48,
+    "scale": 0.23447950819672128,
+    "meanRedChannelDifference": 1.41,
+    "css": {
+      "width": 88.8554,
+      "height": 93.7918,
+      "left": 5.5106,
+      "top": 5.4144
+    }
+  },
+  "bag-gucci": {
+    "sourceSize": [
+      720,
+      720
+    ],
+    "alphaBounds": [
+      25,
+      116,
+      695,
+      597
+    ],
+    "visibleWidth": 177.65,
+    "visibleHeight": 127.54,
+    "left": 6.17,
+    "top": 25.23,
+    "scale": 0.2651492537313433,
+    "meanRedChannelDifference": 5.39,
+    "css": {
+      "width": 100.4776,
+      "height": 106.0597,
+      "left": -0.2388,
+      "top": -3.0698
+    }
+  },
+  "cpu-cooler": {
+    "sourceSize": [
+      500,
+      500
+    ],
+    "alphaBounds": [
+      36,
+      162,
+      458,
+      363
+    ],
+    "visibleWidth": 187.13,
+    "visibleHeight": 89.13,
+    "left": 1.43,
+    "top": 49.43,
+    "scale": 0.4434383886255924,
+    "meanRedChannelDifference": 4.79,
+    "css": {
+      "width": 116.6943,
+      "height": 123.1773,
+      "left": -7.647,
+      "top": -12.4459
+    }
+  },
+  "bookshelf": {
+    "sourceSize": [
+      720,
+      480
+    ],
+    "alphaBounds": [
+      196,
+      44,
+      501,
+      446
+    ],
+    "visibleWidth": 128.97,
+    "visibleHeight": 169.98,
+    "left": 29.52,
+    "top": 5.01,
+    "scale": 0.42284328358208956,
+    "meanRedChannelDifference": 6.34,
+    "css": {
+      "width": 160.2353,
+      "height": 112.7582,
+      "left": -28.0847,
+      "top": -7.5537
+    }
+  },
+  "dog-food": {
+    "sourceSize": [
+      978,
+      1500
+    ],
+    "alphaBounds": [
+      0,
+      0,
+      978,
+      1500
+    ],
+    "visibleWidth": 120.9,
+    "visibleHeight": 185.42,
+    "left": 33.55,
+    "top": -2.71,
+    "scale": 0.12361499999999997,
+    "meanRedChannelDifference": 10.3,
+    "css": {
+      "width": 63.6292,
+      "height": 103.0125,
+      "left": 17.6591,
+      "top": -1.5062
+    }
+  },
+  "camera-canon": {
+    "sourceSize": [
+      500,
+      500
+    ],
+    "alphaBounds": [
+      65,
+      37,
+      430,
+      463
+    ],
+    "visibleWidth": 132.8,
+    "visibleHeight": 155.0,
+    "left": 25.6,
+    "top": -6.5,
+    "scale": 0.3638412676056338,
+    "meanRedChannelDifference": 15.92,
+    "css": {
+      "width": 95.7477,
+      "height": 101.067,
+      "left": 1.0259,
+      "top": -11.0891
+    }
+  },
+  "laptop-asus": {
+    "sourceSize": [
+      500,
+      500
+    ],
+    "alphaBounds": [
+      86,
+      70,
+      411,
+      423
+    ],
+    "visibleWidth": 159.92,
+    "visibleHeight": 173.7,
+    "left": 15.04,
+    "top": 3.15,
+    "scale": 0.4920679886685553,
+    "meanRedChannelDifference": 5.26,
+    "css": {
+      "width": 129.4916,
+      "height": 136.6856,
+      "left": -14.3573,
+      "top": -17.386
+    }
+  },
+  "cosmetics-curology": {
+    "sourceSize": [
+      496,
+      720
+    ],
+    "alphaBounds": [
+      57,
+      319,
+      435,
+      672
+    ],
+    "visibleWidth": 168.25,
+    "visibleHeight": 157.13,
+    "left": 10.87,
+    "top": 11.44,
+    "scale": 0.4451177248677249,
+    "meanRedChannelDifference": 6.23,
+    "css": {
+      "width": 116.1992,
+      "height": 178.0471,
+      "left": -7.631,
+      "top": -72.531
+    }
+  },
+  "toy-car": {
+    "sourceSize": [
+      720,
+      720
+    ],
+    "alphaBounds": [
+      11,
+      93,
+      708,
+      606
+    ],
+    "visibleWidth": 176.76,
+    "visibleHeight": 130.1,
+    "left": 5.62,
+    "top": 24.95,
+    "scale": 0.25360365853658534,
+    "meanRedChannelDifference": 6.76,
+    "css": {
+      "width": 96.1024,
+      "height": 101.4415,
+      "left": 1.4892,
+      "top": 0.7586
+    }
+  },
+  "shoes-cleats": {
+    "sourceSize": [
+      720,
+      720
+    ],
+    "alphaBounds": [
+      90,
+      139,
+      630,
+      608
+    ],
+    "visibleWidth": 178.77,
+    "visibleHeight": 155.26,
+    "left": 3.62,
+    "top": 9.37,
+    "scale": 0.33104861111111117,
+    "meanRedChannelDifference": 5.61,
+    "css": {
+      "width": 125.45,
+      "height": 132.4194,
+      "left": -13.7776,
+      "top": -20.3593
+    }
+  },
+  "gamepad-fantech": {
+    "sourceSize": [
+      720,
+      405
+    ],
+    "alphaBounds": [
+      207,
+      86,
+      534,
+      346
+    ],
+    "visibleWidth": 175.67,
+    "visibleHeight": 139.68,
+    "left": 7.16,
+    "top": 20.16,
+    "scale": 0.5372293577981652,
+    "meanRedChannelDifference": 2.89,
+    "css": {
+      "width": 203.5817,
+      "height": 120.8766,
+      "left": -54.7597,
+      "top": -14.4675
+    }
+  },
+  "jacket-satin": {
+    "sourceSize": [
+      720,
+      720
+    ],
+    "alphaBounds": [
+      98,
+      104,
+      619,
+      612
+    ],
+    "visibleWidth": 177.25,
+    "visibleHeight": 172.83,
+    "left": 5.37,
+    "top": 3.58,
+    "scale": 0.3402194881889764,
+    "meanRedChannelDifference": 3.51,
+    "css": {
+      "width": 128.9253,
+      "height": 136.0878,
+      "left": -14.7204,
+      "top": -17.6659
+    }
+  }
+}
