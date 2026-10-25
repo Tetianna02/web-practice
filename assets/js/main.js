@@ -129,7 +129,8 @@ function createProductCard(product) {
   const imageFrame = document.createElement('div');
   imageFrame.className = 'product-image-frame';
   imageFrame.append(image);
-  media.append(imageFrame, fallback, tools);
+  imageFrame.append(fallback);
+  media.append(imageFrame, tools);
 
   const addButton = document.createElement('button');
   addButton.className = 'product-add-button';
@@ -175,6 +176,7 @@ function createProductCard(product) {
   meta.append(prices, rating);
   card.append(media, name, meta);
   if (product.colors) {
+    card.classList.add('has-swatches');
     const swatches = document.createElement('div');
     swatches.className = 'product-swatches';
     product.colors.forEach(function (color, index) {
@@ -196,14 +198,12 @@ function renderProductList(name, products) {
   const container = document.querySelector('[data-product-list="' + name + '"]');
   if (!container) return;
   container.replaceChildren();
-  products.forEach(function (product) {
+  const displayedProducts = name === 'best' ? products.slice(0, 4) : products;
+  displayedProducts.forEach(function (product) {
     container.append(createProductCard(product));
   });
+  updateProductVisibility();
 }
-
-renderProductList('flash', saleProducts);
-renderProductList('best', bestProducts);
-renderProductList('explore', exploreProducts);
 
 function createCategoryButton(category, className) {
   const button = document.createElement('button');
@@ -214,6 +214,7 @@ function createCategoryButton(category, className) {
   const icon = createIcon(category.icon);
   const label = document.createElement('span');
   label.textContent = category.name;
+  label.title = category.name;
   button.append(icon, label);
   return button;
 }
@@ -263,16 +264,36 @@ function updateProductVisibility() {
   cards.forEach(function (card) {
     const matchesQuery = !activeQuery || card.dataset.productName.includes(activeQuery);
     const matchesCategory = !activeCategory || card.dataset.category === activeCategory || (activeCategory === 'electronics' && ['phones', 'computers', 'smartwatch', 'camera', 'headphones', 'gaming'].includes(card.dataset.category));
-    const show = matchesQuery && matchesCategory;
+    const matches = matchesQuery && matchesCategory;
+    const show = matches;
     card.hidden = !show;
     if (show) visible += 1;
   });
+  const catalog = document.getElementById('explore-grid');
+  if (catalog) {
+    const matchingCards = Array.from(catalog.children).filter(function (card) { return !card.hidden; });
+    // Два ряди зберігають порядок макета: перші чотири зверху, наступні чотири знизу.
+    matchingCards.forEach(function (card, index) {
+      const groupStart = Math.floor(index / 8) * 8;
+      const groupSize = Math.min(8, matchingCards.length - groupStart);
+      const topCount = Math.ceil(groupSize / 2);
+      const local = index - groupStart;
+      const top = local < topCount;
+      card.style.setProperty('--catalog-order', groupStart + (top ? local * 2 : (local - topCount) * 2 + 1));
+      card.classList.toggle('catalog-top-row', top);
+    });
+    catalog.scrollLeft = 0;
+  }
   if (searchStatus && (activeQuery || activeCategory)) {
     searchStatus.textContent = visible ? 'Знайдено товарних карток: ' + visible : 'За цим запитом товарів не знайдено.';
   } else if (searchStatus) {
     searchStatus.textContent = '';
   }
 }
+
+renderProductList('flash', saleProducts);
+renderProductList('best', bestProducts);
+renderProductList('explore', exploreProducts);
 
 function selectCategory(categoryId) {
   activeCategory = activeCategory === categoryId ? null : categoryId;
@@ -340,25 +361,37 @@ const mobileMenu = document.querySelector('.mobile-navigation');
 const menuToggle = document.querySelector('.menu-toggle');
 const menuBackdrop = document.querySelector('.menu-backdrop');
 const menuClose = document.querySelector('.menu-close');
+const menuBackground = document.querySelectorAll('.skip-link, .announcement-bar, .site-header, main, .site-footer, .scroll-top');
+const desktopMenuQuery = window.matchMedia('(min-width: 1024px)');
+
+function menuFocusableElements() {
+  return Array.from(mobileMenu.querySelectorAll('a[href], button, input')).filter(function (element) {
+    return !element.disabled && element.getClientRects().length > 0;
+  });
+}
 
 function openMobileMenu() {
-  if (!mobileMenu || !menuToggle || window.matchMedia('(min-width: 769px)').matches) return;
+  if (!mobileMenu || !menuToggle || desktopMenuQuery.matches) return;
   mobileMenu.hidden = false;
   menuBackdrop.hidden = false;
   document.body.classList.add('menu-is-open');
   menuToggle.setAttribute('aria-expanded', 'true');
   menuToggle.setAttribute('aria-label', 'Закрити меню');
+  menuBackground.forEach(function (element) { element.inert = true; });
   const firstLink = mobileMenu.querySelector('input, a, button');
   if (firstLink) firstLink.focus();
 }
 
 function closeMobileMenu() {
   if (!mobileMenu || !menuToggle) return;
+  const wasOpen = !mobileMenu.hidden;
   mobileMenu.hidden = true;
   menuBackdrop.hidden = true;
   document.body.classList.remove('menu-is-open');
   menuToggle.setAttribute('aria-expanded', 'false');
   menuToggle.setAttribute('aria-label', 'Відкрити меню');
+  menuBackground.forEach(function (element) { element.inert = false; });
+  if (wasOpen && !desktopMenuQuery.matches) menuToggle.focus({ preventScroll: true });
 }
 
 if (menuToggle) {
@@ -369,8 +402,30 @@ if (menuToggle) {
 }
 if (menuClose) menuClose.addEventListener('click', closeMobileMenu);
 if (menuBackdrop) menuBackdrop.addEventListener('click', closeMobileMenu);
+if (mobileMenu) {
+  mobileMenu.addEventListener('click', function (event) {
+    if (event.target.closest('a[href], [data-coming-soon]')) closeMobileMenu();
+  });
+  mobileMenu.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeMobileMenu();
+    } else if (event.key === 'Tab') {
+      const items = menuFocusableElements();
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  });
+}
 window.addEventListener('resize', function () {
-  if (window.matchMedia('(min-width: 769px)').matches) closeMobileMenu();
+  if (desktopMenuQuery.matches) closeMobileMenu();
 });
 
 const authDialog = document.querySelector('.auth-dialog');
@@ -390,7 +445,8 @@ function openAuthDialog(trigger) {
   setAuthMode(trigger && trigger.dataset.authStart === 'login' ? 'login' : 'register');
   lastAuthTrigger = triggerIsInMobileMenu ? menuToggle : (trigger || document.activeElement);
   authDialog.showModal();
-  const firstField = authDialog.querySelector('input:not([type="checkbox"])');
+  document.body.classList.add('dialog-is-open');
+  const firstField = authForm.querySelector('.form-field:not([hidden]) input');
   if (firstField) firstField.focus();
 }
 
@@ -409,7 +465,9 @@ function setAuthMode(mode) {
   if (authPassword) authPassword.autocomplete = isRegister ? 'new-password' : 'current-password';
   document.querySelectorAll('[data-auth-mode]').forEach(function (button) {
     button.setAttribute('aria-selected', String(button.dataset.authMode === mode));
+    button.tabIndex = button.dataset.authMode === mode ? 0 : -1;
   });
+  if (authForm) authForm.setAttribute('aria-labelledby', 'auth-tab-' + mode);
   const submit = document.querySelector('.form-submit');
   if (submit) submit.textContent = isRegister ? 'Створити обліковий запис' : 'Увійти';
   if (authStatus) authStatus.textContent = '';
@@ -424,6 +482,14 @@ document.querySelectorAll('[data-open-auth]').forEach(function (trigger) {
 document.querySelectorAll('[data-auth-mode]').forEach(function (button) {
   button.addEventListener('click', function () {
     setAuthMode(button.dataset.authMode);
+  });
+  button.addEventListener('keydown', function (event) {
+    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    const mode = event.key === 'Home' ? 'register' : event.key === 'End' ? 'login'
+      : authMode === 'register' ? 'login' : 'register';
+    setAuthMode(mode);
+    document.querySelector('[data-auth-mode="' + mode + '"]').focus();
   });
 });
 
@@ -504,10 +570,11 @@ if (authDialog) {
     if (clickedOutside) authDialog.close();
   });
   authDialog.addEventListener('close', function () {
+    document.body.classList.remove('dialog-is-open');
     clearFormErrors();
     if (authForm) authForm.reset();
     setAuthMode('register');
-    if (lastAuthTrigger && typeof lastAuthTrigger.focus === 'function') lastAuthTrigger.focus();
+    if (lastAuthTrigger && typeof lastAuthTrigger.focus === 'function') lastAuthTrigger.focus({ preventScroll: true });
   });
 }
 
@@ -607,33 +674,47 @@ if (heroPagination && heroEyebrow && heroTitle && heroImage) {
   hero.addEventListener('focusout', restartHeroTimer);
 }
 
-document.querySelectorAll('[data-scroll]').forEach(function (button) {
-  const target = document.getElementById(button.dataset.scroll);
-  if (!target) {
-    button.hidden = true;
-    return;
-  }
-  let focusedItem = -1;
-  const updateControl = function () {
-    button.hidden = !target.children.length;
+document.querySelectorAll('.scroll-rail').forEach(function (target) {
+  const controls = Array.from(document.querySelectorAll('[data-scroll="' + target.id + '"]'));
+  const updateControls = function () {
+    const max = Math.max(0, target.scrollWidth - target.clientWidth);
+    const overflows = max > 2;
+    const keepVisible = target.id === 'explore-grid' && window.matchMedia('(min-width: 1024px)').matches;
+    controls.forEach(function (button) {
+      const direction = Number(button.dataset.direction);
+      button.hidden = !overflows && !keepVisible;
+      button.disabled = !overflows || (direction < 0 ? target.scrollLeft <= 2 : target.scrollLeft >= max - 2);
+      button.parentElement.hidden = !overflows && !keepVisible;
+    });
   };
-  updateControl();
-  window.addEventListener('resize', updateControl);
-  button.addEventListener('click', function () {
-    const direction = Number(button.dataset.direction) || 1;
-    if (target.scrollWidth > target.clientWidth + 2) {
-      const amount = Math.max(180, target.clientWidth * 0.75) * direction;
-      target.scrollBy({ left: amount, behavior: 'smooth' });
-      return;
-    }
-    const items = Array.from(target.children).filter(function (item) { return !item.hidden; });
-    if (!items.length) return;
-    focusedItem = (focusedItem + direction + items.length) % items.length;
-    const item = items[focusedItem];
-    item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
-    const focusTarget = item.matches('button') ? item : item.querySelector('button');
-    if (focusTarget) focusTarget.focus({ preventScroll: true });
+  const move = function (direction, edge) {
+    const first = Array.from(target.children).find(function (item) { return !item.hidden; });
+    if (!first) return;
+    const gap = parseFloat(window.getComputedStyle(target).columnGap) || 0;
+    const stride = first.getBoundingClientRect().width + gap;
+    const visibleCount = Math.floor((target.clientWidth + gap) / stride + 0.01);
+    const desktopCatalog = target.id === 'explore-grid' && window.matchMedia('(min-width: 1024px)').matches;
+    const steps = desktopCatalog ? Math.min(4, Math.max(1, visibleCount)) : Math.min(2, Math.max(1, visibleCount - 1));
+    const max = Math.max(0, target.scrollWidth - target.clientWidth);
+    const left = edge ? (direction < 0 ? 0 : max) : Math.max(0, Math.min(max, target.scrollLeft + direction * stride * steps));
+    target.scrollTo({ left: left, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    updateControls();
+  };
+  controls.forEach(function (button) {
+    button.setAttribute('aria-controls', target.id);
+    button.addEventListener('click', function () { move(Number(button.dataset.direction)); });
   });
+  target.addEventListener('scroll', updateControls, { passive: true });
+  target.addEventListener('keydown', function (event) {
+    if (event.target !== target || !['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+    event.preventDefault();
+    move(event.key === 'ArrowLeft' || event.key === 'Home' ? -1 : 1, event.key === 'Home' || event.key === 'End');
+  });
+  const resizeObserver = new ResizeObserver(updateControls);
+  resizeObserver.observe(target);
+  const itemsObserver = new MutationObserver(updateControls);
+  itemsObserver.observe(target, { childList: true, subtree: true, attributes: true, attributeFilter: ['hidden'] });
+  updateControls();
 });
 
 const scrollTopButton = document.querySelector('.scroll-top');

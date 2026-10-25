@@ -1,0 +1,227 @@
+[
+  {
+    "width": 640,
+    "boxes": {
+      ".hero-banner": {
+        "x": 24,
+        "y": 145,
+        "width": 592,
+        "height": 390,
+        "top": 145,
+        "right": 616,
+        "bottom": 535,
+        "left": 24
+      },
+      ".hero-copy": {
+        "x": 52,
+        "y": 230.453125,
+        "width": 282.09375,
+        "height": 205.09375,
+        "top": 230.453125,
+        "right": 334.09375,
+        "bottom": 435.546875,
+        "left": 52
+      },
+      ".hero-image-wrap": {
+        "x": 334.09375,
+        "y": 193,
+        "width": 271.890625,
+        "height": 280,
+        "top": 193,
+        "right": 605.984375,
+        "bottom": 473,
+        "left": 334.09375
+      },
+      ".hero-image": {
+        "x": 334.09375,
+        "y": 193,
+        "width": 271.890625,
+        "height": 280,
+        "top": 193,
+        "right": 605.984375,
+        "bottom": 473,
+        "left": 334.09375
+      }
+    }
+  },
+  {
+    "width": 700,
+    "boxes": {
+      ".hero-banner": {
+        "x": 24,
+        "y": 145,
+        "width": 652,
+        "height": 390,
+        "top": 145,
+        "right": 676,
+        "bottom": 535,
+        "left": 24
+      },
+      ".hero-copy": {
+        "x": 52,
+        "y": 230.453125,
+        "width": 313.671875,
+        "height": 205.09375,
+        "top": 230.453125,
+        "right": 365.671875,
+        "bottom": 435.546875,
+        "left": 52
+      },
+      ".hero-image-wrap": {
+        "x": 365.671875,
+        "y": 193,
+        "width": 300.3125,
+        "height": 280,
+        "top": 193,
+        "right": 665.984375,
+        "bottom": 473,
+        "left": 365.671875
+      },
+      ".hero-image": {
+        "x": 365.671875,
+        "y": 193,
+        "width": 300.3125,
+        "height": 280,
+        "top": 193,
+        "right": 665.984375,
+        "bottom": 473,
+        "left": 365.671875
+      }
+    }
+  },
+  {
+    "width": 768,
+    "boxes": {
+      ".hero-banner": {
+        "x": 24,
+        "y": 145,
+        "width": 720,
+        "height": 390,
+        "top": 145,
+        "right": 744,
+        "bottom": 535,
+        "left": 24
+      },
+      ".hero-copy": {
+        "x": 52,
+        "y": 230.453125,
+        "width": 349.46875,
+        "height": 205.09375,
+        "top": 230.453125,
+        "right": 401.46875,
+        "bottom": 435.546875,
+        "left": 52
+      },
+      ".hero-image-wrap": {
+        "x": 401.46875,
+        "y": 193,
+        "width": 332.53125,
+        "height": 280,
+        "top": 193,
+        "right": 734,
+        "bottom": 473,
+        "left": 401.46875
+      },
+      ".hero-image": {
+        "x": 407.734375,
+        "y": 193,
+        "width": 320,
+        "height": 280,
+        "top": 193,
+        "right": 727.734375,
+        "bottom": 473,
+        "left": 407.734375
+      }
+    }
+  },
+  {
+    "width": 900,
+    "boxes": {
+      ".hero-banner": {
+        "x": 32,
+        "y": 161,
+        "width": 836,
+        "height": 408,
+        "top": 161,
+        "right": 868,
+        "bottom": 569,
+        "left": 32
+      },
+      ".hero-copy": {
+        "x": 80,
+        "y": 256.5,
+        "width": 370,
+        "height": 213,
+        "top": 256.5,
+        "right": 450,
+        "bottom": 469.5,
+        "left": 80
+      },
+      ".hero-image-wrap": {
+        "x": 438,
+        "y": 203,
+        "width": 430,
+        "height": 320,
+        "top": 203,
+        "right": 868,
+        "bottom": 523,
+        "left": 438
+      },
+      ".hero-image": {
+        "x": 438,
+        "y": 203,
+        "width": 430,
+        "height": 320,
+        "top": 203,
+        "right": 868,
+        "bottom": 523,
+        "left": 438
+      }
+    }
+  },
+  {
+    "width": 1023,
+    "boxes": {
+      ".hero-banner": {
+        "x": 32,
+        "y": 161,
+        "width": 959,
+        "height": 408,
+        "top": 161,
+        "right": 991,
+        "bottom": 569,
+        "left": 32
+      },
+      ".hero-copy": {
+        "x": 80,
+        "y": 256.5,
+        "width": 380,
+        "height": 213,
+        "top": 256.5,
+        "right": 460,
+        "bottom": 469.5,
+        "left": 80
+      },
+      ".hero-image-wrap": {
+        "x": 499.5,
+        "y": 203,
+        "width": 491.5,
+        "height": 320,
+        "top": 203,
+        "right": 991,
+        "bottom": 523,
+        "left": 499.5
+      },
+      ".hero-image": {
+        "x": 499.5,
+        "y": 203,
+        "width": 491.5,
+        "height": 320,
+        "top": 203,
+        "right": 991,
+        "bottom": 523,
+        "left": 499.5
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "viewport": 360,
+  "method": "Full-page screenshot clipped to section document coordinates from scrollY=0, no CSS changes or hidden UI",
+  "boxes": {
+    "flash": {
+      "x": 0,
+      "y": 594.390625,
+      "width": 360,
+      "height": 608.796875
+    },
+    "categories": {
+      "x": 0,
+      "y": 1263.1875,
+      "width": 360,
+      "height": 392.1875
+    },
+    "catalog": {
+      "x": 0,
+      "y": 3105.03125,
+      "width": 360,
+      "height": 1523.9375
+    },
+    "arrivals": {
+      "x": 0,
+      "y": 4628.96875,
+      "width": 360,
+      "height": 1167.1875
+    }
+  }
+}

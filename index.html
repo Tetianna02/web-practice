@@ -114,7 +114,7 @@
             <div class="section-kicker"><span class="section-marker"></span><span>Сьогодні</span></div>
             <h2 class="section-title">Розпродаж</h2>
           </div>
-          <div class="countdown-wrap" data-countdown="flash" data-countdown-end="2026-11-30T23:59:59+02:00" role="timer" aria-label="До завершення розпродажу 30 листопада 2026 року" title="Акція до 30 листопада 2026, 23:59:59 за Києвом">
+          <div class="countdown-wrap" data-countdown="flash" data-countdown-end="2027-01-31T23:59:59+02:00" role="timer" aria-label="До завершення розпродажу 31 січня 2027 року" title="Акція до 31 січня 2027, 23:59:59 за Києвом">
             <div class="countdown countdown-horizontal">
               <div class="countdown-part"><span class="countdown-label">Дні</span><span class="countdown-value" data-countdown-days>00</span></div>
               <span class="countdown-separator" aria-hidden="true">:</span>
@@ -135,7 +135,7 @@
             </button>
           </div>
         </div>
-        <div class="horizontal-product-list" id="flash-products" data-product-list="flash" aria-live="polite"></div>
+        <div class="horizontal-product-list scroll-rail" id="flash-products" data-product-list="flash" tabindex="0" role="region" aria-label="Товари розпродажу" aria-describedby="rail-keyboard-help"></div>
         <div class="section-action-row"><a class="primary-button" href="#explore-products">Усі товари</a></div>
       </div>
     </section>
@@ -156,7 +156,7 @@
             </button>
           </div>
         </div>
-        <div class="category-grid" id="category-grid" data-category-grid></div>
+        <div class="category-grid scroll-rail" id="category-grid" data-category-grid tabindex="0" role="region" aria-label="Категорії товарів" aria-describedby="rail-keyboard-help"></div>
       </div>
     </section>
 
@@ -178,7 +178,7 @@
         <div class="promo-content">
           <p class="promo-kicker">Категорії</p>
           <h2 class="promo-title" id="promo-title">Більше музики<br>у кожному дні</h2>
-          <div class="countdown-wrap" data-countdown="jbl" data-countdown-end="2026-12-31T23:59:59+02:00" role="timer" aria-label="До завершення пропозиції JBL 31 грудня 2026 року" title="Акція до 31 грудня 2026, 23:59:59 за Києвом">
+          <div class="countdown-wrap" data-countdown="jbl" data-countdown-end="2027-01-31T23:59:59+02:00" role="timer" aria-label="До завершення пропозиції JBL 31 січня 2027 року" title="Акція до 31 січня 2027, 23:59:59 за Києвом">
             <div class="countdown countdown-circles">
               <div class="countdown-circle"><span class="countdown-value" data-countdown-days>00</span><span class="countdown-label">Днів</span></div>
               <div class="countdown-circle"><span class="countdown-value" data-countdown-hours>00</span><span class="countdown-label">Годин</span></div>
@@ -212,8 +212,8 @@
           </div>
         </div>
         <p class="search-status" data-search-status aria-live="polite"></p>
-        <div class="product-grid product-grid-four" id="explore-grid" data-product-list="explore"></div>
-        <div class="section-action-row"><button class="primary-button" type="button" data-coming-soon>Показати більше</button></div>
+        <div class="scroll-rail catalog-rail" id="explore-grid" data-product-list="explore" tabindex="0" role="region" aria-label="Каталог товарів" aria-describedby="rail-keyboard-help"></div>
+        <div class="section-action-row"><button class="primary-button" type="button" data-coming-soon>Усі товари</button></div>
       </div>
     </section>
 
@@ -242,7 +242,7 @@
               </div>
             </article>
             <div class="arrival-small-grid">
-              <article class="arrival-card arrival-card-small">
+              <article class="arrival-card arrival-card-small arrival-card-speakers">
                 <img src="assets/images/featured-speakers.png" alt="Розумні бездротові колонки" loading="lazy" decoding="async">
                 <div class="arrival-card-copy">
                   <h3>Аудіотехніка</h3>
@@ -250,7 +250,7 @@
                   <a href="#explore-products">Переглянути</a>
                 </div>
               </article>
-              <article class="arrival-card arrival-card-small">
+              <article class="arrival-card arrival-card-small arrival-card-perfume">
                 <img src="assets/images/featured-perfume-gucci.png" alt="Парфумована вода Gucci" loading="lazy" decoding="async">
                 <div class="arrival-card-copy">
                   <h3>Парфумерія</h3>
@@ -346,6 +346,7 @@
     <div class="footer-bottom"><div class="container"><p>© Exclusive. Усі права захищені.</p></div></div>
   </footer>
 
+  <p class="visually-hidden" id="rail-keyboard-help">Стрічка: клавіші ліворуч і праворуч для гортання, Home — на початок, End — у кінець.</p>
   <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
 
   <dialog class="auth-dialog" aria-labelledby="auth-title">
@@ -353,10 +354,10 @@
     <p class="section-kicker"><span class="section-marker"></span><span>Ваш обліковий запис</span></p>
     <h2 id="auth-title">Вхід або реєстрація</h2>
     <div class="auth-tabs" role="tablist" aria-label="Оберіть дію">
-      <button type="button" role="tab" aria-selected="true" data-auth-mode="register">Реєстрація</button>
-      <button type="button" role="tab" aria-selected="false" data-auth-mode="login">Вхід</button>
+      <button id="auth-tab-register" type="button" role="tab" aria-selected="true" aria-controls="auth-panel" data-auth-mode="register">Реєстрація</button>
+      <button id="auth-tab-login" type="button" role="tab" aria-selected="false" aria-controls="auth-panel" tabindex="-1" data-auth-mode="login">Вхід</button>
     </div>
-    <form class="auth-form" novalidate>
+    <form class="auth-form" id="auth-panel" role="tabpanel" aria-labelledby="auth-tab-register" novalidate>
       <div class="form-field" data-field="name">
         <label for="auth-name">Ім’я</label>
         <input id="auth-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="auth-name-error">

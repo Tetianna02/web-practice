@@ -1,0 +1,30 @@
+{
+  "viewport": 768,
+  "method": "Full-page screenshot clipped to section document coordinates from scrollY=0, no CSS changes or hidden UI",
+  "boxes": {
+    "flash": {
+      "x": 0,
+      "y": 535,
+      "width": 768,
+      "height": 605.359375
+    },
+    "categories": {
+      "x": 0,
+      "y": 1200.359375,
+      "width": 768,
+      "height": 364.1875
+    },
+    "catalog": {
+      "x": 0,
+      "y": 2676.390625,
+      "width": 768,
+      "height": 1459.75
+    },
+    "arrivals": {
+      "x": 0,
+      "y": 4136.140625,
+      "width": 768,
+      "height": 663.1875
+    }
+  }
+}

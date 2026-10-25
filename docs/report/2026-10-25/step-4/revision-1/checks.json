@@ -1,0 +1,6306 @@
+{
+  "date": "2026-10-25",
+  "status": "Очікує перегляду користувачки, крок 4 не фіналізовано",
+  "catalogChoice": "Сітка, порції по 8, без стрілок",
+  "checks": [
+    {
+      "name": "360/flash-products/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/flash-products/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/flash-products/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/category-grid/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/category-grid/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/category-grid/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/flash-products/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/category-grid/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 12,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6689
+      }
+    },
+    {
+      "name": "360/catalog/0: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/0: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360/catalog/0: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/flash-products/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/flash-products/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/category-grid/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/category-grid/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/category-grid/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/flash-products/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/category-grid/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 313,
+        "left": 0,
+        "max": 0,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 5848
+      }
+    },
+    {
+      "name": "360/flash/1: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/1: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/1: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360/catalog/1: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash-products/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash-products/3: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash-products/3: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 232,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash-products/3: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/flash-products/3: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash-products/3: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/category-grid/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 232,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/category-grid/3: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/category-grid/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 545,
+        "left": 0,
+        "max": 232,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6187
+      }
+    },
+    {
+      "name": "360/flash/3: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/3: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/3: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "360/catalog/3: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash-products/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash-products/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash-products/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 1718,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash-products/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/flash-products/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash-products/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/category-grid/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 1718,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/category-grid/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/category-grid/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 2031,
+        "left": 0,
+        "max": 1718,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 6492
+      }
+    },
+    {
+      "name": "360/flash/11: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/11: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/11: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        3
+      ]
+    },
+    {
+      "name": "360/catalog/11: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash-products/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash-products/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash-products/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 18245,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash-products/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/flash-products/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash-products/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/category-grid/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 18245,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 186,
+        "stride": 185.703125
+      }
+    },
+    {
+      "name": "360/category-grid/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 303.75,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/category-grid/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 313,
+        "scroll": 18558,
+        "left": 0,
+        "max": 18245,
+        "height": 104,
+        "cardWidth": 173.703125,
+        "gap": 12,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 345,
+        "pageScroll": 345,
+        "pageHeight": 7768
+      }
+    },
+    {
+      "name": "360/flash/100: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/100: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "360/catalog/100: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "360/catalog/100: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 303.75
+        },
+        {
+          "count": 11,
+          "height": 303.75
+        },
+        {
+          "count": 100,
+          "height": 303.75
+        }
+      ]
+    },
+    {
+      "name": "360/category-grid: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 104
+        },
+        {
+          "count": 11,
+          "height": 104
+        },
+        {
+          "count": 100,
+          "height": 104
+        }
+      ]
+    },
+    {
+      "name": "360: популярні — максимум 4, без стрілок",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/flash-products/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/flash-products/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/category-grid/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/category-grid/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/category-grid/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/flash-products/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/category-grid/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 18,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5053
+      }
+    },
+    {
+      "name": "768/catalog/0: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/0: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768/catalog/0: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/flash-products/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/flash-products/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/category-grid/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/category-grid/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/category-grid/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/flash-products/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/category-grid/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4336
+      }
+    },
+    {
+      "name": "768/flash/1: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/1: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/1: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768/catalog/1: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 705,
+        "left": 0,
+        "max": 0,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash/3: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/3: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/3: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "768/catalog/3: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 1928,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 482,
+        "stride": 240.984375
+      }
+    },
+    {
+      "name": "768/flash-products/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash-products/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "768/category-grid/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 1928,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 482,
+        "stride": 240.984375
+      }
+    },
+    {
+      "name": "768/category-grid/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/category-grid/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 2633,
+        "left": 0,
+        "max": 1928,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 4697
+      }
+    },
+    {
+      "name": "768/flash/11: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/11: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/11: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        3
+      ]
+    },
+    {
+      "name": "768/catalog/11: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash-products/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash-products/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash-products/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 23375,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash-products/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 482,
+        "stride": 240.984375
+      }
+    },
+    {
+      "name": "768/flash-products/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash-products/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "768/category-grid/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 23375,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 482,
+        "stride": 240.984375
+      }
+    },
+    {
+      "name": "768/category-grid/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 360.421875,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/category-grid/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 705,
+        "scroll": 24080,
+        "left": 0,
+        "max": 23375,
+        "height": 124,
+        "cardWidth": 222.984375,
+        "gap": 18,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 753,
+        "pageScroll": 753,
+        "pageHeight": 5930
+      }
+    },
+    {
+      "name": "768/flash/100: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/100: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "768/catalog/100: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "768/catalog/100: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "768/flash-products: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 360.421875
+        },
+        {
+          "count": 11,
+          "height": 360.421875
+        },
+        {
+          "count": 100,
+          "height": 360.421875
+        }
+      ]
+    },
+    {
+      "name": "768/category-grid: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 124
+        },
+        {
+          "count": 11,
+          "height": 124
+        },
+        {
+          "count": 100,
+          "height": 124
+        }
+      ]
+    },
+    {
+      "name": "768: популярні — максимум 4, без стрілок",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/flash-products/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/flash-products/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/category-grid/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/category-grid/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/category-grid/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/flash-products/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/category-grid/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5044
+      }
+    },
+    {
+      "name": "1024/catalog/0: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/0: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024/catalog/0: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/flash-products/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/flash-products/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/category-grid/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/category-grid/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/category-grid/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/flash-products/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/category-grid/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 4777
+      }
+    },
+    {
+      "name": "1024/flash/1: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/1: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/1: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024/catalog/1: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 945,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash/3: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/3: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/3: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1024/catalog/3: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 1706,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 488,
+        "stride": 243.75
+      }
+    },
+    {
+      "name": "1024/flash-products/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash-products/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1024/category-grid/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 1706,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 488,
+        "stride": 243.75
+      }
+    },
+    {
+      "name": "1024/category-grid/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/category-grid/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 2651,
+        "left": 0,
+        "max": 1706,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5131
+      }
+    },
+    {
+      "name": "1024/flash/11: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/11: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/11: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        3
+      ]
+    },
+    {
+      "name": "1024/catalog/11: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash-products/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash-products/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash-products/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 23400,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash-products/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 488,
+        "stride": 243.75
+      }
+    },
+    {
+      "name": "1024/flash-products/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash-products/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1024/category-grid/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 23400,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 488,
+        "stride": 243.75
+      }
+    },
+    {
+      "name": "1024/category-grid/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 353.8125,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/category-grid/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 945,
+        "scroll": 24345,
+        "left": 0,
+        "max": 23400,
+        "height": 145,
+        "cardWidth": 213.75,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1009,
+        "pageScroll": 1009,
+        "pageHeight": 5927
+      }
+    },
+    {
+      "name": "1024/flash/100: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/100: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1024/catalog/100: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "1024/catalog/100: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1024/flash-products: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 353.8125
+        },
+        {
+          "count": 11,
+          "height": 353.8125
+        },
+        {
+          "count": 100,
+          "height": 353.8125
+        }
+      ]
+    },
+    {
+      "name": "1024/category-grid: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 145
+        },
+        {
+          "count": 11,
+          "height": 145
+        },
+        {
+          "count": 100,
+          "height": 145
+        }
+      ]
+    },
+    {
+      "name": "1024: популярні — максимум 4, без стрілок",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/flash-products/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/flash-products/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/category-grid/0: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/category-grid/0: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/category-grid/0: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/flash-products/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/category-grid/0: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 0,
+        "cardWidth": 0,
+        "gap": 30,
+        "rows": 0,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5757
+      }
+    },
+    {
+      "name": "1440/catalog/0: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/0: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440/catalog/0: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/flash-products/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/flash-products/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/category-grid/1: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/category-grid/1: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/category-grid/1: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/flash-products/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/category-grid/1: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5170
+      }
+    },
+    {
+      "name": "1440/flash/1: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/1: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/1: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440/catalog/1: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/3: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/3: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/3: все вміщується — стрілки приховані",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 1298,
+        "left": 0,
+        "max": 0,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/3: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 1170,
+        "left": 0,
+        "max": 0,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": true,
+        "previousDisabled": true,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash/3: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/3: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/3: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "1440/catalog/3: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 0,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 0,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 0,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 1972,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 600,
+        "stride": 300
+      }
+    },
+    {
+      "name": "1440/flash-products/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 0,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash-products/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1440/category-grid/11: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 0,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 0,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 0,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 1000,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 400,
+        "stride": 200
+      }
+    },
+    {
+      "name": "1440/category-grid/11: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 0,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 3270,
+        "left": 0,
+        "max": 1972,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/category-grid/11: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 2170,
+        "left": 0,
+        "max": 1000,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 5492
+      }
+    },
+    {
+      "name": "1440/flash/11: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/11: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/11: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        3
+      ]
+    },
+    {
+      "name": "1440/catalog/11: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 0,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash-products/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 0,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash-products/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 0,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash-products/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 28672,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash-products/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 600,
+        "stride": 300
+      }
+    },
+    {
+      "name": "1440/flash-products/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 0,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash-products/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1440/category-grid/100: один рядок, snap, схована смуга, фокусована область",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 0,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: сторінка не розширена",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 0,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: початок — попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 0,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: стрілкою до кінця, наступна disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 18800,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": false,
+        "nextDisabled": true,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: крок не більше двох карток",
+      "passed": true,
+      "details": {
+        "oneStep": 400,
+        "stride": 200
+      }
+    },
+    {
+      "name": "1440/category-grid/100: стрілкою назад, попередня disabled",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 0,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: клавіатура Home/End/стрілки й disabled",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "flash-products",
+        "client": 1298,
+        "scroll": 29970,
+        "left": 0,
+        "max": 28672,
+        "height": 350,
+        "cardWidth": 270,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/category-grid/100: довгі назви/відсутні фото не створюють рядів чи скролу сторінки",
+      "passed": true,
+      "details": {
+        "id": "category-grid",
+        "client": 1170,
+        "scroll": 19970,
+        "left": 0,
+        "max": 18800,
+        "height": 145,
+        "cardWidth": 170,
+        "gap": 30,
+        "rows": 1,
+        "hidden": false,
+        "previousDisabled": true,
+        "nextDisabled": false,
+        "snap": "inline mandatory",
+        "scrollbar": "none",
+        "pageClient": 1425,
+        "pageScroll": 1425,
+        "pageHeight": 6312
+      }
+    },
+    {
+      "name": "1440/flash/100: недоступні фото мають текстову заміну",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/100: перша порція максимум 8",
+      "passed": true
+    },
+    {
+      "name": "1440/catalog/100: дозавантаження тільки по 8, остання порція решта",
+      "passed": true,
+      "details": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        4
+      ]
+    },
+    {
+      "name": "1440/catalog/100: після останньої порції кнопка disabled, стрілок немає",
+      "passed": true
+    },
+    {
+      "name": "1440/flash-products: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 350
+        },
+        {
+          "count": 11,
+          "height": 350
+        },
+        {
+          "count": 100,
+          "height": 350
+        }
+      ]
+    },
+    {
+      "name": "1440/category-grid: висота стрічки не росте від кількості карток",
+      "passed": true,
+      "details": [
+        {
+          "count": 3,
+          "height": 145
+        },
+        {
+          "count": 11,
+          "height": 145
+        },
+        {
+          "count": 100,
+          "height": 145
+        }
+      ]
+    },
+    {
+      "name": "1440: популярні — максимум 4, без стрілок",
+      "passed": true
+    },
+    {
+      "name": "360/flash-products: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 194,
+        "back": 0
+      }
+    },
+    {
+      "name": "360/category-grid: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 389,
+        "back": 0
+      }
+    },
+    {
+      "name": "768/flash-products: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 984,
+        "back": 246
+      }
+    },
+    {
+      "name": "768/category-grid: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 738,
+        "back": 0
+      }
+    },
+    {
+      "name": "1024/flash-products: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 1238,
+        "back": 248
+      }
+    },
+    {
+      "name": "1024/category-grid: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 1238,
+        "back": 0
+      }
+    },
+    {
+      "name": "1440/flash-products: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 1786,
+        "back": 0
+      }
+    },
+    {
+      "name": "1440/category-grid: справжні touch-події гортання в обидва боки",
+      "passed": true,
+      "details": {
+        "after": 1000,
+        "back": 0
+      }
+    },
+    {
+      "name": "360: Смартгодинники цілим словом, без обрізання",
+      "passed": true,
+      "details": {
+        "text": "Смартгодинники",
+        "client": 91,
+        "scroll": 91,
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "name": "360: всі новинки однакової висоти 240",
+      "passed": true,
+      "details": [
+        240,
+        240,
+        240,
+        240
+      ]
+    },
+    {
+      "name": "360: аудіо й парфуми contain, фото всередині карток",
+      "passed": true
+    },
+    {
+      "name": "768: Смартгодинники цілим словом, без обрізання",
+      "passed": true,
+      "details": {
+        "text": "Смартгодинники",
+        "client": 99,
+        "scroll": 99,
+        "whiteSpace": "nowrap"
+      }
+    },
+    {
+      "name": "768: всі новинки однакової висоти 240",
+      "passed": true,
+      "details": [
+        240,
+        240,
+        240,
+        240
+      ]
+    },
+    {
+      "name": "768: аудіо й парфуми contain, фото всередині карток",
+      "passed": true
+    },
+    {
+      "name": "1440: геометрія і типографіка збережені, висота 5902",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Без неочікуваних JS/Console/Network помилок",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "matrix": [
+    {
+      "width": 360,
+      "sizes": [
+        {
+          "count": 0,
+          "id": "flash-products",
+          "client": 313,
+          "scroll": 313,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 12,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6689,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 0,
+          "id": "category-grid",
+          "client": 313,
+          "scroll": 313,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 12,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6689,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "flash-products",
+          "client": 313,
+          "scroll": 313,
+          "left": 0,
+          "max": 0,
+          "height": 303.75,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 5848,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "category-grid",
+          "client": 313,
+          "scroll": 313,
+          "left": 0,
+          "max": 0,
+          "height": 104,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 5848,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "flash-products",
+          "client": 313,
+          "scroll": 545,
+          "left": 0,
+          "max": 232,
+          "height": 303.75,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6187,
+          "forward": 2,
+          "backward": 1
+        },
+        {
+          "count": 3,
+          "id": "category-grid",
+          "client": 313,
+          "scroll": 545,
+          "left": 0,
+          "max": 232,
+          "height": 104,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6187,
+          "forward": 2,
+          "backward": 1
+        },
+        {
+          "count": 11,
+          "id": "flash-products",
+          "client": 313,
+          "scroll": 2031,
+          "left": 0,
+          "max": 1718,
+          "height": 303.75,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6492,
+          "forward": 10,
+          "backward": 9
+        },
+        {
+          "count": 11,
+          "id": "category-grid",
+          "client": 313,
+          "scroll": 2031,
+          "left": 0,
+          "max": 1718,
+          "height": 104,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 6492,
+          "forward": 10,
+          "backward": 9
+        },
+        {
+          "count": 100,
+          "id": "flash-products",
+          "client": 313,
+          "scroll": 18558,
+          "left": 0,
+          "max": 18245,
+          "height": 303.75,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 7768,
+          "forward": 99,
+          "backward": 98
+        },
+        {
+          "count": 100,
+          "id": "category-grid",
+          "client": 313,
+          "scroll": 18558,
+          "left": 0,
+          "max": 18245,
+          "height": 104,
+          "cardWidth": 173.703125,
+          "gap": 12,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 345,
+          "pageScroll": 345,
+          "pageHeight": 7768,
+          "forward": 99,
+          "backward": 98
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "sizes": [
+        {
+          "count": 0,
+          "id": "flash-products",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 18,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 5053,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 0,
+          "id": "category-grid",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 18,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 5053,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "flash-products",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 360.421875,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4336,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "category-grid",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 124,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4336,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "flash-products",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 360.421875,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4697,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "category-grid",
+          "client": 705,
+          "scroll": 705,
+          "left": 0,
+          "max": 0,
+          "height": 124,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4697,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 11,
+          "id": "flash-products",
+          "client": 705,
+          "scroll": 2633,
+          "left": 0,
+          "max": 1928,
+          "height": 360.421875,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4697,
+          "forward": 4,
+          "backward": 4
+        },
+        {
+          "count": 11,
+          "id": "category-grid",
+          "client": 705,
+          "scroll": 2633,
+          "left": 0,
+          "max": 1928,
+          "height": 124,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 4697,
+          "forward": 4,
+          "backward": 4
+        },
+        {
+          "count": 100,
+          "id": "flash-products",
+          "client": 705,
+          "scroll": 24080,
+          "left": 0,
+          "max": 23375,
+          "height": 360.421875,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 5930,
+          "forward": 49,
+          "backward": 49
+        },
+        {
+          "count": 100,
+          "id": "category-grid",
+          "client": 705,
+          "scroll": 24080,
+          "left": 0,
+          "max": 23375,
+          "height": 124,
+          "cardWidth": 222.984375,
+          "gap": 18,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 753,
+          "pageScroll": 753,
+          "pageHeight": 5930,
+          "forward": 49,
+          "backward": 49
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "sizes": [
+        {
+          "count": 0,
+          "id": "flash-products",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 30,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5044,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 0,
+          "id": "category-grid",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 30,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5044,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "flash-products",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 353.8125,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 4777,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "category-grid",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 145,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 4777,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "flash-products",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 353.8125,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5131,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "category-grid",
+          "client": 945,
+          "scroll": 945,
+          "left": 0,
+          "max": 0,
+          "height": 145,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5131,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 11,
+          "id": "flash-products",
+          "client": 945,
+          "scroll": 2651,
+          "left": 0,
+          "max": 1706,
+          "height": 353.8125,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5131,
+          "forward": 4,
+          "backward": 4
+        },
+        {
+          "count": 11,
+          "id": "category-grid",
+          "client": 945,
+          "scroll": 2651,
+          "left": 0,
+          "max": 1706,
+          "height": 145,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5131,
+          "forward": 4,
+          "backward": 4
+        },
+        {
+          "count": 100,
+          "id": "flash-products",
+          "client": 945,
+          "scroll": 24345,
+          "left": 0,
+          "max": 23400,
+          "height": 353.8125,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5927,
+          "forward": 48,
+          "backward": 48
+        },
+        {
+          "count": 100,
+          "id": "category-grid",
+          "client": 945,
+          "scroll": 24345,
+          "left": 0,
+          "max": 23400,
+          "height": 145,
+          "cardWidth": 213.75,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1009,
+          "pageScroll": 1009,
+          "pageHeight": 5927,
+          "forward": 48,
+          "backward": 48
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "sizes": [
+        {
+          "count": 0,
+          "id": "flash-products",
+          "client": 1298,
+          "scroll": 1298,
+          "left": 0,
+          "max": 0,
+          "height": 350,
+          "cardWidth": 0,
+          "gap": 30,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5757,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 0,
+          "id": "category-grid",
+          "client": 1170,
+          "scroll": 1170,
+          "left": 0,
+          "max": 0,
+          "height": 0,
+          "cardWidth": 0,
+          "gap": 30,
+          "rows": 0,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5757,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "flash-products",
+          "client": 1298,
+          "scroll": 1298,
+          "left": 0,
+          "max": 0,
+          "height": 350,
+          "cardWidth": 270,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5170,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 1,
+          "id": "category-grid",
+          "client": 1170,
+          "scroll": 1170,
+          "left": 0,
+          "max": 0,
+          "height": 145,
+          "cardWidth": 170,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5170,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "flash-products",
+          "client": 1298,
+          "scroll": 1298,
+          "left": 0,
+          "max": 0,
+          "height": 350,
+          "cardWidth": 270,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5492,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 3,
+          "id": "category-grid",
+          "client": 1170,
+          "scroll": 1170,
+          "left": 0,
+          "max": 0,
+          "height": 145,
+          "cardWidth": 170,
+          "gap": 30,
+          "rows": 1,
+          "hidden": true,
+          "previousDisabled": true,
+          "nextDisabled": true,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5492,
+          "forward": 0,
+          "backward": 0
+        },
+        {
+          "count": 11,
+          "id": "flash-products",
+          "client": 1298,
+          "scroll": 3270,
+          "left": 0,
+          "max": 1972,
+          "height": 350,
+          "cardWidth": 270,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5492,
+          "forward": 4,
+          "backward": 4
+        },
+        {
+          "count": 11,
+          "id": "category-grid",
+          "client": 1170,
+          "scroll": 2170,
+          "left": 0,
+          "max": 1000,
+          "height": 145,
+          "cardWidth": 170,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 5492,
+          "forward": 3,
+          "backward": 3
+        },
+        {
+          "count": 100,
+          "id": "flash-products",
+          "client": 1298,
+          "scroll": 29970,
+          "left": 0,
+          "max": 28672,
+          "height": 350,
+          "cardWidth": 270,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 6312,
+          "forward": 48,
+          "backward": 48
+        },
+        {
+          "count": 100,
+          "id": "category-grid",
+          "client": 1170,
+          "scroll": 19970,
+          "left": 0,
+          "max": 18800,
+          "height": 145,
+          "cardWidth": 170,
+          "gap": 30,
+          "rows": 1,
+          "hidden": false,
+          "previousDisabled": true,
+          "nextDisabled": false,
+          "snap": "inline mandatory",
+          "scrollbar": "none",
+          "pageClient": 1425,
+          "pageScroll": 1425,
+          "pageHeight": 6312,
+          "forward": 47,
+          "backward": 47
+        }
+      ]
+    }
+  ],
+  "desktopDifferences": [],
+  "errors": [],
+  "expectedImageFailures": 16,
+  "passed": 336,
+  "count": 336,
+  "browser": "156.0.4314.42",
+  "scope": "Edge та CDP touch-емуляція; не фізичні телефони та не повна матриця браузерів."
+}
