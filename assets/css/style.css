@@ -2246,6 +2246,7 @@ input:focus-visible {
 
   .flash-section {
     padding-top: 140px;
+    container-type: inline-size;
   }
 
   .section-heading-row {
@@ -2345,7 +2346,8 @@ input:focus-visible {
   }
 
   .horizontal-product-list {
-    width: calc(100% + (100vw - var(--container-width)) / 2);
+    width: 100%;
+    width: calc(50% + 50cqw);
     height: 350px;
     padding: 0;
     scrollbar-width: none;
