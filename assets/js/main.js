@@ -1,6 +1,7 @@
 'use strict';
 
 const iconSprite = 'assets/images/icons/sprite.svg#icon-';
+const comingSoonMessage = 'Буде доступно на наступному етапі';
 const categories = [
   { id: 'phones', name: 'Телефони', icon: 'phone' },
   { id: 'computers', name: 'Комп’ютери', icon: 'computer' },
@@ -331,7 +332,7 @@ document.addEventListener('click', function (event) {
   const comingSoon = event.target.closest('[data-coming-soon]');
   if (comingSoon) {
     event.preventDefault();
-    showToast('Буде доступно на наступному етапі');
+    showToast(comingSoonMessage);
   }
 });
 
@@ -386,6 +387,7 @@ function openAuthDialog(trigger) {
   const triggerIsInMobileMenu = trigger && mobileMenu && mobileMenu.contains(trigger);
   closeMobileMenu();
   if (!authDialog || typeof authDialog.showModal !== 'function') return;
+  setAuthMode(trigger && trigger.dataset.authStart === 'login' ? 'login' : 'register');
   lastAuthTrigger = triggerIsInMobileMenu ? menuToggle : (trigger || document.activeElement);
   authDialog.showModal();
   const firstField = authDialog.querySelector('input:not([type="checkbox"])');
@@ -483,6 +485,7 @@ if (authForm) {
         ? 'Дані перевірено. Реєстрацію буде підключено на наступному етапі.'
         : 'Дані перевірено. Вхід буде підключено на наступному етапі.';
     }
+    showToast(comingSoonMessage);
   });
 }
 
@@ -508,28 +511,14 @@ if (authDialog) {
   });
 }
 
-const flashDuration = 4 * 24 * 60 * 60 * 1000;
-const jblDuration = 6 * 24 * 60 * 60 * 1000;
-
-function getSaleEnd(key, duration) {
-  const fallback = Date.now() + duration;
-  try {
-    const saved = Number(window.localStorage.getItem(key));
-    if (Number.isFinite(saved) && saved > 0) return saved;
-    window.localStorage.setItem(key, String(fallback));
-  } catch (error) {
-    return fallback;
-  }
-  return fallback;
-}
-
 function updateCountdown(root, endAt) {
-  const remaining = Math.max(0, endAt - Date.now());
-  const expired = remaining <= 0;
-  const days = Math.floor(remaining / 86400000);
-  const hours = Math.floor((remaining % 86400000) / 3600000);
-  const minutes = Math.floor((remaining % 3600000) / 60000);
-  const seconds = Math.floor((remaining % 60000) / 1000);
+  const now = Date.now();
+  const expired = now >= endAt;
+  const remainingSeconds = Math.max(0, Math.ceil((endAt - now) / 1000));
+  const days = Math.floor(remainingSeconds / 86400);
+  const hours = Math.floor((remainingSeconds % 86400) / 3600);
+  const minutes = Math.floor((remainingSeconds % 3600) / 60);
+  const seconds = remainingSeconds % 60;
   const values = { days: days, hours: hours, minutes: minutes, seconds: seconds };
   Object.keys(values).forEach(function (part) {
     root.querySelectorAll('[data-countdown-' + part + ']').forEach(function (element) {
@@ -542,20 +531,24 @@ function updateCountdown(root, endAt) {
     if (timer) timer.hidden = true;
     if (message) message.hidden = false;
   }
+  return expired;
 }
 
-const countdownDefinitions = [
-  { selector: '[data-countdown="flash"]', key: 'exclusive:flash-sale-end', duration: flashDuration },
-  { selector: '[data-countdown="jbl"]', key: 'exclusive:jbl-sale-end', duration: jblDuration }
-];
-
-countdownDefinitions.forEach(function (definition) {
-  const root = document.querySelector(definition.selector);
-  if (!root) return;
-  const endAt = getSaleEnd(definition.key, definition.duration);
-  updateCountdown(root, endAt);
-  window.setInterval(function () {
-    updateCountdown(root, endAt);
+document.querySelectorAll('[data-countdown]').forEach(function (root) {
+  const endAt = Date.parse(root.dataset.countdownEnd);
+  if (!Number.isFinite(endAt)) {
+    const timer = root.querySelector('.countdown');
+    const message = root.querySelector('[data-countdown-expired]');
+    if (timer) timer.hidden = true;
+    if (message) {
+      message.textContent = 'Таймер тимчасово недоступний.';
+      message.hidden = false;
+    }
+    return;
+  }
+  if (updateCountdown(root, endAt)) return;
+  const timerId = window.setInterval(function () {
+    if (updateCountdown(root, endAt)) window.clearInterval(timerId);
   }, 1000);
 });
 
@@ -662,6 +655,6 @@ const subscribeForm = document.querySelector('[data-subscribe]');
 if (subscribeForm) {
   subscribeForm.addEventListener('submit', function (event) {
     event.preventDefault();
-    showToast('Буде доступно на наступному етапі');
+    showToast(comingSoonMessage);
   });
 }

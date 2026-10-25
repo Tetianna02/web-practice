@@ -1146,9 +1146,26 @@ input:focus-visible {
   box-shadow: 0 0 0 4px #e5e5e5;
 }
 
-.service-icon .icon {
-  width: 27px;
-  height: 27px;
+.service-icon .service-sprite {
+  --service-icon-size: 27px;
+  display: block;
+  width: var(--service-icon-size);
+  height: var(--service-icon-size);
+  background-image: url('../images/icons/service-icons-css-sprite.svg');
+  background-repeat: no-repeat;
+  background-size: calc(var(--service-icon-size) * 3) var(--service-icon-size);
+}
+
+.service-sprite-delivery {
+  background-position: 0 0;
+}
+
+.service-sprite-support {
+  background-position: 50% 0;
+}
+
+.service-sprite-shield {
+  background-position: 100% 0;
 }
 
 .service-card h2 {
@@ -2014,9 +2031,8 @@ input:focus-visible {
     margin-bottom: 18px;
   }
 
-  .service-icon .icon {
-    width: 36px;
-    height: 36px;
+  .service-icon .service-sprite {
+    --service-icon-size: 36px;
   }
 
   .footer-grid {
@@ -2725,9 +2741,8 @@ input:focus-visible {
     box-shadow: none;
   }
 
-  .service-icon .icon {
-    width: 40px;
-    height: 40px;
+  .service-icon .service-sprite {
+    --service-icon-size: 40px;
   }
 
   .service-card h2 {

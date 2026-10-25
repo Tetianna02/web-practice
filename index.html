@@ -30,9 +30,9 @@
 
       <nav class="desktop-navigation" aria-label="Основна навігація">
         <a class="navigation-link is-current" href="#top" aria-current="page">Головна</a>
-        <a class="navigation-link" href="#footer">Контакти</a>
-        <a class="navigation-link" href="#services">Про нас</a>
-        <button class="navigation-link navigation-button" type="button" data-open-auth>Вхід</button>
+        <button class="navigation-link navigation-button" type="button" data-coming-soon>Контакти</button>
+        <button class="navigation-link navigation-button" type="button" data-coming-soon>Про нас</button>
+        <button class="navigation-link navigation-button" type="button" data-open-auth data-auth-start="login">Вхід</button>
       </nav>
 
       <form class="search-form desktop-search" role="search">
@@ -76,8 +76,8 @@
       <li><a href="#top">Головна</a></li>
       <li><a href="#categories">Категорії</a></li>
       <li><a href="#explore-products">Товари</a></li>
-      <li><a href="#services">Про нас</a></li>
-      <li><a href="#footer">Контакти</a></li>
+      <li><button type="button" data-coming-soon>Про нас</button></li>
+      <li><button type="button" data-coming-soon>Контакти</button></li>
       <li><button type="button" data-open-auth>Вхід / Реєстрація</button></li>
     </ul>
     <h2 class="mobile-categories-title">Категорії товарів</h2>
@@ -114,7 +114,7 @@
             <div class="section-kicker"><span class="section-marker"></span><span>Сьогодні</span></div>
             <h2 class="section-title">Розпродаж</h2>
           </div>
-          <div class="countdown-wrap" data-countdown="flash" aria-label="До завершення розпродажу" aria-live="polite">
+          <div class="countdown-wrap" data-countdown="flash" data-countdown-end="2026-11-30T23:59:59+02:00" role="timer" aria-label="До завершення розпродажу 30 листопада 2026 року" title="Акція до 30 листопада 2026, 23:59:59 за Києвом">
             <div class="countdown countdown-horizontal">
               <div class="countdown-part"><span class="countdown-label">Дні</span><span class="countdown-value" data-countdown-days>00</span></div>
               <span class="countdown-separator" aria-hidden="true">:</span>
@@ -124,7 +124,7 @@
               <span class="countdown-separator" aria-hidden="true">:</span>
               <div class="countdown-part"><span class="countdown-label">Сек</span><span class="countdown-value" data-countdown-seconds>00</span></div>
             </div>
-            <p class="countdown-expired" data-countdown-expired hidden>Акцію завершено</p>
+            <p class="countdown-expired" data-countdown-expired role="status" hidden>Акцію завершено</p>
           </div>
           <div class="section-controls">
             <button class="round-button" type="button" data-scroll="flash-products" data-direction="-1" aria-label="Попередні пропозиції">
@@ -178,14 +178,14 @@
         <div class="promo-content">
           <p class="promo-kicker">Категорії</p>
           <h2 class="promo-title" id="promo-title">Більше музики<br>у кожному дні</h2>
-          <div class="countdown-wrap" data-countdown="jbl" aria-label="До завершення пропозиції JBL" aria-live="polite">
+          <div class="countdown-wrap" data-countdown="jbl" data-countdown-end="2026-12-31T23:59:59+02:00" role="timer" aria-label="До завершення пропозиції JBL 31 грудня 2026 року" title="Акція до 31 грудня 2026, 23:59:59 за Києвом">
             <div class="countdown countdown-circles">
               <div class="countdown-circle"><span class="countdown-value" data-countdown-days>00</span><span class="countdown-label">Днів</span></div>
               <div class="countdown-circle"><span class="countdown-value" data-countdown-hours>00</span><span class="countdown-label">Годин</span></div>
               <div class="countdown-circle"><span class="countdown-value" data-countdown-minutes>00</span><span class="countdown-label">Хвилин</span></div>
               <div class="countdown-circle"><span class="countdown-value" data-countdown-seconds>00</span><span class="countdown-label">Секунд</span></div>
             </div>
-            <p class="countdown-expired" data-countdown-expired hidden>Акцію завершено</p>
+            <p class="countdown-expired" data-countdown-expired role="status" hidden>Акцію завершено</p>
           </div>
           <a class="promo-button" href="#explore-products">Купити</a>
         </div>
@@ -267,15 +267,15 @@
     <section class="services-section" id="services" aria-label="Переваги маркетплейсу">
       <div class="container services-grid">
         <article class="service-card">
-          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-delivery"></use></svg></span>
+          <span class="service-icon" aria-hidden="true"><span class="service-sprite service-sprite-delivery"></span></span>
           <h2>Швидка доставка</h2><p>Доставка по всій Україні</p>
         </article>
         <article class="service-card">
-          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-support"></use></svg></span>
+          <span class="service-icon" aria-hidden="true"><span class="service-sprite service-sprite-support"></span></span>
           <h2>Підтримка клієнтів</h2><p>Допомога з вибором товарів</p>
         </article>
         <article class="service-card">
-          <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-shield"></use></svg></span>
+          <span class="service-icon" aria-hidden="true"><span class="service-sprite service-sprite-shield"></span></span>
           <h2>Безпечні покупки</h2><p>Надійне оформлення замовлень</p>
         </article>
       </div>
@@ -309,7 +309,7 @@
       <div class="footer-column">
         <h2>Акаунт</h2>
         <button type="button" data-coming-soon>Мій акаунт</button>
-        <button type="button" data-open-auth>Вхід</button>
+        <button type="button" data-open-auth data-auth-start="login">Вхід</button>
         <button type="button" data-coming-soon>Кошик</button>
         <button type="button" data-coming-soon>Обране</button>
         <a href="#explore-products">Каталог</a>
@@ -319,7 +319,7 @@
         <button type="button" data-coming-soon>Приватність</button>
         <button type="button" data-coming-soon>Умови</button>
         <button type="button" data-coming-soon>Питання</button>
-        <a href="#footer">Контакти</a>
+        <button type="button" data-coming-soon>Контакти</button>
       </div>
       <div class="footer-column footer-app-column">
         <h2>Застосунок</h2>
