@@ -1,0 +1,2262 @@
+{
+  "browser": "chrome",
+  "version": "155.0.8059.85",
+  "width": 1440,
+  "url": "https://tetianna02.github.io/web-practice/",
+  "audit": {
+    "title": "Маркетплейс Exclusive — електроніка та товари для дому",
+    "description": "Обирайте електроніку й товари для щоденного життя на маркетплейсі Exclusive. Вигідні пропозиції, популярні категорії та новинки.",
+    "lang": "uk",
+    "h1": [
+      "До 10% знижки"
+    ],
+    "heads": [
+      {
+        "level": 1,
+        "text": "До 10% знижки"
+      },
+      {
+        "level": 2,
+        "text": "Розпродаж"
+      },
+      {
+        "level": 3,
+        "text": "Геймпад HAVIT HV-G92"
+      },
+      {
+        "level": 3,
+        "text": "Дротова клавіатура AK-900"
+      },
+      {
+        "level": 3,
+        "text": "Ігровий IPS LCD монітор"
+      },
+      {
+        "level": 3,
+        "text": "Крісло S-Series Comfort"
+      },
+      {
+        "level": 3,
+        "text": "Крісло S-Series Comfort"
+      },
+      {
+        "level": 3,
+        "text": "Цифрова камера Canon для подорожей"
+      },
+      {
+        "level": 2,
+        "text": "Обирайте за категорією"
+      },
+      {
+        "level": 2,
+        "text": "Популярні товари"
+      },
+      {
+        "level": 3,
+        "text": "Пальто The North"
+      },
+      {
+        "level": 3,
+        "text": "Сумка Gucci"
+      },
+      {
+        "level": 3,
+        "text": "Кулер RGB Liquid CPU"
+      },
+      {
+        "level": 3,
+        "text": "Книжкова полиця"
+      },
+      {
+        "level": 2,
+        "text": "Більше музикиу кожному дні"
+      },
+      {
+        "level": 2,
+        "text": "Знайдіть те, що потрібно"
+      },
+      {
+        "level": 3,
+        "text": "Сухий корм для собак"
+      },
+      {
+        "level": 3,
+        "text": "Фотоапарат CANON EOS"
+      },
+      {
+        "level": 3,
+        "text": "Ігровий ноутбук ASUS"
+      },
+      {
+        "level": 3,
+        "text": "Набір догляду Curology"
+      },
+      {
+        "level": 3,
+        "text": "Дитячий електромобіль"
+      },
+      {
+        "level": 3,
+        "text": "Бутси Jr. Zoom Soccer"
+      },
+      {
+        "level": 3,
+        "text": "Геймпад GP11 Shooter USB"
+      },
+      {
+        "level": 3,
+        "text": "Сатинова куртка Quilted"
+      },
+      {
+        "level": 2,
+        "text": "Новинки та добірки"
+      },
+      {
+        "level": 3,
+        "text": "PlayStation 5"
+      },
+      {
+        "level": 3,
+        "text": "Жіноча колекція"
+      },
+      {
+        "level": 3,
+        "text": "Аудіотехніка"
+      },
+      {
+        "level": 3,
+        "text": "Парфумерія"
+      },
+      {
+        "level": 2,
+        "text": "Швидка доставка"
+      },
+      {
+        "level": 2,
+        "text": "Підтримка клієнтів"
+      },
+      {
+        "level": 2,
+        "text": "Безпечні покупки"
+      }
+    ],
+    "duplicateIds": [],
+    "imageCount": 28,
+    "badImages": [],
+    "missingAlt": [],
+    "inputs": [
+      {
+        "id": "desktop-search",
+        "type": "search",
+        "labels": [
+          "Пошук товарів"
+        ]
+      },
+      {
+        "id": "mobile-search",
+        "type": "search",
+        "labels": [
+          "Пошук товарів"
+        ]
+      },
+      {
+        "id": "subscribe-email",
+        "type": "email",
+        "labels": [
+          "Електронна пошта для підписки"
+        ]
+      },
+      {
+        "id": "auth-name",
+        "type": "text",
+        "labels": [
+          "Ім’я"
+        ]
+      },
+      {
+        "id": "auth-email",
+        "type": "email",
+        "labels": [
+          "Електронна пошта"
+        ]
+      },
+      {
+        "id": "auth-password",
+        "type": "password",
+        "labels": [
+          "Пароль"
+        ]
+      },
+      {
+        "id": "auth-confirm-password",
+        "type": "password",
+        "labels": [
+          "Підтвердження пароля"
+        ]
+      },
+      {
+        "id": "auth-consent",
+        "type": "checkbox",
+        "labels": [
+          "Погоджуюся з умовами користування та політикою конфіденційності"
+        ]
+      }
+    ],
+    "brokenAriaRefs": [],
+    "anchors": [
+      {
+        "href": "#main-content",
+        "targetExists": true
+      },
+      {
+        "href": "#flash-sales",
+        "targetExists": true
+      },
+      {
+        "href": "#top",
+        "targetExists": true
+      },
+      {
+        "href": "#top",
+        "targetExists": true
+      },
+      {
+        "href": "#top",
+        "targetExists": true
+      },
+      {
+        "href": "#categories",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      },
+      {
+        "href": "#top",
+        "targetExists": true
+      },
+      {
+        "href": "mailto:demo@example.com",
+        "targetExists": true
+      },
+      {
+        "href": "tel:+380000000000",
+        "targetExists": true
+      },
+      {
+        "href": "#explore-products",
+        "targetExists": true
+      }
+    ],
+    "resourceAttrs": [
+      {
+        "tag": "LINK",
+        "value": "assets/images/favicon.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/favicon.png"
+      },
+      {
+        "tag": "LINK",
+        "value": "assets/css/_variables.css",
+        "url": "https://tetianna02.github.io/web-practice/assets/css/_variables.css"
+      },
+      {
+        "tag": "LINK",
+        "value": "assets/css/style.css",
+        "url": "https://tetianna02.github.io/web-practice/assets/css/style.css"
+      },
+      {
+        "tag": "SCRIPT",
+        "value": "assets/js/main.js",
+        "url": "https://tetianna02.github.io/web-practice/assets/js/main.js"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-right"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-search",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-search"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-cart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-cart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-search",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-search"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-right"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-right"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-right"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-right"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/icons/apple-logo.svg",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/apple-logo.svg"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-next"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/slider-iphone.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/slider-iphone.png"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-left",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-left"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-next"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-gamepad-havit.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-gamepad-havit.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-keyboard-ak900.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-keyboard-ak900.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-monitor-ips.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-monitor-ips.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-chair-comfort.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-chair-comfort.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-chair-comfort.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-chair-comfort.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-camera-canon.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-camera-canon.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-left",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-left"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-next"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-phone",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-phone"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-computer",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-computer"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-smartwatch",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-smartwatch"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-camera",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-camera"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-headphones",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-headphones"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-gaming",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-gaming"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-coat-north.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-coat-north.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-bag-gucci.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-bag-gucci.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-cpu-cooler.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-cpu-cooler.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-bookshelf.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-bookshelf.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/promo-banner-jbl.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/promo-banner-jbl.png"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-left",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-left"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-next"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-dog-food.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-dog-food.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-camera-canon.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-camera-canon.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-laptop-asus.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-laptop-asus.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-cosmetics-curology.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-cosmetics-curology.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-empty",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-empty"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-toy-car.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-toy-car.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-shoes-cleats.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-shoes-cleats.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-gamepad-fantech.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-gamepad-fantech.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/optimized/product-jacket-satin.webp",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-jacket-satin.webp"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-heart",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-heart"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-eye",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-eye"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-star-half",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-star-half"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/featured-ps5.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/featured-ps5.png"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/featured-women-collection.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/featured-women-collection.png"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/featured-speakers.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/featured-speakers.png"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/featured-perfume-gucci.png",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/featured-perfume-gucci.png"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-arrow-up",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-arrow-up"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-send",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-send"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/icons/qr-code.svg",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/qr-code.svg"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/icons/google-play-badge.svg",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/google-play-badge.svg"
+      },
+      {
+        "tag": "IMG",
+        "value": "assets/images/icons/app-store-badge.svg",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/app-store-badge.svg"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-facebook",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-facebook"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-twitter",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-twitter"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-instagram",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-instagram"
+      },
+      {
+        "tag": "use",
+        "value": "assets/images/icons/sprite.svg#icon-linkedin",
+        "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg#icon-linkedin"
+      }
+    ],
+    "sheets": [
+      {
+        "href": "assets/css/_variables.css",
+        "head": true
+      },
+      {
+        "href": "assets/css/style.css",
+        "head": true
+      }
+    ],
+    "scripts": [
+      {
+        "src": "assets/js/main.js",
+        "defer": true
+      }
+    ],
+    "styleTags": 0,
+    "pageWidth": 1440,
+    "pageScroll": 1440,
+    "svgIcons": [
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "width": 5.185332775115967,
+        "height": 8.485353469848633
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-search",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 21.81818199157715,
+        "height": 19.454727172851562
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-cart",
+        "width": 24.89033317565918,
+        "height": 22
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "width": 7.7779998779296875,
+        "height": 12.72803020477295
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-right",
+        "width": 7.7779998779296875,
+        "height": 12.72803020477295
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "width": 22,
+        "height": 18.66666603088379
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-left",
+        "width": 21.333332061767578,
+        "height": 18.666667938232422
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "width": 22,
+        "height": 18.66666603088379
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-phone",
+        "width": 27.000478744506836,
+        "height": 43.20068359375
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-computer",
+        "width": 41.47265625,
+        "height": 36.86457824707031
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-smartwatch",
+        "width": 27.6484375,
+        "height": 41.47265625
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-camera",
+        "width": 41.47265625,
+        "height": 36.86457824707031
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-headphones",
+        "width": 36.86463928222656,
+        "height": 36.86457824707031
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-gaming",
+        "width": 46.08073425292969,
+        "height": 27.6484375
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-left",
+        "width": 21.333332061767578,
+        "height": 18.666667938232422
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-next",
+        "width": 22,
+        "height": 18.66666603088379
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-empty",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-heart",
+        "width": 18.18181800842285,
+        "height": 16.21227264404297
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-eye",
+        "width": 18.309810638427734,
+        "height": 13.333333969116211
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star",
+        "width": 19.338966369628906,
+        "height": 19.06273078918457
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-star-half",
+        "width": 16.666757583618164,
+        "height": 16.50007438659668
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-arrow-up",
+        "width": 14,
+        "height": 16
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-send",
+        "width": 18.18221664428711,
+        "height": 16.363554000854492
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-facebook",
+        "width": 14,
+        "height": 24
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-twitter",
+        "width": 22.497724533081055,
+        "height": 18.79656982421875
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-instagram",
+        "width": 21.600000381469727,
+        "height": 21.600000381469727
+      },
+      {
+        "href": "assets/images/icons/sprite.svg#icon-linkedin",
+        "width": 23.33333396911621,
+        "height": 23.33333396911621
+      }
+    ],
+    "cssSprite": [
+      {
+        "image": "url(\"https://tetianna02.github.io/web-practice/assets/images/icons/service-icons-css-sprite.svg\")",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "image": "url(\"https://tetianna02.github.io/web-practice/assets/images/icons/service-icons-css-sprite.svg\")",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "image": "url(\"https://tetianna02.github.io/web-practice/assets/images/icons/service-icons-css-sprite.svg\")",
+        "width": 40,
+        "height": 40
+      }
+    ],
+    "cssSupport": {
+      "width: min(100% - (var(--page-gutter) * 2), var(--container-width))": true,
+      "fill: none": true,
+      "pointer-events: none": true,
+      "container-type: inline-size": true,
+      "height: max(148px, calc((100cqw - (1.75 - 1) * 12px) / 1.75 * 1.15))": true,
+      "width: min(416px, calc((100cqw - 56px) * 0.9 / 1.9 * 1.3 + 23.4px), calc(100cqw - 250px))": true,
+      "width: clamp(416px,50cqw,496px)": true,
+      "width: calc(50% + 50cqw)": true
+    }
+  },
+  "console": [],
+  "pageErrors": [],
+  "failed": [],
+  "responses": [
+    {
+      "url": "https://tetianna02.github.io/web-practice/",
+      "status": 200,
+      "type": "document",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/apple-logo.svg",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/css/_variables.css",
+      "status": 200,
+      "type": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/js/main.js",
+      "status": 200,
+      "type": "script",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/sprite.svg",
+      "status": 200,
+      "type": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/slider-iphone.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/css/style.css",
+      "status": 200,
+      "type": "stylesheet",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/service-icons-css-sprite.svg",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/poppins-regular.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/inter-latin.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/inter-cyrillic.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/poppins-semibold.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/poppins-medium.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-keyboard-ak900.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-gamepad-havit.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-camera-canon.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-chair-comfort.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-bag-gucci.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-bookshelf.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-coat-north.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-monitor-ips.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-cpu-cooler.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/favicon.png",
+      "status": 200,
+      "type": "other",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/qr-code.svg",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/google-play-badge.svg",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/icons/app-store-badge.svg",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-laptop-asus.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-toy-car.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-cosmetics-curology.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-shoes-cleats.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/featured-women-collection.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-gamepad-fantech.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/featured-speakers.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-dog-food.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/promo-banner-jbl.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/featured-ps5.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/product-jacket-satin.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/featured-perfume-gucci.png",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/fonts/poppins-bold.woff2",
+      "status": 200,
+      "type": "font",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/figma-jbl-boombox.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    },
+    {
+      "url": "https://tetianna02.github.io/web-practice/assets/images/optimized/figma-arrival-ps5.webp",
+      "status": 200,
+      "type": "image",
+      "method": "GET"
+    }
+  ],
+  "dialogs": []
+}

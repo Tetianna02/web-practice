@@ -1,0 +1,19 @@
+{
+  "target": "https://tetianna02.github.io/web-practice/",
+  "results": [
+    {
+      "strategy": "mobile",
+      "status": 429,
+      "at": "2026-10-25T20:46:35.000Z",
+      "lighthouse": false,
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    },
+    {
+      "strategy": "desktop",
+      "status": 429,
+      "at": "2026-10-25T20:46:35.019Z",
+      "lighthouse": false,
+      "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+    }
+  ]
+}
