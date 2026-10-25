@@ -1,17 +1,16 @@
 :root {
-  --primary-color: #DB4444;
-  --primary-hover: #E07575;
-  --secondary-color: #00FF66;
-  --rating-color: #FFAD33;
-
-  --light-color: #FFFFFF;
-  --dark-color: #000000;
-  --bg-secondary: #F5F5F5;
-
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-red: #db4444;
+  --color-red-hover: #e07575;
+  --color-green: #00ff66;
+  --color-muted: #f5f5f5;
+  --color-text-muted: #666666;
+  --color-border: rgba(0, 0, 0, 0.18);
   --font-heading: 'Inter', sans-serif;
-  --font-body: 'Poppins', sans-serif;
-<<<<<<< ours
+  --font-body: 'Poppins', 'Inter', sans-serif;
+  --container-width: 1170px;
+  --page-gutter: 16px;
+  --section-space: 72px;
+  --radius-small: 4px;
 }
-=======
-}
->>>>>>> theirs
