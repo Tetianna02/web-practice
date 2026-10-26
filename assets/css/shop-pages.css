@@ -80,6 +80,10 @@
 .shop-page .related-tools a, .shop-page .related-tools button { display: grid; width: 34px; height: 34px; padding: 0; border: 0; border-radius: 50%; background: var(--color-white); place-items: center; cursor: pointer; }
 .shop-page .related-tools .icon { width: 20px; height: 20px; }
 .shop-page .related-add { position: absolute; right: 0; bottom: 0; left: 0; height: 41px; border: 0; border-radius: 0 0 4px 4px; color: var(--color-white); background: var(--color-black); font-size: 16px; font-weight: 500; cursor: pointer; }
+@media (hover: hover) {
+  .shop-page .related-add { opacity: 0; transform: translateY(100%); pointer-events: none; transition: opacity 150ms ease, transform 150ms ease; }
+  .shop-page .related-card:hover .related-add, .shop-page .related-card:focus-within .related-add { opacity: 1; transform: translateY(0); pointer-events: auto; }
+}
 .shop-page .related-card h3 { margin: 16px 0 8px; font-size: 16px; font-weight: 500; line-height: 24px; overflow-wrap: anywhere; }
 .shop-page .related-prices { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 8px; font-size: 16px; font-weight: 500; line-height: 24px; }
 .shop-page .related-prices strong { color: var(--color-red); font-weight: 500; }
@@ -177,8 +181,8 @@
 .shop-page .payment-options { width: min(100%,425px); padding: 0; margin: 34px 0 32px; border: 0; }
 .shop-page .payment-row { display: flex; min-height: 24px; align-items: center; flex-wrap: wrap; gap: 12px; }
 .shop-page .payment-row + .payment-row { margin-top: 34px; }
-.shop-page .payment-row label { display: flex; align-items: center; gap: 16px; font-size: 16px; line-height: 24px; }
-.shop-page .payment-row input { width: 24px; height: 24px; flex: 0 0 24px; margin: 0; accent-color: var(--color-black); }
+.shop-page .payment-row label { display: flex; align-items: center; gap: 16px; font-size: 16px; line-height: 24px; cursor: pointer; }
+.shop-page .payment-row input { width: 24px; height: 24px; flex: 0 0 24px; margin: 0; accent-color: var(--color-black); cursor: pointer; }
 .shop-page .payment-logos { display: flex; width: 188.5px; height: 24px; flex: 0 0 188.5px; align-items: center; justify-content: space-between; margin-left: auto; }
 .shop-page .payment-logos img { height: auto; object-fit: contain; }
 .shop-page .payment-logos img:nth-child(1), .shop-page .payment-logos img:nth-child(2) { width: 37.8px; }
