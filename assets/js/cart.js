@@ -44,8 +44,9 @@
         showToast('Товар видалено з демонстраційного кошика');
       });
       frame.append(img, fallback, remove);
-      const title = document.createElement('a');
-      title.href = item.id === 'white' ? '/web-practice/product.html' : '/web-practice/product.html?preview=' + item.id;
+      const title = document.createElement(item.id === 'white' ? 'a' : 'button');
+      if (item.id === 'white') title.href = '/web-practice/product.html';
+      else { title.type = 'button'; title.setAttribute('data-coming-soon', ''); }
       title.textContent = product.name;
       productCell.append(frame, title);
       const price = document.createElement('div');
@@ -103,7 +104,7 @@
   document.querySelector('[data-coupon-form]').addEventListener('submit', function (event) {
     event.preventDefault();
     const code = event.currentTarget.elements.coupon.value.trim();
-    document.querySelector('[data-coupon-status]').textContent = code ? 'Промокоди будуть доступні після підключення сервера.' : 'Введіть промокод.';
+    document.querySelector('[data-coupon-status]').textContent = code ? comingSoonMessage : 'Введіть промокод.';
   });
   update.addEventListener('click', function () { render(); showToast('Демонстраційний кошик оновлено'); });
   checkout.addEventListener('click', function (event) {

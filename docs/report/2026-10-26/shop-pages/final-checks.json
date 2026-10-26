@@ -1,0 +1,1582 @@
+{
+  "date": "2026-10-26",
+  "responsive": [
+    {
+      "page": "product",
+      "width": 320,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 360,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 480,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 640,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 768,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 900,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 1023,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 1024,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 1280,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "product",
+      "width": 1440,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      },
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 2093,
+        "boxes": {
+          ".product-detail": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 600,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-thumbnails": {
+            "x": 135,
+            "y": 323,
+            "w": 170,
+            "h": 600,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-main-image": {
+            "x": 335,
+            "y": 323,
+            "w": 500,
+            "h": 600,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-main-image img": {
+            "x": 362,
+            "y": 477,
+            "w": 446,
+            "h": 315,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-summary": {
+            "x": 905,
+            "y": 323,
+            "w": 400,
+            "h": 600,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-detail-title": {
+            "x": 905,
+            "y": 323,
+            "w": 400,
+            "h": 24,
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "weight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "0.72px"
+          },
+          ".product-detail-price": {
+            "x": 905,
+            "y": 400,
+            "w": 400,
+            "h": 24,
+            "font": "Inter, sans-serif",
+            "size": "24px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "0.72px"
+          },
+          ".product-description": {
+            "x": 905,
+            "y": 448,
+            "w": 400,
+            "h": 63,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-options": {
+            "x": 905,
+            "y": 535,
+            "w": 400,
+            "h": 100,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".product-buy-row": {
+            "x": 905,
+            "y": 659,
+            "w": 400,
+            "h": 44,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".delivery-information": {
+            "x": 905,
+            "y": 743,
+            "w": 400,
+            "h": 180,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".related-title": {
+            "x": 135,
+            "y": 1063,
+            "w": 1170,
+            "h": 40,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "600",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".related-grid": {
+            "x": 135,
+            "y": 1163,
+            "w": 1170,
+            "h": 350,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 48,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1440,
+            "h": 94,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-footer": {
+            "x": 0,
+            "y": 1653,
+            "w": 1440,
+            "h": 440,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          }
+        }
+      }
+    },
+    {
+      "page": "product",
+      "width": 1920,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 41,
+        "description": 134,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 320,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 360,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 480,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 640,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 768,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 900,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 1023,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 1024,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 1280,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "cart",
+      "width": 1440,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      },
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1743,
+        "boxes": {
+          ".cart-table": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 356,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".cart-table-header": null,
+          ".cart-row": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 72,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".cart-actions": {
+            "x": 135,
+            "y": 703,
+            "w": 1170,
+            "h": 56,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".cart-bottom": {
+            "x": 135,
+            "y": 839,
+            "w": 1170,
+            "h": 324,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".cart-summary": {
+            "x": 835,
+            "y": 839,
+            "w": 470,
+            "h": 324,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 48,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1440,
+            "h": 94,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-footer": {
+            "x": 0,
+            "y": 1303,
+            "w": 1440,
+            "h": 440,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          }
+        }
+      }
+    },
+    {
+      "page": "cart",
+      "width": 1920,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 32,
+        "description": 136,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 320,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 360,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 480,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 640,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 768,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 900,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 1023,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 1024,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 1280,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 1440,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      },
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1795,
+        "boxes": {
+          ".checkout-layout": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 892,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".checkout-title": {
+            "x": 135,
+            "y": 323,
+            "w": 470,
+            "h": 30,
+            "font": "Inter, sans-serif",
+            "size": "36px",
+            "weight": "500",
+            "lineHeight": "30px",
+            "letterSpacing": "1.44px"
+          },
+          "#checkout-first-name": {
+            "x": 135,
+            "y": 433,
+            "w": 470,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          "#checkout-email": {
+            "x": 135,
+            "y": 1117,
+            "w": 470,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".checkout-item": {
+            "x": 778,
+            "y": 433,
+            "w": 425,
+            "h": 54,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".checkout-totals": null,
+          ".checkout-payment": null,
+          "[data-checkout-coupon]": {
+            "x": 778,
+            "y": 889,
+            "w": 527,
+            "h": 56,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".checkout-submit": {
+            "x": 778,
+            "y": 977,
+            "w": 190,
+            "h": 56,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "500",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 48,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1440,
+            "h": 94,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-footer": {
+            "x": 0,
+            "y": 1355,
+            "w": 1440,
+            "h": 440,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          }
+        }
+      }
+    },
+    {
+      "page": "checkout",
+      "width": 1920,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 33,
+        "description": 141,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 320,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 360,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 480,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 640,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 768,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 900,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 1023,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 1024,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 1280,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    },
+    {
+      "page": "account",
+      "width": 1440,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      },
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 1533,
+        "boxes": {
+          ".account-layout-new": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 630,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          "[data-account-panel=\"profile\"]": {
+            "x": 435,
+            "y": 323,
+            "w": 870,
+            "h": 630,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".account-panel-title": {
+            "x": 515,
+            "y": 363,
+            "w": 710,
+            "h": 28,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "20px",
+            "weight": "500",
+            "lineHeight": "28px",
+            "letterSpacing": "normal"
+          },
+          "#account-first-name": {
+            "x": 515,
+            "y": 439,
+            "w": 330,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          "#account-email": {
+            "x": 515,
+            "y": 545,
+            "w": 330,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          "#account-current-password": {
+            "x": 515,
+            "y": 651,
+            "w": 710,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          "#account-new-password": {
+            "x": 515,
+            "y": 717,
+            "w": 710,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          "#account-confirm-password": {
+            "x": 515,
+            "y": 783,
+            "w": 710,
+            "h": 50,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".account-form-actions": {
+            "x": 515,
+            "y": 857,
+            "w": 710,
+            "h": 56,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".account-save": {
+            "x": 1011,
+            "y": 857,
+            "w": 214,
+            "h": 56,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "16px",
+            "weight": "500",
+            "lineHeight": "24px",
+            "letterSpacing": "normal"
+          },
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 48,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1440,
+            "h": 94,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          },
+          ".site-footer": {
+            "x": 0,
+            "y": 1093,
+            "w": 1440,
+            "h": 440,
+            "font": "Poppins, Inter, sans-serif",
+            "size": "14px",
+            "weight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal"
+          }
+        }
+      }
+    },
+    {
+      "page": "account",
+      "width": 1920,
+      "passed": true,
+      "audit": {
+        "h1": 1,
+        "title": 45,
+        "description": 133,
+        "missingAlt": 0,
+        "missingLabels": [],
+        "inlineStyles": 0,
+        "missingDefer": 0,
+        "brokenImages": [],
+        "duplicateIds": [],
+        "fonts": "loaded"
+      }
+    }
+  ],
+  "browsers": [
+    {
+      "engine": "edge",
+      "page": "product",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "product",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "cart",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "cart",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "checkout",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "checkout",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "account",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "edge",
+      "page": "account",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "product",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "product",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "cart",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "cart",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "checkout",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "checkout",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "account",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "firefox",
+      "page": "account",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "product",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "product",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "cart",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "cart",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "checkout",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "checkout",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "account",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "engine": "webkit",
+      "page": "account",
+      "width": 1440,
+      "passed": true
+    }
+  ],
+  "stress": [
+    {
+      "page": "product",
+      "width": 360,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "product",
+      "width": 768,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "product",
+      "width": 1440,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "cart",
+      "width": 360,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "cart",
+      "width": 768,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "cart",
+      "width": 1440,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "checkout",
+      "width": 360,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "checkout",
+      "width": 768,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "checkout",
+      "width": 1440,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "account",
+      "width": 360,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "account",
+      "width": 768,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    },
+    {
+      "page": "account",
+      "width": 1440,
+      "longText": true,
+      "missingImages": true,
+      "passed": true
+    }
+  ],
+  "regressions": [
+    {
+      "page": "index",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "page": "index",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "page": "login",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "page": "login",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "page": "signup",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "page": "signup",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "page": "404",
+      "width": 360,
+      "passed": true
+    },
+    {
+      "page": "404",
+      "width": 1440,
+      "passed": true
+    }
+  ],
+  "flow": {
+    "productToCartToCheckout": true,
+    "accountOrdersAnchor": true,
+    "passed": true
+  },
+  "passed": true,
+  "validatorTemp": "C:\\Users\\HP\\AppData\\Local\\Temp\\exclusive-shop-validation-1JDYur"
+}

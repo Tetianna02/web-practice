@@ -15,7 +15,7 @@
 </head>
 <body class="shop-page checkout-page">
 
-  <a class="skip-link" href="/web-practice/#main-content">Перейти до вмісту</a>
+  <a class="skip-link" href="#main-content">Перейти до вмісту</a>
 
   <div class="announcement-bar">
     <div class="container announcement-content">
@@ -113,11 +113,11 @@
           <div class="checkout-items" data-checkout-items></div><p class="checkout-empty" hidden>Кошик порожній. <a href="/web-practice/product.html">Додайте товар</a>, щоб продовжити.</p>
           <div class="checkout-total-block"><dl class="order-totals"><div class="summary-line"><dt>Вартість товарів:</dt><dd data-checkout-total>0 ₴</dd></div><div class="summary-line"><dt>Доставка:</dt><dd>Безкоштовно</dd></div><div class="summary-line"><dt>Разом:</dt><dd data-checkout-total>0 ₴</dd></div></dl></div>
           <fieldset class="payment-options"><legend class="visually-hidden">Спосіб оплати</legend>
-            <div class="payment-row"><label for="payment-bank"><input id="payment-bank" type="radio" name="payment" value="bank" form="checkout-form" disabled aria-describedby="payment-bank-note">Карткою</label><span class="visually-hidden" id="payment-bank-note">Онлайн-оплата буде доступна на наступному етапі.</span><div class="payment-logos" aria-label="Платіжні системи"><img src="assets/images/optimized/payment-bkash.webp" alt="bKash" width="40" height="28"><img src="assets/images/optimized/payment-visa.webp" alt="Visa" width="40" height="28"><img src="assets/images/optimized/payment-mastercard.webp" alt="Mastercard" width="40" height="28"><img src="assets/images/optimized/payment-nagad.webp" alt="Nagad" width="40" height="28"></div></div>
+            <div class="payment-row"><label for="payment-bank"><input id="payment-bank" type="radio" name="payment" value="bank" form="checkout-form" disabled aria-describedby="payment-bank-note">Карткою</label><span class="visually-hidden" id="payment-bank-note">Онлайн-оплата буде доступна на наступному етапі.</span><div class="payment-logos" role="group" aria-label="Платіжні системи"><img src="assets/images/optimized/payment-bkash.webp" alt="bKash" width="40" height="28"><img src="assets/images/optimized/payment-visa.webp" alt="Visa" width="40" height="28"><img src="assets/images/optimized/payment-mastercard.webp" alt="Mastercard" width="40" height="28"><img src="assets/images/optimized/payment-nagad.webp" alt="Nagad" width="40" height="28"></div></div>
             <div class="payment-row"><label for="payment-cash"><input id="payment-cash" type="radio" name="payment" value="cash" form="checkout-form" checked>Оплата при отриманні</label></div>
           </fieldset>
           <form class="coupon-form" data-checkout-coupon><label class="visually-hidden" for="checkout-coupon">Промокод</label><input id="checkout-coupon" name="coupon" type="text" placeholder="Промокод" autocomplete="off"><button class="primary-button" type="submit">Застосувати</button></form><p class="shop-status" data-checkout-coupon-status aria-live="polite"></p>
-          <button class="primary-button checkout-submit" type="submit" form="checkout-form">Замовити</button><p class="shop-status" data-checkout-status aria-live="polite"></p>
+          <button class="primary-button checkout-submit" type="submit" disabled form="checkout-form">Замовити</button><p class="shop-status" data-checkout-status aria-live="polite"></p>
         </section>
       </div>
     </div>

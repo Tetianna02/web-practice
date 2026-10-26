@@ -32,8 +32,8 @@
   });
   if (!items.length) {
     document.querySelector('.checkout-empty').hidden = false;
-    document.querySelector('.checkout-submit').disabled = true;
   }
+  document.querySelector('.checkout-submit').disabled = !items.length;
   form.addEventListener('submit', function (event) {
     event.preventDefault();
     status.textContent = '';

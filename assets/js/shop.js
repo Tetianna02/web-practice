@@ -16,9 +16,15 @@ window.Shop = (function () {
       const saved = sessionStorage.getItem(key);
       if (saved !== null) {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed)) memory = parsed.filter(function (item) {
-          return item && products[item.id] && Number.isInteger(item.quantity) && item.quantity > 0 && item.quantity <= 99;
-        }).map(function (item) { return { id: item.id, quantity: item.quantity }; });
+        if (Array.isArray(parsed)) {
+          const unique = new Map();
+          parsed.forEach(function (item) {
+            if (item && Object.hasOwn(products, item.id) && Number.isInteger(item.quantity) && item.quantity > 0 && item.quantity <= 99) {
+              unique.set(item.id, { id: item.id, quantity: item.quantity });
+            }
+          });
+          memory = Array.from(unique.values());
+        }
       }
     } catch (error) {
       // The visual prototype also works when browser storage is unavailable.
@@ -32,7 +38,7 @@ window.Shop = (function () {
     window.dispatchEvent(new CustomEvent('shop:cart-change'));
   }
   function add(id, quantity) {
-    if (!products[id]) return;
+    if (!Object.hasOwn(products, id)) return;
     const items = readCart();
     const item = items.find(function (entry) { return entry.id === id; });
     if (item) item.quantity = Math.min(99, item.quantity + quantity);

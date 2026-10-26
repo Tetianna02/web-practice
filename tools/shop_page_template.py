@@ -15,6 +15,7 @@ def write_page(name, title, description, content, script):
         raise ValueError('Only new shop pages may be generated')
     source = (ROOT / 'index.html').read_text(encoding='utf-8')
     shell = source.split('<body>', 1)[1].split('  <main ', 1)[0]
+    shell = shell.replace('class="skip-link" href="/web-practice/#main-content"', 'class="skip-link" href="#main-content"')
     shell = shell.replace('desktop-navigation home-navigation', 'desktop-navigation shop-navigation')
     shell = shell.replace('href="/web-practice/#top"', 'href="/web-practice/"').replace(' is-current', '').replace(' aria-current="page"', '')
     start = shell.index('        <button class="icon-button cart-button"')
