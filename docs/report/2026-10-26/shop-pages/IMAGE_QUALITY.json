@@ -1,0 +1,37 @@
+[
+  {
+    "source": "assets\\images\\gamepad-1.png",
+    "output": "assets\\images\\optimized\\gamepad-1.webp",
+    "sourceBytes": 62484,
+    "outputBytes": 37888,
+    "rgbaEqual": true
+  },
+  {
+    "source": "assets\\images\\gamepad-2.png",
+    "output": "assets\\images\\optimized\\gamepad-2.webp",
+    "sourceBytes": 38504,
+    "outputBytes": 24668,
+    "rgbaEqual": true
+  },
+  {
+    "source": "assets\\images\\gamepad-3.png",
+    "output": "assets\\images\\optimized\\gamepad-3.webp",
+    "sourceBytes": 45858,
+    "outputBytes": 28194,
+    "rgbaEqual": true
+  },
+  {
+    "source": "assets\\images\\gamepad-4.png",
+    "output": "assets\\images\\optimized\\gamepad-4.webp",
+    "sourceBytes": 44531,
+    "outputBytes": 28136,
+    "rgbaEqual": true
+  },
+  {
+    "source": "assets\\images\\gamepad-main.png",
+    "output": "assets\\images\\optimized\\gamepad-main.webp",
+    "sourceBytes": 329803,
+    "outputBytes": 191708,
+    "rgbaEqual": true
+  }
+]
