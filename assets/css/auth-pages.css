@@ -1,0 +1,792 @@
+/* Окремі сторінки авторизації. */
+
+.auth-page .account-layout {
+  display: grid;
+  width: calc(100% - (var(--page-gutter) * 2));
+  max-width: var(--container-width);
+  gap: 40px;
+  align-items: center;
+  margin: 48px auto 72px;
+}
+
+.auth-page .account-art {
+  position: relative;
+  width: min(100%, 320px);
+  aspect-ratio: 805 / 781;
+  justify-self: center;
+}
+
+.auth-page .account-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.auth-page .account-art img[hidden] {
+  display: none;
+}
+
+.auth-page .account-image-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  margin: 0;
+  padding: 16px;
+  background: var(--color-muted);
+  color: var(--color-text-muted);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-image-fallback[hidden] {
+  display: none;
+}
+
+.auth-page .account-panel {
+  width: 100%;
+  max-width: 370px;
+  min-width: 0;
+  justify-self: center;
+}
+
+.auth-page .account-intro {
+  margin: 16px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-form {
+  display: grid;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.auth-page .account-field {
+  position: relative;
+  min-width: 0;
+}
+
+.auth-page .account-field input {
+  display: block;
+  width: 100%;
+  height: 32px;
+  padding: 0 0 6px;
+  border: 0;
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.auth-page .account-field label {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  max-width: 100%;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+  pointer-events: none;
+}
+
+.auth-page .account-field input:focus + label,
+.auth-page .account-field input:not(:placeholder-shown) + label {
+  top: -20px;
+  font-size: 12px;
+}
+
+.auth-page .account-field input[aria-invalid="true"] {
+  border-color: #b42318;
+}
+
+.auth-page .account-field .field-error {
+  display: block;
+  margin-top: 6px;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-field .field-error:empty {
+  display: none;
+}
+
+.auth-page .account-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-page .account-actions .account-submit {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-forgot {
+  min-height: 24px;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-red);
+  font: inherit;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-form > .form-status:empty {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .auth-page .account-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    margin-block: 72px 96px;
+  }
+
+  .auth-page .account-art {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth-page .account-intro,
+  .auth-page .account-field input,
+  .auth-page .account-field label,
+  .auth-page .account-forgot {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .auth-page .account-layout {
+    width: 100%;
+    max-width: 1440px;
+    grid-template-columns: 55.902778% 370px;
+    gap: 8.958333%;
+    align-items: start;
+    margin-block: 58px 140px;
+  }
+
+  .auth-page .account-panel {
+    margin-top: 221px;
+  }
+
+  .auth-page .account-form {
+    margin-top: 44px;
+  }
+
+  .auth-page .account-actions .account-submit {
+    width: 143px;
+    padding-inline: 16px;
+  }
+}
+
+
+.auth-page .footer-auth-links {
+  color: rgba(255, 255, 255, 0.78);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 6px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.auth-page .footer-column .footer-auth-links a {
+  color: inherit;
+  font: inherit;
+}
+
+.auth-page .signup-actions {
+  display: grid;
+  gap: 16px;
+}
+
+.auth-page .signup-actions .account-submit {
+  width: 100%;
+}
+
+.auth-page .google-button {
+  display: flex;
+  min-width: 0;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.auth-page .google-button img {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+}
+
+.auth-page .google-button span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .account-switch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  margin: 32px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.auth-page .account-switch a {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+@media (min-width: 768px) {
+  .auth-page .google-button,
+  .auth-page .account-switch {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .page-signup .account-panel {
+    margin-top: 117px;
+  }
+
+  .page-signup .account-form {
+    margin-top: 46px;
+  }
+
+  .page-signup .signup-actions .account-submit {
+    width: 100%;
+  }
+
+  .auth-page .google-button {
+    height: 56px;
+    padding-block: 16px;
+  }
+
+  .auth-page .footer-auth-links {
+    color: #fafafa;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+.page-not-found .header-actions .icon-button,
+.page-not-found .menu-toggle {
+  width: 32px;
+  height: 32px;
+}
+
+.auth-page .profile-button img {
+  width: 32px;
+  height: 32px;
+}
+
+.auth-page .error-layout {
+  padding-top: 48px;
+  padding-bottom: 72px;
+}
+
+.auth-page .breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.auth-page .breadcrumbs a {
+  color: var(--color-text-muted);
+}
+
+.auth-page .not-found-content {
+  margin-top: 72px;
+  text-align: center;
+}
+
+.auth-page .error-title {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.auth-page .error-description {
+  margin: 24px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.auth-page .error-home {
+  max-width: 100%;
+  margin-top: 40px;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .auth-page .error-layout {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+
+  .auth-page .not-found-content {
+    margin-top: 128px;
+  }
+
+  .auth-page .error-title {
+    font-size: 72px;
+    line-height: 96px;
+  }
+
+  .auth-page .error-description {
+    margin-top: 32px;
+    font-size: 16px;
+  }
+
+  .auth-page .error-home {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .auth-page .error-title {
+    position: relative;
+    top: -5px;
+    font-size: 90px;
+    line-height: 132px;
+  }
+
+  .auth-page .error-home {
+    width: 254px;
+    padding-inline: 16px;
+    transform: translateX(-21px);
+  }
+}
+
+/* Значення трьох SVG. Цей файл не підключений на Home. */
+.auth-page .account-art picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.auth-page .account-panel h1,
+.auth-page .error-title {
+  font-weight: 500;
+}
+
+.auth-page .error-title {
+  letter-spacing: 0.03em;
+}
+
+.auth-page .account-field label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.auth-page .account-field input {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.auth-page .account-field input[aria-invalid="true"] {
+  border-bottom-color: #b42318;
+}
+
+.auth-page .account-submit,
+.auth-page .error-home {
+  color: #fafafa;
+}
+
+.auth-page .google-button {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.auth-page .account-switch,
+.auth-page .account-switch a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.auth-page .account-switch a {
+  font-weight: 500;
+}
+
+.auth-page .breadcrumbs a,
+.auth-page .breadcrumbs > [aria-hidden] {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.auth-page .site-header {
+  border-bottom: 0;
+}
+
+.auth-page .site-header::after {
+  position: absolute;
+  right: 0;
+  bottom: -0.5px;
+  left: 0;
+  height: 0.5px;
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  content: '';
+}
+
+.auth-page .desktop-search input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.auth-page .footer-subscribe {
+  border: 0;
+  padding-inline: 16px;
+  box-shadow: inset 0 0 0 1.5px #fafafa;
+}
+
+.auth-page .footer-subscribe .icon {
+  width: 22px;
+  height: 20px;
+  transform: translate(1.25px, 0.25px);
+}
+
+.auth-page .footer-subscribe input::placeholder {
+  color: rgba(250, 250, 250, 0.4);
+  opacity: 1;
+}
+
+.auth-page .footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.24);
+}
+
+@media (min-width: 1024px) {
+  .auth-page .header-actions .favorite-button,
+  .auth-page .header-actions .cart-button {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .auth-page .announcement-bar {
+    color: #fafafa;
+  }
+
+  .auth-page .announcement-note {
+    color: #fafafa;
+  }
+
+  .auth-page .announcement-note .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .auth-page .header-inner {
+    height: 92px;
+    padding: 0;
+  }
+
+  .auth-page .header-inner > .brand {
+    position: absolute;
+    top: 45.727px;
+    left: 0;
+  }
+
+  .auth-page .desktop-navigation {
+    top: 45.6px;
+    left: 350.141px;
+    display: grid;
+    grid-template-columns: 96.351px 113.563px 96.32px auto;
+    width: auto;
+    align-items: start;
+    justify-items: start;
+  }
+
+  .auth-page .desktop-navigation .navigation-link {
+    letter-spacing: 0;
+  }
+
+  .auth-page .search-form.desktop-search {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    height: 38px;
+    padding-right: 12px;
+    padding-left: 20px;
+  }
+
+  .auth-page .desktop-search .search-submit {
+    width: 24px;
+    height: 24px;
+  }
+
+  .auth-page .desktop-search .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .page-login .header-actions,
+  .page-signup .header-actions {
+    display: none;
+  }
+
+  .page-not-found .header-inner {
+    height: 94px;
+  }
+
+  .page-not-found .header-inner > .brand {
+    top: 47.727px;
+  }
+
+  .page-not-found .desktop-navigation {
+    top: 47.6px;
+    left: 278.141px;
+  }
+
+  .page-not-found .search-form.desktop-search {
+    top: 40px;
+    right: 152px;
+  }
+
+  .page-not-found .header-actions {
+    position: absolute;
+    top: 42px;
+    right: 0;
+  }
+
+  .page-not-found .favorite-button .icon {
+    width: 22px;
+    height: 20px;
+    transform: translate(0.25px, 1.25px);
+  }
+
+  .page-not-found .cart-button .icon {
+    transform: translateY(1px);
+  }
+
+  .auth-page .account-layout {
+    grid-template-columns: 55.902778% 371px;
+    margin-top: 60px;
+  }
+
+  .auth-page .account-panel {
+    max-width: 371px;
+  }
+
+  .page-login .account-panel {
+    margin-top: 218.591px;
+  }
+
+  .page-signup .account-panel {
+    margin-top: 116.591px;
+  }
+
+  .auth-page .account-panel h1 {
+    font-size: 36px;
+    letter-spacing: 0.04em;
+  }
+
+  .auth-page .account-form {
+    margin-top: 46.909px;
+  }
+
+  .auth-page .account-field {
+    width: 370px;
+  }
+
+  .page-signup .account-field {
+    margin-left: 0.5px;
+  }
+
+  .auth-page .account-field label {
+    top: 0.6px;
+  }
+
+  .auth-page .account-field input:focus + label,
+  .auth-page .account-field input:not(:placeholder-shown) + label {
+    top: -20px;
+  }
+
+  .auth-page .account-switch {
+    margin-top: 34.6px;
+  }
+
+  .auth-page .account-switch a {
+    position: relative;
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+
+  .auth-page .account-switch a::after {
+    position: absolute;
+    right: 0;
+    bottom: -3.4px;
+    left: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+  }
+
+  .auth-page .error-layout {
+    padding-top: 80px;
+  }
+
+  .auth-page .breadcrumbs {
+    display: grid;
+    grid-template-columns: 60px 12px auto;
+    gap: 0;
+  }
+
+  .auth-page .breadcrumbs > * {
+    transform: translateY(-1.6px);
+  }
+
+  .auth-page .error-title {
+    top: 0.5px;
+    font-size: 110px;
+    letter-spacing: 0.03em;
+  }
+
+  .auth-page .footer-column h2,
+  .auth-page .footer-column p,
+  .auth-page .footer-column address,
+  .auth-page .footer-column a:not(.brand),
+  .auth-page .footer-column > button {
+    color: #fafafa;
+  }
+
+  .auth-page .footer-column a:not(.brand) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .auth-page .footer-auth-links {
+    width: max-content;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  .auth-page .footer-app-column > p {
+    color: rgba(250, 250, 250, 0.7);
+    font-weight: 500;
+  }
+
+  .auth-page .social-links {
+    margin-top: 10px;
+  }
+
+  .auth-page .social-links [aria-label="Facebook"] .icon {
+    width: 18px;
+    height: 18px;
+    transform: translateX(0.5px);
+  }
+
+  .auth-page .social-links [aria-label="X"] .icon {
+    width: 21.4px;
+    height: 21.4px;
+  }
+
+  .auth-page .social-links [aria-label="Instagram"] .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .auth-page .social-links [aria-label="LinkedIn"] .icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Повідомлення форм належать лише окремим сторінкам авторизації. */
+.auth-page .field-error {
+  min-height: 0;
+  color: #b42318;
+  font-size: 11px;
+}
+
+.auth-page .form-status {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  min-height: 0;
+  margin: 0;
+  color: #087443;
+  font-size: 13px;
+}
+
+.auth-page .nav-auth-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.auth-page .mobile-primary-links .nav-auth-links {
+  font-size: 15px;
+}
+
+.auth-page .mobile-primary-links .nav-auth-links a {
+  width: auto;
+}
+
+.page-login .announcement-content,
+.page-signup .announcement-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+}
+
+.auth-page .auth-announcement-message {
+  display: flex;
+  min-width: 0;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 8px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .auth-page .desktop-navigation .nav-auth-links {
+    font-size: 14px;
+  }
+
+  .page-login .announcement-content,
+  .page-signup .announcement-content {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  }
+
+  .auth-page .auth-announcement-message {
+    grid-column: 2;
+  }
+
+  .page-login .announcement-note,
+  .page-signup .announcement-note {
+    position: relative;
+    right: auto;
+    grid-column: 3;
+    justify-self: end;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .auth-page .desktop-navigation .nav-auth-links {
+    font-size: 16px;
+  }
+}
