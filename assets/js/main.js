@@ -122,7 +122,7 @@ function createProductCard(product) {
   preview.className = 'product-tool';
   preview.type = 'button';
   preview.setAttribute('aria-label', 'Переглянути товар: ' + product.name);
-  preview.dataset.comingSoon = '';
+  preview.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
   preview.append(createIcon('eye'));
   tools.append(favorite, preview);
 
@@ -135,8 +135,8 @@ function createProductCard(product) {
   const addButton = document.createElement('button');
   addButton.className = 'product-add-button';
   addButton.type = 'button';
-  addButton.textContent = 'До кошика';
-  addButton.dataset.comingSoon = '';
+  addButton.textContent = 'Купити';
+  addButton.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
   media.append(addButton);
 
   const name = document.createElement('h3');

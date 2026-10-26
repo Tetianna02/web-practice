@@ -1,0 +1,2597 @@
+[
+  {
+    "page": "index",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        60
+      ],
+      ".site-header": [
+        0,
+        60,
+        360,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": [
+        16,
+        133,
+        328,
+        461.390625
+      ],
+      ".hero-banner": [
+        16,
+        157,
+        328,
+        437.390625
+      ],
+      ".flash-section": [
+        0,
+        594.390625,
+        360,
+        608.796875
+      ],
+      ".category-section": [
+        0,
+        1263.1875,
+        360,
+        392.1875
+      ],
+      ".promo-section": [
+        16,
+        2469.9375,
+        328,
+        549.828125
+      ],
+      ".new-arrival-section": [
+        0,
+        3658.578125,
+        360,
+        1167.1875
+      ],
+      ".services-section": [
+        0,
+        4825.765625,
+        360,
+        571
+      ],
+      ".site-footer": [
+        0,
+        5396.765625,
+        360,
+        852.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "index",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": [
+        24,
+        121,
+        720,
+        414
+      ],
+      ".hero-banner": [
+        24,
+        145,
+        720,
+        390
+      ],
+      ".flash-section": [
+        0,
+        535,
+        768,
+        605.359375
+      ],
+      ".category-section": [
+        0,
+        1200.359375,
+        768,
+        364.1875
+      ],
+      ".promo-section": [
+        24,
+        2019.203125,
+        720,
+        704.640625
+      ],
+      ".new-arrival-section": [
+        0,
+        3359.21875,
+        768,
+        663.1875
+      ],
+      ".services-section": [
+        0,
+        4022.40625,
+        768,
+        265
+      ],
+      ".site-footer": [
+        0,
+        4287.40625,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "index",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        95
+      ],
+      ".desktop-navigation": [
+        240.921875,
+        80.5,
+        360.078125,
+        29
+      ],
+      ".desktop-search": [
+        629,
+        71,
+        243,
+        48
+      ],
+      ".hero-section": [
+        32,
+        143,
+        960,
+        445.40625
+      ],
+      ".hero-banner": [
+        32,
+        183,
+        960,
+        405.40625
+      ],
+      ".flash-section": [
+        0,
+        588.40625,
+        1024,
+        677.125
+      ],
+      ".category-section": [
+        0,
+        1441.53125,
+        1024,
+        409
+      ],
+      ".promo-section": [
+        32,
+        2389.65625,
+        960,
+        640
+      ],
+      ".new-arrival-section": [
+        0,
+        4088.65625,
+        1024,
+        735
+      ],
+      ".services-section": [
+        0,
+        4823.65625,
+        1024,
+        421
+      ],
+      ".site-footer": [
+        0,
+        5244.65625,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "index",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        363,
+        95,
+        445.921875,
+        24
+      ],
+      ".desktop-search": [
+        878,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": [
+        55,
+        142,
+        1170,
+        384
+      ],
+      ".hero-banner": [
+        333,
+        182,
+        892,
+        344
+      ],
+      ".flash-section": [
+        0,
+        526,
+        1280,
+        810
+      ],
+      ".category-section": [
+        0,
+        1336,
+        1280,
+        463
+      ],
+      ".promo-section": [
+        55,
+        2386,
+        1170,
+        640
+      ],
+      ".new-arrival-section": [
+        0,
+        4113,
+        1280,
+        908
+      ],
+      ".services-section": [
+        0,
+        5021,
+        1280,
+        441
+      ],
+      ".site-footer": [
+        0,
+        5462,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        443,
+        95,
+        445.921875,
+        24
+      ],
+      ".desktop-search": [
+        958,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": [
+        135,
+        142,
+        1170,
+        384
+      ],
+      ".hero-banner": [
+        413,
+        182,
+        892,
+        344
+      ],
+      ".flash-section": [
+        0,
+        526,
+        1440,
+        810
+      ],
+      ".category-section": [
+        0,
+        1336,
+        1440,
+        463
+      ],
+      ".promo-section": [
+        135,
+        2386,
+        1170,
+        640
+      ],
+      ".new-arrival-section": [
+        0,
+        4113,
+        1440,
+        908
+      ],
+      ".services-section": [
+        0,
+        5021,
+        1440,
+        441
+      ],
+      ".site-footer": [
+        0,
+        5462,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "product",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        2270.703125,
+        360,
+        852.5625
+      ],
+      ".product-detail": [
+        16,
+        239,
+        328,
+        1193.703125
+      ],
+      ".product-main-image": [
+        16,
+        239,
+        328,
+        393.59375
+      ],
+      ".product-summary": [
+        16,
+        751.703125,
+        328,
+        681
+      ],
+      ".delivery-information": [
+        16,
+        1252.703125,
+        328,
+        180
+      ],
+      ".related-section": [
+        16,
+        1504.703125,
+        328,
+        766
+      ],
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "product",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        2532,
+        768,
+        500.625
+      ],
+      ".product-detail": [
+        24,
+        246,
+        720,
+        1340
+      ],
+      ".product-main-image": [
+        154,
+        246,
+        590,
+        708
+      ],
+      ".product-summary": [
+        24,
+        986,
+        720,
+        600
+      ],
+      ".delivery-information": [
+        24,
+        1406,
+        720,
+        180
+      ],
+      ".related-section": [
+        24,
+        1658,
+        720,
+        874
+      ],
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "product",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        95
+      ],
+      ".desktop-navigation": [
+        233.921875,
+        80.5,
+        360.078125,
+        29
+      ],
+      ".desktop-search": [
+        622,
+        71,
+        198,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1458,
+        1024,
+        340.6875
+      ],
+      ".product-detail": [
+        32,
+        268,
+        960,
+        600
+      ],
+      ".product-main-image": [
+        162,
+        268,
+        406.65625,
+        487.984375
+      ],
+      ".product-summary": [
+        608.65625,
+        268,
+        383.328125,
+        600
+      ],
+      ".delivery-information": [
+        608.65625,
+        688,
+        383.328125,
+        180
+      ],
+      ".related-section": [
+        32,
+        940,
+        960,
+        518
+      ],
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "product",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        363,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        830,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1653,
+        1280,
+        440
+      ],
+      ".product-detail": [
+        55,
+        323,
+        1170,
+        600
+      ],
+      ".product-main-image": [
+        255,
+        323,
+        500,
+        600
+      ],
+      ".product-summary": [
+        825,
+        323,
+        400,
+        600
+      ],
+      ".delivery-information": [
+        825,
+        743,
+        400,
+        180
+      ],
+      ".related-section": [
+        55,
+        1063,
+        1170,
+        590
+      ],
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "product",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        443,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        910,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1653,
+        1440,
+        440
+      ],
+      ".product-detail": [
+        135,
+        323,
+        1170,
+        600
+      ],
+      ".product-main-image": [
+        335,
+        323,
+        500,
+        600
+      ],
+      ".product-summary": [
+        905,
+        323,
+        400,
+        600
+      ],
+      ".delivery-information": [
+        905,
+        743,
+        400,
+        180
+      ],
+      ".related-section": [
+        135,
+        1063,
+        1170,
+        590
+      ],
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "login",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        885.640625,
+        360,
+        850.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        20,
+        172,
+        320,
+        310.453125
+      ],
+      ".account-form": [
+        16,
+        625.640625,
+        328,
+        188
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "login",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        621.734375,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        24,
+        192,
+        344,
+        333.734375
+      ],
+      ".account-form": [
+        400,
+        316.453125,
+        344,
+        188
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "login",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        94
+      ],
+      ".desktop-navigation": [
+        334.71875,
+        80.5,
+        358.28125,
+        29
+      ],
+      ".desktop-search": [
+        721,
+        71,
+        243,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        760.15625,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        32,
+        214,
+        464,
+        450.15625
+      ],
+      ".account-form": [
+        575,
+        400.578125,
+        370,
+        188
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "login",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        92
+      ],
+      ".desktop-navigation": [
+        405.140625,
+        93.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        982,
+        86,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1034.203125,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        0,
+        200,
+        715.546875,
+        694.203125
+      ],
+      ".account-form": [
+        830.203125,
+        553.484375,
+        371,
+        200
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "login",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        92
+      ],
+      ".desktop-navigation": [
+        485.140625,
+        93.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        1062,
+        86,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1121,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        0,
+        200,
+        805,
+        781
+      ],
+      ".account-form": [
+        934,
+        553.484375,
+        371,
+        200
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "signup",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1075.640625,
+        360,
+        850.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        20,
+        172,
+        320,
+        310.453125
+      ],
+      ".account-form": [
+        16,
+        625.640625,
+        328,
+        322
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "signup",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        769.1875,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        24,
+        265.71875,
+        344,
+        333.734375
+      ],
+      ".account-form": [
+        400,
+        295.1875,
+        344,
+        322
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "signup",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        94
+      ],
+      ".desktop-navigation": [
+        334.71875,
+        80.5,
+        358.28125,
+        29
+      ],
+      ".desktop-search": [
+        721,
+        71,
+        243,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        799,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        32,
+        233.421875,
+        464,
+        450.15625
+      ],
+      ".account-form": [
+        575,
+        325,
+        370,
+        322
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "signup",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        92
+      ],
+      ".desktop-navigation": [
+        405.140625,
+        93.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        982,
+        86,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1034.203125,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        0,
+        200,
+        715.546875,
+        694.203125
+      ],
+      ".account-form": [
+        830.203125,
+        451.484375,
+        371,
+        344
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "signup",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        92
+      ],
+      ".desktop-navigation": [
+        485.140625,
+        93.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        1062,
+        86,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1121,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": [
+        0,
+        200,
+        805,
+        781
+      ],
+      ".account-form": [
+        934,
+        451.484375,
+        371,
+        344
+      ],
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "404",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        60
+      ],
+      ".site-header": [
+        0,
+        60,
+        360,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        600,
+        360,
+        850.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "404",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        72
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        864,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "404",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        94
+      ],
+      ".desktop-navigation": [
+        302.71875,
+        80.5,
+        358.28125,
+        29
+      ],
+      ".desktop-search": [
+        689,
+        71,
+        243,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        790,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "404",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        333.140625,
+        95.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        830,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        838,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "404",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        413.140625,
+        95.59375,
+        445.421875,
+        24
+      ],
+      ".desktop-search": [
+        910,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        838,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "cart",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1528,
+        360,
+        852.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": [
+        16,
+        210,
+        328,
+        554
+      ],
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "cart",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1254,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": [
+        24,
+        246,
+        720,
+        356
+      ],
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "cart",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        95
+      ],
+      ".desktop-navigation": [
+        233.921875,
+        80.5,
+        360.078125,
+        29
+      ],
+      ".desktop-search": [
+        622,
+        71,
+        198,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1180,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": [
+        32,
+        268,
+        960,
+        356
+      ],
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "cart",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        363,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        830,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1303,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": [
+        55,
+        323,
+        1170,
+        356
+      ],
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "cart",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        443,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        910,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1303,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": [
+        135,
+        323,
+        1170,
+        356
+      ],
+      ".checkout-layout": null,
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "checkout",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1860,
+        360,
+        852.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": [
+        16,
+        210,
+        328,
+        1578
+      ],
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "checkout",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1176,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": [
+        24,
+        246,
+        720,
+        858
+      ],
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "checkout",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        95
+      ],
+      ".desktop-navigation": [
+        233.921875,
+        80.5,
+        360.078125,
+        29
+      ],
+      ".desktop-search": [
+        622,
+        71,
+        198,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1174,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": [
+        32,
+        268,
+        960,
+        834
+      ],
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "checkout",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        363,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        830,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1355,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": [
+        55,
+        323,
+        1170,
+        892
+      ],
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "checkout",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        443,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        910,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1355,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": [
+        135,
+        323,
+        1170,
+        892
+      ],
+      ".account-layout-new": null
+    }
+  },
+  {
+    "page": "account",
+    "width": 360,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        360,
+        52
+      ],
+      ".site-header": [
+        0,
+        52,
+        360,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1340,
+        360,
+        852.5625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": [
+        16,
+        210,
+        328,
+        1058
+      ]
+    }
+  },
+  {
+    "page": "account",
+    "width": 768,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        768,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        768,
+        73
+      ],
+      ".desktop-navigation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".desktop-search": [
+        0,
+        0,
+        0,
+        0
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1092,
+        768,
+        500.625
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": [
+        24,
+        246,
+        720,
+        774
+      ]
+    }
+  },
+  {
+    "page": "account",
+    "width": 1024,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1024,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1024,
+        95
+      ],
+      ".desktop-navigation": [
+        233.921875,
+        80.5,
+        360.078125,
+        29
+      ],
+      ".desktop-search": [
+        622,
+        71,
+        198,
+        48
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        954,
+        1024,
+        340.6875
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": [
+        32,
+        268,
+        960,
+        614
+      ]
+    }
+  },
+  {
+    "page": "account",
+    "width": 1280,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1280,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1280,
+        94
+      ],
+      ".desktop-navigation": [
+        363,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        830,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1093,
+        1280,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": [
+        55,
+        323,
+        1170,
+        630
+      ]
+    }
+  },
+  {
+    "page": "account",
+    "width": 1440,
+    "geometry": {
+      ".announcement-bar": [
+        0,
+        0,
+        1440,
+        48
+      ],
+      ".site-header": [
+        0,
+        48,
+        1440,
+        94
+      ],
+      ".desktop-navigation": [
+        443,
+        95,
+        413.921875,
+        24
+      ],
+      ".desktop-search": [
+        910,
+        88,
+        243,
+        38
+      ],
+      ".hero-section": null,
+      ".hero-banner": null,
+      ".flash-section": null,
+      ".category-section": null,
+      ".promo-section": null,
+      ".new-arrival-section": null,
+      ".services-section": null,
+      ".site-footer": [
+        0,
+        1093,
+        1440,
+        440
+      ],
+      ".product-detail": null,
+      ".product-main-image": null,
+      ".product-summary": null,
+      ".delivery-information": null,
+      ".related-section": null,
+      ".account-art": null,
+      ".account-form": null,
+      ".cart-table": null,
+      ".checkout-layout": null,
+      ".account-layout-new": [
+        135,
+        323,
+        1170,
+        630
+      ]
+    }
+  }
+]

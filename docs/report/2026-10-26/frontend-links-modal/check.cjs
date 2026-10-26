@@ -1,0 +1,52 @@
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict');
+const pw=require(process.env.PLAYWRIGHT_MODULE);
+const base='http://127.0.0.1:4183/web-practice/';
+const pages=['index','product','login','signup','404','cart','checkout','account'];
+const baseline=JSON.parse(fs.readFileSync(path.join(__dirname,'geometry-before.json'),'utf8'));
+const report={date:'2026-10-26',geometry:[],browsers:[],flow:[],passed:false};
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'exclusive-question-validation-'));report.validatorTemp=temp;
+const selectors=Object.keys(baseline[0].geometry);
+async function load(p,name){
+ const log={errors:[],bad:[],posts:[]};p.on('pageerror',e=>log.errors.push(e.message));p.on('console',m=>{if(m.type()==='error')log.errors.push(m.text())});p.on('response',r=>{if(r.status()!==200)log.bad.push({url:r.url(),status:r.status()})});p.on('requestfailed',r=>log.bad.push({url:r.url(),error:r.failure()?.errorText}));p.on('request',r=>{if(r.method()!=='GET')log.posts.push({method:r.method(),url:r.url()})});
+ await p.goto(base+name+'.html',{waitUntil:'networkidle'});await p.evaluate(async()=>{await document.fonts.ready;await Promise.allSettled([...document.images].map(e=>{e.loading='eager';return e.decode()}))});return log;
+}
+async function geometry(p){return p.evaluate(selectors=>Object.fromEntries(selectors.map(s=>{const e=document.querySelector(s);if(!e)return[s,null];const r=e.getBoundingClientRect();return[s,[r.x,r.y+scrollY,r.width,r.height]]})),selectors)}
+async function assertPage(p,width){
+ assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth),width);
+ const audit=await p.evaluate(()=>({h1:document.querySelectorAll('h1').length,alt:document.querySelectorAll('img:not([alt])').length,style:document.querySelectorAll('style').length,defer:document.querySelectorAll('script[src]:not([defer])').length,duplicates:[...document.querySelectorAll('[id]')].map(e=>e.id).filter((e,i,a)=>a.indexOf(e)!==i)}));
+ assert.equal(audit.h1,1);assert.equal(audit.alt,0);assert.equal(audit.style,0);assert.equal(audit.defer,0);assert.deepEqual(audit.duplicates,[]);
+ if(width>=1024){const boxes=await p.evaluate(()=>{const nav=document.querySelector('.desktop-navigation').getBoundingClientRect(),search=document.querySelector('.desktop-search').getBoundingClientRect();return{right:nav.right,left:search.left}});assert(boxes.right<=boxes.left+.1,'Header overlap');}
+ return audit;
+}
+async function menu(p,width){if(width<1024){await p.locator('.menu-toggle').click();assert(await p.locator('.mobile-navigation').isVisible());assert.equal(await p.locator('.mobile-navigation a[href="/web-practice/#services"]').count(),1);assert.equal(await p.locator('.mobile-navigation a[href="/web-practice/#contacts"]').count(),1);await p.keyboard.press('Escape');assert(await p.locator('.menu-toggle').evaluate(e=>e===document.activeElement));}}
+async function modal(p,width,engine){
+ const trigger=p.locator('[data-open-product-question]'),dialog=p.locator('#product-question-dialog'),submit=p.locator('.product-question-submit'),close=p.locator('[data-close-product-question]');
+ await trigger.click();assert(await dialog.isVisible());assert(await p.locator('#question-name').evaluate(e=>e===document.activeElement));
+ if(engine==='chrome'&&[360,1440].includes(width))await p.screenshot({path:path.join(__dirname,'question-'+width+'.png')});
+ await close.focus();await p.keyboard.press('Shift+Tab');assert(await submit.evaluate(e=>e===document.activeElement));await p.keyboard.press('Tab');assert(await close.evaluate(e=>e===document.activeElement));
+ await submit.click();assert.equal(await dialog.locator('[aria-invalid="true"]').count(),3);assert(await p.locator('#question-name').evaluate(e=>e===document.activeElement));
+ await p.locator('#question-name').fill('Анна');await p.locator('#question-email').fill('wrong');await p.locator('#question-text').fill('Чи є гарантія на товар?');await submit.click();assert.equal(await dialog.locator('[aria-invalid="true"]').count(),1);assert(await p.locator('#question-email').evaluate(e=>e===document.activeElement));
+ if(engine==='chrome'&&[360,1440].includes(width)){await p.evaluate(()=>document.activeElement.blur());await p.screenshot({path:path.join(__dirname,'question-errors-'+width+'.png')});if(width===1440)fs.writeFileSync(path.join(temp,'product-errors-dom.html'),await p.content());}
+ await p.locator('#question-email').fill('student@example.com');await submit.click();await dialog.waitFor({state:'hidden'});assert((await p.locator('.toast-region').innerText()).includes('демоверсія'));assert(await trigger.evaluate(e=>e===document.activeElement));assert(!(await p.locator('body').evaluate(e=>e.classList.contains('dialog-is-open'))));
+ await trigger.click();assert.equal(await p.locator('#question-email').inputValue(),'');assert.equal(await dialog.locator('[aria-invalid="true"]').count(),0);
+ await close.click();await dialog.waitFor({state:'hidden'});await trigger.click();await p.mouse.click(2,2);await dialog.waitFor({state:'hidden'});await trigger.click();await p.keyboard.press('Escape');await dialog.waitFor({state:'hidden'});assert(await trigger.evaluate(e=>e===document.activeElement));
+ await trigger.click();await p.locator('#question-text').fill('ДужеДовгеЗапитанняБезПробілів'.repeat(20));await submit.click();assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth),width);assert(await dialog.evaluate(e=>e.scrollWidth<=e.clientWidth+1));await p.keyboard.press('Escape');
+ return{open:true,closeButton:true,backdrop:true,escape:true,required:true,email:true,success:true,focusTrap:true,focusRestore:true,reopenClearsData:true,noOverflow:true};
+}
+(async()=>{const chrome=await pw.chromium.launch({channel:'chrome',headless:true});try{
+ for(const name of pages)for(const width of [360,768,1024,1280,1440]){
+  const p=await chrome.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),log=await load(p,name),after=await geometry(p),before=baseline.find(r=>r.page===name&&r.width===width).geometry;
+  const differences=[];for(const s of selectors){if(!before[s])continue;const delta=Math.max(...before[s].map((v,i)=>Math.abs(v-after[s][i])));if(delta>.1)differences.push({element:s,before:before[s],after:after[s],delta})}assert.deepEqual(differences,[],name+' changed approved geometry at '+width);
+  const audit=await assertPage(p,width);await menu(p,width);
+  if(name==='product'&&[360,1440].includes(width)){const r=await modal(p,width,'chrome');report.browsers.push({engine:'chrome',page:name,width,modal:r});}
+  if(width===1440)fs.writeFileSync(path.join(temp,name+'-dom.html'),await p.content());
+  if([360,1440].includes(width)&&['index','product'].includes(name)){await p.evaluate(()=>{document.activeElement.blur();window.scrollTo(0,0)});await p.screenshot({path:path.join(__dirname,name+'-'+width+'.png'),fullPage:true});}
+  assert.deepEqual(log.errors,[],name+' console');assert.deepEqual(log.bad,[],name+' resources');assert.deepEqual(log.posts,[],name+' data sent');report.geometry.push({page:name,width,unchanged:true,audit,errors:log.errors,bad:log.bad});await p.close();
+ }console.log('Chrome: 40 geometry and page checks passed');
+ for(const name of ['index','product'])for(const width of [320,480,640,900,1023,1920]){const p=await chrome.newPage({viewport:{width,height:900}}),log=await load(p,name);await assertPage(p,width);if(name==='product'&&[320,640,1023].includes(width)){await p.locator('[data-open-product-question]').click();assert(await p.locator('dialog').evaluate(e=>e.scrollWidth<=e.clientWidth+1));await p.keyboard.press('Escape');}assert.deepEqual(log.errors,[]);assert.deepEqual(log.bad,[]);report.geometry.push({page:name,width,noOverflow:true});await p.close();}
+ const p=await chrome.newPage({viewport:{width:360,height:900},isMobile:true,hasTouch:true}),log=await load(p,'index');await p.locator('.menu-toggle').click();await p.locator('.mobile-navigation a[href="/web-practice/#services"]').click();await p.waitForURL('**/#services');assert(await p.locator('.mobile-navigation').isHidden());assert(await p.locator('#services').isVisible());await p.goto(base+'index.html');await p.locator('.cart-button').click();await p.waitForURL('**/cart.html');assert.equal(await p.locator('.cart-items .cart-row').count(),2);
+ await p.goto(base+'index.html',{waitUntil:'networkidle'});await p.locator('.product-add-button').first().click();await p.waitForURL('**/product.html');await p.locator('[data-buy-product]').click();await p.waitForURL('**/cart.html');assert.equal(await p.locator('.cart-items .cart-row').count(),3);await p.locator('.cart-checkout').click();await p.waitForURL('**/checkout.html');assert.equal(await p.locator('.checkout-item').count(),3);await p.locator('label[for="payment-bank"]').tap();assert(await p.locator('#payment-bank').isChecked());await p.goto(base+'product.html',{waitUntil:'networkidle'});assert(await p.locator('.related-add').evaluateAll(buttons=>buttons.every(e=>getComputedStyle(e).opacity==='1')));await p.locator('[data-open-product-question]').tap();await p.locator('[data-close-product-question]').tap();assert(await p.locator('dialog').isHidden());assert.deepEqual(log.errors,[]);assert.deepEqual(log.bad,[]);assert.deepEqual(log.posts,[]);report.flow.push({touch360:true,homeCartIcon:true,homeBuyProductCartCheckout:true,payment:true,relatedButtons:true,modalTap:true,noRequestsWithFormData:true});await p.close();
+}finally{await chrome.close()}
+ for(const engine of ['edge','firefox','webkit']){const b=await(engine==='edge'?pw.chromium.launch({channel:'msedge',headless:true}):pw[engine].launch({headless:true}));try{for(const name of ['index','product','cart','checkout'])for(const width of [360,1440]){const p=await b.newPage({viewport:{width,height:1000},reducedMotion:'reduce'}),log=await load(p,name);await assertPage(p,width);await menu(p,width);const m=name==='product'?await modal(p,width,engine):null;assert.deepEqual(log.errors,[]);assert.deepEqual(log.bad,[]);assert.deepEqual(log.posts,[]);report.browsers.push({engine,page:name,width,modal:m,passed:true});await p.close()}console.log(engine+': passed')}finally{await b.close()}}
+ report.passed=true;console.log('All checks passed');
+})().catch(e=>{report.error=e.stack;console.error(e);process.exitCode=1}).finally(()=>fs.writeFileSync(path.join(__dirname,'CHECKS.json'),JSON.stringify(report,null,2)+'\n'));

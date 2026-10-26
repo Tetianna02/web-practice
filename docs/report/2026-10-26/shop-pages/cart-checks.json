@@ -1,0 +1,465 @@
+{
+  "file": "cart",
+  "widths": [
+    {
+      "width": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320,
+        "height": 2399,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 320,
+            "h": 70
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 70,
+            "w": 320,
+            "h": 73
+          },
+          ".shop-breadcrumbs": {
+            "x": 16,
+            "y": 175,
+            "w": 288,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 16,
+            "y": 228,
+            "w": 288,
+            "h": 554
+          },
+          ".cart-bottom": {
+            "x": 16,
+            "y": 982,
+            "w": 288,
+            "h": 492
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1546,
+            "w": 320,
+            "h": 852.5625
+          }
+        },
+        "searchLeft": 0
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 360,
+      "layout": {
+        "scrollWidth": 360,
+        "width": 360,
+        "height": 2381,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 360,
+            "h": 52
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 52,
+            "w": 360,
+            "h": 73
+          },
+          ".shop-breadcrumbs": {
+            "x": 16,
+            "y": 157,
+            "w": 328,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 16,
+            "y": 210,
+            "w": 328,
+            "h": 554
+          },
+          ".cart-bottom": {
+            "x": 16,
+            "y": 964,
+            "w": 328,
+            "h": 492
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1528,
+            "w": 360,
+            "h": 852.5625
+          }
+        },
+        "searchLeft": 0
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 768,
+      "layout": {
+        "scrollWidth": 768,
+        "width": 768,
+        "height": 1755,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 768,
+            "h": 48
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 768,
+            "h": 73
+          },
+          ".shop-breadcrumbs": {
+            "x": 24,
+            "y": 177,
+            "w": 720,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 24,
+            "y": 246,
+            "w": 720,
+            "h": 356
+          },
+          ".cart-bottom": {
+            "x": 24,
+            "y": 762,
+            "w": 720,
+            "h": 420
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1254,
+            "w": 768,
+            "h": 500.625
+          }
+        },
+        "searchLeft": 0
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layout": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "height": 1521,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1024,
+            "h": 48
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1024,
+            "h": 95
+          },
+          ".shop-breadcrumbs": {
+            "x": 32,
+            "y": 199,
+            "w": 960,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 32,
+            "y": 268,
+            "w": 960,
+            "h": 356
+          },
+          ".cart-bottom": {
+            "x": 32,
+            "y": 784,
+            "w": 960,
+            "h": 324
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1180,
+            "w": 1024,
+            "h": 340.6875
+          }
+        },
+        "navRight": 594,
+        "searchLeft": 622
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "layout": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "height": 1743,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 48
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1280,
+            "h": 94
+          },
+          ".shop-breadcrumbs": {
+            "x": 55,
+            "y": 222,
+            "w": 1170,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 55,
+            "y": 323,
+            "w": 1170,
+            "h": 356
+          },
+          ".cart-bottom": {
+            "x": 55,
+            "y": 839,
+            "w": 1170,
+            "h": 324
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1303,
+            "w": 1280,
+            "h": 440
+          }
+        },
+        "navRight": 776.921875,
+        "searchLeft": 830
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "layout": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "height": 1743,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 48
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1440,
+            "h": 94
+          },
+          ".shop-breadcrumbs": {
+            "x": 135,
+            "y": 222,
+            "w": 1170,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 135,
+            "y": 323,
+            "w": 1170,
+            "h": 356
+          },
+          ".cart-bottom": {
+            "x": 135,
+            "y": 839,
+            "w": 1170,
+            "h": 324
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1303,
+            "w": 1440,
+            "h": 440
+          }
+        },
+        "navRight": 856.921875,
+        "searchLeft": 910
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "layout": {
+        "scrollWidth": 1920,
+        "width": 1920,
+        "height": 1743,
+        "boxes": {
+          ".announcement-bar": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 48
+          },
+          ".site-header": {
+            "x": 0,
+            "y": 48,
+            "w": 1920,
+            "h": 94
+          },
+          ".shop-breadcrumbs": {
+            "x": 375,
+            "y": 222,
+            "w": 1170,
+            "h": 21
+          },
+          ".product-detail": null,
+          ".product-thumbnails": null,
+          ".product-main-image": null,
+          ".product-main-image img": null,
+          ".product-summary": null,
+          ".product-detail-title": null,
+          ".product-detail-price": null,
+          ".product-description": null,
+          ".product-options": null,
+          ".product-buy-row": null,
+          ".delivery-information": null,
+          ".related-title": null,
+          ".related-grid": null,
+          ".cart-table": {
+            "x": 375,
+            "y": 323,
+            "w": 1170,
+            "h": 356
+          },
+          ".cart-bottom": {
+            "x": 375,
+            "y": 839,
+            "w": 1170,
+            "h": 324
+          },
+          ".checkout-layout": null,
+          ".account-layout-new": null,
+          ".site-footer": {
+            "x": 0,
+            "y": 1303,
+            "w": 1920,
+            "h": 440
+          }
+        },
+        "navRight": 1096.921875,
+        "searchLeft": 1150
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}
