@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій акаунт — профіль і замовлення | Exclusive</title>
+  <meta name="description" content="Перегляньте профіль Exclusive, контактні дані та розділ замовлень. Навчальна демонстрація кабінету без збереження персональних даних.">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/_variables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/shop-pages.css">
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/shop.js" defer></script>
+  <script src="assets/js/account.js" defer></script>
+</head>
+<body class="shop-page account-page">
+
+  <a class="skip-link" href="#main-content">Перейти до вмісту</a>
+
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <div class="shop-announcement-message">
+      <p>Літній розпродаж: знижки до 50% на вибрані товари</p>
+      <a href="/web-practice/#flash-sales">Переглянути пропозиції</a>
+      </div>
+      <button class="announcement-note" type="button" data-coming-soon aria-label="Мова сайту: українська">Українська
+        <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
+      </button>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="/web-practice/" aria-label="Exclusive — на головну">Exclusive</a>
+
+      <nav class="desktop-navigation shop-navigation" aria-label="Основна навігація">
+        <a class="navigation-link" href="/web-practice/">Головна</a>
+        <button class="navigation-link navigation-button" type="button" data-coming-soon>Контакти</button>
+        <button class="navigation-link navigation-button" type="button" data-coming-soon>Про нас</button>
+        <a class="navigation-link navigation-button" href="/web-practice/login.html">Вхід</a>
+        <a class="navigation-link navigation-button" href="/web-practice/signup.html">Реєстрація</a>
+      </nav>
+
+      <form class="search-form desktop-search" role="search">
+        <label class="visually-hidden" for="desktop-search">Пошук товарів</label>
+        <input id="desktop-search" name="q" type="search" placeholder="Що ви шукаєте?" autocomplete="off">
+        <button class="icon-button search-submit" type="submit" aria-label="Шукати">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-search"></use></svg>
+        </button>
+      </form>
+
+      <div class="header-actions">
+        <button class="icon-button favorite-button" type="button" data-coming-soon aria-label="Обране">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg>
+        </button>
+        <a class="icon-button cart-button shop-cart-link" href="/web-practice/cart.html" aria-label="Кошик">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-cart"></use></svg><span class="shop-cart-badge" data-cart-badge hidden></span>
+        </a>
+        <button class="icon-button shop-profile-toggle" type="button" aria-label="Меню акаунта" aria-expanded="false" aria-controls="shop-account-menu">
+          <img src="assets/images/icons/icon-user.svg" width="32" height="32" alt="">
+        </button>
+        <div class="shop-account-menu" id="shop-account-menu" hidden>
+          <a href="/web-practice/account.html"><img src="assets/images/icons/icon-user.svg" width="24" height="24" alt="">Мій профіль</a>
+          <a href="/web-practice/account.html#orders"><img src="assets/images/icons/icon-orders.svg" width="24" height="24" alt="">Мої замовлення</a>
+          <button type="button" data-coming-soon><img src="assets/images/icons/icon-logout.svg" width="24" height="24" alt="">Вийти з акаунта</button>
+        </div>
+        <button class="menu-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Відкрити меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <nav class="mobile-navigation" id="mobile-navigation" aria-label="Мобільна навігація" hidden>
+    <div class="mobile-navigation-header">
+      <span class="brand">Exclusive</span>
+      <button class="icon-button menu-close" type="button" aria-label="Закрити меню">
+        <span aria-hidden="true">×</span>
+      </button>
+    </div>
+    <form class="search-form mobile-search" role="search">
+      <label class="visually-hidden" for="mobile-search">Пошук товарів</label>
+      <input id="mobile-search" name="q" type="search" placeholder="Що ви шукаєте?" autocomplete="off">
+      <button class="icon-button search-submit" type="submit" aria-label="Шукати">
+        <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-search"></use></svg>
+      </button>
+    </form>
+    <ul class="mobile-primary-links">
+      <li><a href="/web-practice/">Головна</a></li>
+      <li><a href="/web-practice/#categories">Категорії</a></li>
+      <li><a href="/web-practice/#explore-products">Товари</a></li>
+      <li><a href="/web-practice/cart.html">Кошик</a></li>
+      <li><a href="/web-practice/account.html">Мій акаунт</a></li>
+      <li><button type="button" data-coming-soon>Про нас</button></li>
+      <li><button type="button" data-coming-soon>Контакти</button></li>
+      <li><a href="/web-practice/login.html">Вхід</a><a href="/web-practice/signup.html">Реєстрація</a></li>
+    </ul>
+    <h2 class="mobile-categories-title">Категорії товарів</h2>
+    <ul class="mobile-category-list" data-category-list="mobile"></ul>
+  </nav>
+
+  <main id="main-content" class="shop-main">
+    <div class="container account-content">
+      <h1 class="visually-hidden">Мій акаунт</h1>
+      <div class="account-topline"><nav aria-label="Навігаційний шлях"><ol class="shop-breadcrumbs"><li><a href="/web-practice/">Головна</a></li><li aria-hidden="true">/</li><li aria-current="page">Мій акаунт</li></ol></nav><p class="account-welcome">Вітаємо, <span>Анна</span></p></div>
+      <div class="account-layout-new">
+        <nav class="account-sidebar" aria-label="Керування акаунтом">
+          <div class="account-nav-group"><h2>Керування акаунтом</h2><ul><li><button type="button" data-show-account="profile" aria-current="page">Мій профіль</button></li><li><button type="button" data-coming-soon>Адресна книга</button></li><li><button type="button" data-coming-soon>Способи оплати</button></li></ul></div>
+          <div class="account-nav-group"><h2><button type="button" data-show-account="orders">Мої замовлення</button></h2><ul><li><button type="button" data-coming-soon>Мої повернення</button></li><li><button type="button" data-coming-soon>Мої скасування</button></li></ul></div>
+          <div class="account-nav-group"><h2><button type="button" data-coming-soon>Моє обране</button></h2></div>
+        </nav>
+        <section class="account-panel-new" data-account-panel="profile" aria-labelledby="profile-title"><h2 class="account-panel-title" id="profile-title" tabindex="-1">Редагування профілю</h2>
+          <form class="account-profile-form" data-profile-form novalidate method="post" autocomplete="off"><div class="account-profile-grid"><div class="shop-field"><label for="account-first-name">Ім’я</label><input id="account-first-name" name="first-name" type="text" value="Анна" autocomplete="given-name" required aria-describedby="account-first-name-error"><span class="shop-field-error" id="account-first-name-error"></span></div><div class="shop-field"><label for="account-last-name">Прізвище</label><input id="account-last-name" name="last-name" type="text" value="Мельник" autocomplete="family-name" required aria-describedby="account-last-name-error"><span class="shop-field-error" id="account-last-name-error"></span></div><div class="shop-field"><label for="account-email">Електронна пошта</label><input id="account-email" name="email" type="email" value="student@example.com" autocomplete="email" required aria-describedby="account-email-error"><span class="shop-field-error" id="account-email-error"></span></div><div class="shop-field"><label for="account-address">Адреса</label><input id="account-address" name="address" type="text" value="Україна, Київ, Навчальна, 1" autocomplete="street-address" aria-describedby="account-address-error"><span class="shop-field-error" id="account-address-error"></span></div></div><fieldset class="account-passwords"><legend>Зміна пароля</legend><div class="shop-field"><label class="visually-hidden" for="account-current-password">Поточний пароль</label><input id="account-current-password" name="current-password" type="password" placeholder="Поточний пароль" autocomplete="off" aria-describedby="account-current-password-error"><span class="shop-field-error" id="account-current-password-error"></span></div><div class="shop-field"><label class="visually-hidden" for="account-new-password">Новий пароль</label><input id="account-new-password" name="new-password" type="password" placeholder="Новий пароль" autocomplete="new-password" aria-describedby="account-new-password-error"><span class="shop-field-error" id="account-new-password-error"></span></div><div class="shop-field"><label class="visually-hidden" for="account-confirm-password">Підтвердьте новий пароль</label><input id="account-confirm-password" name="confirm-password" type="password" placeholder="Підтвердьте новий пароль" autocomplete="new-password" aria-describedby="account-confirm-password-error"><span class="shop-field-error" id="account-confirm-password-error"></span></div></fieldset><div class="account-form-actions"><button class="account-cancel" type="reset">Скасувати</button><button class="primary-button account-save" type="submit" disabled>Зберегти зміни</button></div><p class="shop-status" data-profile-status aria-live="polite"></p></form>
+        </section>
+        <section class="account-panel-new account-orders-panel" id="orders" data-account-panel="orders" aria-labelledby="orders-title" hidden><h2 class="account-panel-title" id="orders-title" tabindex="-1">Мої замовлення</h2><p>Історія замовлень з’явиться після підключення акаунта.</p><a class="shop-button-outline" href="/web-practice/cart.html">Переглянути кошик</a></section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="footer-column footer-brand-column">
+        <a class="brand footer-brand" href="/web-practice/#top">Exclusive</a>
+        <h2>Підписка</h2>
+        <p>Новинки та пропозиції</p>
+        <form class="footer-subscribe" data-subscribe>
+          <label class="visually-hidden" for="subscribe-email">Електронна пошта для підписки</label>
+          <input id="subscribe-email" name="email" type="email" placeholder="Ваша пошта" required>
+          <button type="submit" aria-label="Підписатися">
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-send"></use></svg>
+          </button>
+        </form>
+      </div>
+      <div class="footer-column">
+        <h2>Підтримка</h2>
+        <address>Україна<br>Пн–Пт, 09:00–18:00</address>
+        <a href="mailto:demo@example.com">demo@example.com</a>
+        <a href="tel:+380000000000">+38 (000) 000-00-00</a>
+      </div>
+      <div class="footer-column home-account-column">
+        <h2>Акаунт</h2>
+        <a href="/web-practice/account.html">Мій акаунт</a>
+        <a href="/web-practice/login.html">Вхід</a>
+        <a href="/web-practice/cart.html">Кошик</a>
+        <button type="button" data-coming-soon>Обране</button>
+        <a href="/web-practice/#explore-products">Каталог</a>
+      </div>
+      <div class="footer-column">
+        <h2>Корисне</h2>
+        <button type="button" data-coming-soon>Приватність</button>
+        <button type="button" data-coming-soon>Умови</button>
+        <button type="button" data-coming-soon>Питання</button>
+        <button type="button" data-coming-soon>Контакти</button>
+      </div>
+      <div class="footer-column footer-app-column">
+        <h2>Застосунок</h2>
+        <p>Навчальна демонстрація</p>
+        <div class="footer-app-row">
+          <img class="footer-qr" src="assets/images/icons/qr-code.svg" alt="Декоративний QR-код застосунку" width="80" height="80" loading="lazy">
+          <div class="store-badges">
+            <button type="button" data-coming-soon aria-label="Застосунок у Google Play">
+              <img src="assets/images/icons/google-play-badge.svg" alt="Google Play" loading="lazy">
+            </button>
+            <button type="button" data-coming-soon aria-label="Застосунок в App Store">
+              <img src="assets/images/icons/app-store-badge.svg" alt="App Store" loading="lazy">
+            </button>
+          </div>
+        </div>
+        <div class="social-links" role="group" aria-label="Соціальні мережі">
+          <button type="button" data-coming-soon aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-facebook"></use></svg></button>
+          <button type="button" data-coming-soon aria-label="X"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-twitter"></use></svg></button>
+          <button type="button" data-coming-soon aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-instagram"></use></svg></button>
+          <button type="button" data-coming-soon aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-linkedin"></use></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>© Exclusive. Усі права захищені.</p></div></div>
+  </footer>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
