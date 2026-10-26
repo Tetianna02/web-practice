@@ -119,14 +119,14 @@
       <div class="account-panel">
         <h1 class="section-title" id="login-title">Вхід до Exclusive</h1>
         <p class="account-intro">Введіть свої дані нижче</p>
-        <form class="account-form" data-account-form data-login-form novalidate method="post">
+        <form class="account-form" data-account-form data-login-form novalidate method="post" autocomplete="off">
           <div class="account-field">
-            <input id="login-email" name="email" type="email" autocomplete="email" required placeholder=" " aria-describedby="login-email-error">
+            <input id="login-email" name="email" type="email" autocomplete="off" required placeholder=" " aria-describedby="login-email-error">
             <label for="login-email">Електронна пошта</label>
             <span class="field-error" id="login-email-error"></span>
           </div>
           <div class="account-field">
-            <input id="login-password" name="password" type="password" autocomplete="current-password" minlength="8" required placeholder=" " aria-describedby="login-password-error">
+            <input id="login-password" name="password" type="password" autocomplete="new-password" minlength="8" required placeholder=" " aria-describedby="login-password-error">
             <label for="login-password">Пароль</label>
             <span class="field-error" id="login-password-error"></span>
           </div>
