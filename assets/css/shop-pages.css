@@ -147,6 +147,49 @@
   .shop-page .coupon-form { grid-template-columns: 300px 211px; }
   .shop-page .cart-quantity { margin-left: -1px; }
 }
+.shop-page .checkout-content { padding-bottom: 72px; }
+.shop-page .checkout-layout { display: grid; gap: 48px; align-items: start; }
+.shop-page .checkout-title { margin: 0 0 32px; font-family: var(--font-heading); font-size: 30px; font-weight: 500; line-height: 1.2; letter-spacing: .04em; }
+.shop-page .checkout-fields { display: grid; gap: 24px; }
+.shop-page .shop-field { min-width: 0; }
+.shop-page .shop-field > label { display: block; margin-bottom: 8px; font-size: 16px; line-height: 24px; overflow-wrap: anywhere; }
+.shop-page .required-mark { color: var(--color-red); }
+.shop-page .shop-field input, .shop-page .shop-field textarea { display: block; width: 100%; min-width: 0; height: 50px; padding: 12px 16px; border: 1px solid transparent; border-radius: 4px; color: var(--color-black); background: var(--color-muted); font: inherit; font-size: 16px; line-height: 24px; }
+.shop-page .shop-field input[aria-invalid="true"] { border-color: #b42318; }
+.shop-page .shop-field input::placeholder { color: rgba(0,0,0,.5); opacity: 1; }
+.shop-page .checkout-remember { display: flex; align-items: flex-start; gap: 16px; margin-top: 24px; font-size: 16px; line-height: 24px; cursor: pointer; }
+.shop-page .checkout-remember input { width: 24px; height: 24px; flex: 0 0 24px; margin: 0; accent-color: var(--color-red); }
+.shop-page .checkout-order { min-width: 0; }
+.shop-page .checkout-items { display: grid; gap: 32px; width: min(100%,425px); }
+.shop-page .checkout-item { display: flex; min-width: 0; min-height: 54px; align-items: center; gap: 24px; font-size: 16px; line-height: 24px; }
+.shop-page .checkout-item-image { position: relative; display: grid; width: 54px; height: 54px; flex: 0 0 54px; place-items: center; }
+.shop-page .checkout-item-image img { width: 50px; max-height: 43px; height: auto; object-fit: contain; }
+.shop-page .checkout-item-name { min-width: 0; overflow-wrap: anywhere; }
+.shop-page .checkout-item-price { flex: 0 0 auto; margin-left: auto; white-space: nowrap; }
+.shop-page .checkout-total-block { width: min(100%,422px); margin-top: 32px; }
+.shop-page .checkout-empty { width: 100%; margin: 0; padding: 24px; background: var(--color-muted); font-size: 16px; line-height: 24px; }
+.shop-page .payment-options { width: min(100%,425px); padding: 0; margin: 34px 0 32px; border: 0; }
+.shop-page .payment-row { display: flex; min-height: 24px; align-items: center; flex-wrap: wrap; gap: 12px; }
+.shop-page .payment-row + .payment-row { margin-top: 34px; }
+.shop-page .payment-row label { display: flex; align-items: center; gap: 16px; font-size: 16px; line-height: 24px; }
+.shop-page .payment-row input { width: 24px; height: 24px; flex: 0 0 24px; margin: 0; accent-color: var(--color-black); }
+.shop-page .payment-logos { display: flex; width: 188.5px; height: 24px; flex: 0 0 188.5px; align-items: center; justify-content: space-between; margin-left: auto; }
+.shop-page .payment-logos img { height: auto; object-fit: contain; }
+.shop-page .payment-logos img:nth-child(1), .shop-page .payment-logos img:nth-child(2) { width: 37.8px; }
+.shop-page .payment-logos img:nth-child(3), .shop-page .payment-logos img:nth-child(4) { width: 39.2px; }
+.shop-page .checkout-submit { min-width: 0; width: 190px; min-height: 56px; margin-top: 32px; padding: 12px 24px; font-size: 16px; font-weight: 500; }
+.shop-page .checkout-submit:disabled { opacity: .4; cursor: default; }
+@media (min-width: 768px) {
+  .shop-page .checkout-layout { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 40px; }
+  .shop-page .checkout-order { padding-top: 100px; }
+}
+@media (min-width: 1280px) {
+  .shop-page .checkout-content { padding-bottom: 140px; }
+  .shop-page .checkout-layout { grid-template-columns: 470px 527px; justify-content: space-between; gap: 0; }
+  .shop-page .checkout-title { margin-bottom: 48px; font-size: 36px; line-height: 30px; }
+  .shop-page .checkout-fields { gap: 32px; }
+  .shop-page .checkout-order { padding-top: 110px; }
+}
 @media (min-width: 480px) {
   .shop-page .product-buy-row { display: flex; }
   .shop-page .related-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }

@@ -110,6 +110,7 @@ window.Shop = (function () {
       if (field.disabled || field.closest('[hidden]')) return;
       if (field.required && !field.value.trim()) fieldError(field, 'Заповніть це поле.');
       else if (field.value && field.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/u.test(field.value)) fieldError(field, 'Введіть коректну електронну пошту.');
+      else if (field.value && field.type === 'tel' && !/^[+]?[\d\s()-]+$/u.test(field.value)) fieldError(field, 'Введіть коректний номер телефону.');
       else if (field.value && field.minLength > 0 && field.value.length < field.minLength) fieldError(field, 'Введіть щонайменше ' + field.minLength + ' символів.');
       else if (field.value && field.validity.patternMismatch) fieldError(field, 'Перевірте формат введених даних.');
     });
