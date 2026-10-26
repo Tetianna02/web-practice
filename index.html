@@ -12,12 +12,12 @@
   <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Перейти до вмісту</a>
+  <a class="skip-link" href="/web-practice/#main-content">Перейти до вмісту</a>
 
   <div class="announcement-bar">
     <div class="container announcement-content">
       <p>Літній розпродаж: знижки до 50% на вибрані товари</p>
-      <a href="#flash-sales">Переглянути пропозиції</a>
+      <a href="/web-practice/#flash-sales">Переглянути пропозиції</a>
       <button class="announcement-note" type="button" data-coming-soon aria-label="Мова сайту: українська">Українська
         <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-right"></use></svg>
       </button>
@@ -26,13 +26,14 @@
 
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Exclusive — на головну">Exclusive</a>
+      <a class="brand" href="/web-practice/#top" aria-label="Exclusive — на головну">Exclusive</a>
 
-      <nav class="desktop-navigation" aria-label="Основна навігація">
-        <a class="navigation-link is-current" href="#top" aria-current="page">Головна</a>
+      <nav class="desktop-navigation home-navigation" aria-label="Основна навігація">
+        <a class="navigation-link is-current" href="/web-practice/#top" aria-current="page">Головна</a>
         <button class="navigation-link navigation-button" type="button" data-coming-soon>Контакти</button>
         <button class="navigation-link navigation-button" type="button" data-coming-soon>Про нас</button>
-        <button class="navigation-link navigation-button" type="button" data-open-auth data-auth-start="login">Вхід</button>
+        <a class="navigation-link navigation-button" href="/web-practice/login.html">Вхід</a>
+        <a class="navigation-link navigation-button" href="/web-practice/signup.html">Реєстрація</a>
       </nav>
 
       <form class="search-form desktop-search" role="search">
@@ -73,12 +74,12 @@
       </button>
     </form>
     <ul class="mobile-primary-links">
-      <li><a href="#top">Головна</a></li>
-      <li><a href="#categories">Категорії</a></li>
-      <li><a href="#explore-products">Товари</a></li>
+      <li><a href="/web-practice/#top">Головна</a></li>
+      <li><a href="/web-practice/#categories">Категорії</a></li>
+      <li><a href="/web-practice/#explore-products">Товари</a></li>
       <li><button type="button" data-coming-soon>Про нас</button></li>
       <li><button type="button" data-coming-soon>Контакти</button></li>
-      <li><button type="button" data-open-auth>Вхід / Реєстрація</button></li>
+      <li><a href="/web-practice/login.html">Вхід</a><a href="/web-practice/signup.html">Реєстрація</a></li>
     </ul>
     <h2 class="mobile-categories-title">Категорії товарів</h2>
     <ul class="mobile-category-list" data-category-list="mobile"></ul>
@@ -96,7 +97,7 @@
             <p class="hero-eyebrow" data-hero-eyebrow>iPhone 14 Series</p>
           </div>
           <h1 class="hero-title" data-hero-title>До 10% знижки</h1>
-          <a class="hero-link" href="#explore-products">До пропозиції
+          <a class="hero-link" href="/web-practice/#explore-products">До пропозиції
             <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-arrow-next"></use></svg>
           </a>
         </div>
@@ -136,7 +137,7 @@
           </div>
         </div>
         <div class="horizontal-product-list scroll-rail" id="flash-products" data-product-list="flash" tabindex="0" role="region" aria-label="Товари розпродажу" aria-describedby="rail-keyboard-help"></div>
-        <div class="section-action-row"><a class="primary-button" href="#explore-products">Усі товари</a></div>
+        <div class="section-action-row"><a class="primary-button" href="/web-practice/#explore-products">Усі товари</a></div>
       </div>
     </section>
 
@@ -167,7 +168,7 @@
             <div class="section-kicker"><span class="section-marker"></span><span>Цього місяця</span></div>
             <h2 class="section-title">Популярні товари</h2>
           </div>
-          <a class="secondary-button" href="#explore-products">Переглянути</a>
+          <a class="secondary-button" href="/web-practice/#explore-products">Переглянути</a>
         </div>
         <div class="product-grid product-grid-four" data-product-list="best"></div>
       </div>
@@ -187,7 +188,7 @@
             </div>
             <p class="countdown-expired" data-countdown-expired role="status" hidden>Акцію завершено</p>
           </div>
-          <a class="promo-button" href="#explore-products">Купити</a>
+          <a class="promo-button" href="/web-practice/#explore-products">Купити</a>
         </div>
         <div class="promo-image-wrap">
           <img src="assets/images/optimized/promo-banner-jbl-lossless.webp" alt="Портативна колонка JBL Boombox" loading="lazy" decoding="async">
@@ -229,7 +230,7 @@
             <div class="arrival-card-copy">
               <h3>PlayStation 5</h3>
               <p>Чорно-біла версія PS5 вже у продажу.</p>
-              <a href="#explore-products">Переглянути</a>
+              <a href="/web-practice/#explore-products">Переглянути</a>
             </div>
           </article>
           <div class="arrival-side">
@@ -238,7 +239,7 @@
               <div class="arrival-card-copy">
                 <h3>Жіноча колекція</h3>
                 <p>Добірка жіночого одягу для нового образу</p>
-                <a href="#explore-products">Переглянути</a>
+                <a href="/web-practice/#explore-products">Переглянути</a>
               </div>
             </article>
             <div class="arrival-small-grid">
@@ -247,7 +248,7 @@
                 <div class="arrival-card-copy">
                   <h3>Аудіотехніка</h3>
                   <p>Звук для вашого дому</p>
-                  <a href="#explore-products">Переглянути</a>
+                  <a href="/web-practice/#explore-products">Переглянути</a>
                 </div>
               </article>
               <article class="arrival-card arrival-card-small arrival-card-perfume">
@@ -255,7 +256,7 @@
                 <div class="arrival-card-copy">
                   <h3>Парфумерія</h3>
                   <p>Знайдіть свій аромат</p>
-                  <a href="#explore-products">Переглянути</a>
+                  <a href="/web-practice/#explore-products">Переглянути</a>
                 </div>
               </article>
             </div>
@@ -289,7 +290,7 @@
   <footer class="site-footer" id="footer">
     <div class="container footer-grid">
       <div class="footer-column footer-brand-column">
-        <a class="brand footer-brand" href="#top">Exclusive</a>
+        <a class="brand footer-brand" href="/web-practice/#top">Exclusive</a>
         <h2>Підписка</h2>
         <p>Новинки та пропозиції</p>
         <form class="footer-subscribe" data-subscribe>
@@ -306,13 +307,13 @@
         <a href="mailto:demo@example.com">demo@example.com</a>
         <a href="tel:+380000000000">+38 (000) 000-00-00</a>
       </div>
-      <div class="footer-column">
+      <div class="footer-column home-account-column">
         <h2>Акаунт</h2>
         <button type="button" data-coming-soon>Мій акаунт</button>
-        <button type="button" data-open-auth data-auth-start="login">Вхід</button>
+        <a href="/web-practice/login.html">Вхід</a>
         <button type="button" data-coming-soon>Кошик</button>
         <button type="button" data-coming-soon>Обране</button>
-        <a href="#explore-products">Каталог</a>
+        <a href="/web-practice/#explore-products">Каталог</a>
       </div>
       <div class="footer-column">
         <h2>Корисне</h2>
@@ -349,44 +350,5 @@
   <p class="visually-hidden" id="rail-keyboard-help">Стрічка: клавіші ліворуч і праворуч для гортання, Home — на початок, End — у кінець.</p>
   <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
 
-  <dialog class="auth-dialog" aria-labelledby="auth-title">
-    <button class="dialog-close icon-button" type="button" aria-label="Закрити вікно"><span aria-hidden="true">×</span></button>
-    <p class="section-kicker"><span class="section-marker"></span><span>Ваш обліковий запис</span></p>
-    <h2 id="auth-title">Вхід або реєстрація</h2>
-    <div class="auth-tabs" role="tablist" aria-label="Оберіть дію">
-      <button id="auth-tab-register" type="button" role="tab" aria-selected="true" aria-controls="auth-panel" data-auth-mode="register">Реєстрація</button>
-      <button id="auth-tab-login" type="button" role="tab" aria-selected="false" aria-controls="auth-panel" tabindex="-1" data-auth-mode="login">Вхід</button>
-    </div>
-    <div id="auth-panel" role="tabpanel" aria-labelledby="auth-tab-register">
-      <form class="auth-form" novalidate>
-        <div class="form-field" data-field="name">
-          <label for="auth-name">Ім’я</label>
-          <input id="auth-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="auth-name-error">
-          <span class="field-error" id="auth-name-error"></span>
-        </div>
-        <div class="form-field" data-field="email">
-          <label for="auth-email">Електронна пошта</label>
-          <input id="auth-email" name="email" type="email" autocomplete="email" required aria-describedby="auth-email-error">
-          <span class="field-error" id="auth-email-error"></span>
-        </div>
-        <div class="form-field" data-field="password">
-          <label for="auth-password">Пароль</label>
-          <input id="auth-password" name="password" type="password" autocomplete="new-password" required minlength="8" aria-describedby="auth-password-error">
-          <span class="field-error" id="auth-password-error"></span>
-        </div>
-        <div class="form-field" data-field="confirm-password">
-          <label for="auth-confirm-password">Підтвердження пароля</label>
-          <input id="auth-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" required aria-describedby="auth-confirm-password-error">
-          <span class="field-error" id="auth-confirm-password-error"></span>
-        </div>
-        <div class="form-field consent-field" data-field="consent">
-          <label class="checkbox-label" for="auth-consent"><input id="auth-consent" name="consent" type="checkbox" required aria-describedby="auth-consent-error"><span>Погоджуюся з умовами користування та політикою конфіденційності</span></label>
-          <span class="field-error" id="auth-consent-error"></span>
-        </div>
-        <p class="form-status" data-form-status aria-live="polite"></p>
-        <button class="primary-button form-submit" type="submit">Створити обліковий запис</button>
-      </form>
-    </div>
-  </dialog>
 </body>
 </html>

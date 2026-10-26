@@ -2431,6 +2431,12 @@ input:focus-visible {
     margin: 0;
   }
 
+  .desktop-navigation.home-navigation {
+    width: auto;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+
   .navigation-link {
     padding: 0;
     font-size: 16px;
@@ -3157,6 +3163,7 @@ input:focus-visible {
   .footer-column p,
   .footer-column address,
   .footer-column a,
+  .footer-column.home-account-column > a,
   .footer-column > button:not(.footer-subscribe) {
     color: #fafafa;
     font-size: 16px;

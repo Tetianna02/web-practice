@@ -1,0 +1,358 @@
+{
+  "pages": [
+    {
+      "file": "login.html",
+      "width": 360,
+      "geometry": {
+        "scrollWidth": 360,
+        "width": 360,
+        "centerDelta": 0,
+        "barHeight": 52,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "login.html",
+      "width": 768,
+      "geometry": {
+        "scrollWidth": 768,
+        "width": 768,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "login.html",
+      "width": 1024,
+      "geometry": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "login.html",
+      "width": 1280,
+      "geometry": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "login.html",
+      "width": 1440,
+      "geometry": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "signup.html",
+      "width": 360,
+      "geometry": {
+        "scrollWidth": 360,
+        "width": 360,
+        "centerDelta": 0,
+        "barHeight": 52,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "signup.html",
+      "width": 768,
+      "geometry": {
+        "scrollWidth": 768,
+        "width": 768,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "signup.html",
+      "width": 1024,
+      "geometry": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "signup.html",
+      "width": 1280,
+      "geometry": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "signup.html",
+      "width": 1440,
+      "geometry": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "centerDelta": -0.0078125,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/assets/css/_variables.css",
+          "http://127.0.0.1:8000/assets/css/style.css",
+          "http://127.0.0.1:8000/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "404.html",
+      "width": 360,
+      "geometry": {
+        "scrollWidth": 360,
+        "width": 360,
+        "centerDelta": null,
+        "barHeight": 60,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/web-practice/assets/css/_variables.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/style.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "404.html",
+      "width": 768,
+      "geometry": {
+        "scrollWidth": 768,
+        "width": 768,
+        "centerDelta": null,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/web-practice/assets/css/_variables.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/style.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "404.html",
+      "width": 1024,
+      "geometry": {
+        "scrollWidth": 1024,
+        "width": 1024,
+        "centerDelta": null,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/web-practice/assets/css/_variables.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/style.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "404.html",
+      "width": 1280,
+      "geometry": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "centerDelta": null,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/web-practice/assets/css/_variables.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/style.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    },
+    {
+      "file": "404.html",
+      "width": 1440,
+      "geometry": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "centerDelta": null,
+        "barHeight": 48,
+        "headerOverlap": 0,
+        "styles": [
+          "http://127.0.0.1:8000/web-practice/assets/css/_variables.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/style.css",
+          "http://127.0.0.1:8000/web-practice/assets/css/auth-pages.css"
+        ]
+      },
+      "errors": [],
+      "bad": [],
+      "passed": true
+    }
+  ],
+  "returnFrom404": [
+    {
+      "entry": "404.html",
+      "width": 360,
+      "status": 200,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    },
+    {
+      "entry": "404.html",
+      "width": 1440,
+      "status": 200,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    },
+    {
+      "entry": "/web-practice/404.html",
+      "width": 360,
+      "status": 200,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    },
+    {
+      "entry": "/web-practice/404.html",
+      "width": 1440,
+      "status": 200,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    },
+    {
+      "entry": "/web-practice/missing/nested-page",
+      "width": 360,
+      "status": 404,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    },
+    {
+      "entry": "/web-practice/missing/nested-page",
+      "width": 1440,
+      "status": 404,
+      "destination": "http://127.0.0.1:8000/web-practice/index.html",
+      "mainCSS": [
+        "/web-practice/assets/css/_variables.css",
+        "/web-practice/assets/css/style.css"
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}
