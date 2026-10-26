@@ -1,2 +1,0 @@
-# Preserve external SOAP responses byte-for-byte; readable diagnostics also exist as JSON.
-jigsaw-*.xml -text -diff

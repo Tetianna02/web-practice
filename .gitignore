@@ -8,7 +8,16 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Local diagnostics retained from the previous working branch.
+# Local diagnostics and generated files.
 __pycache__/
-docs/report/2026-10-26/home-regression/
-docs/report/2026-10-26/home-auth-links/
+*.py[cod]
+docs/
+design/
+backup/
+reports/
+test-results/
+playwright-report/
+coverage/
+*.md
+*.log
+*.har

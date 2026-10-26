@@ -32,7 +32,7 @@ echo Залишайте це вікно відкритим, поки перег�
 echo Щоб зупинити сервер, закрийте це вікно або натисніть Ctrl+C.
 echo Якщо змінювали файли, оновіть сторінку: Ctrl+F5.
 echo.
-%EXCLUSIVE_PYTHON% -u tools\preview-server.py --port %EXCLUSIVE_PORT%
+%EXCLUSIVE_PYTHON% -u preview-server.py --port %EXCLUSIVE_PORT%
 if not errorlevel 1 exit /b 0
 echo.
 echo Сервер не запущено або його зупинено.
