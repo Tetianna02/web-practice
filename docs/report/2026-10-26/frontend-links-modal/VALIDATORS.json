@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-26",
+  "results": {
+    "index-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "product-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "product-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "index-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "login-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "login-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "signup-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "signup-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "404-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "404-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "cart-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "checkout-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "account-source": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "cart-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "checkout-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "account-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "product-errors-dom": {
+      "service": "W3C Nu",
+      "checked": true,
+      "errors": 0,
+      "messages": []
+    },
+    "product-question.css": {
+      "service": "W3C Jigsaw",
+      "checked": true,
+      "errors": [],
+      "warnings": [
+        {
+          "line": "3",
+          "level": "0",
+          "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+          "type": "css-variable"
+        },
+        {
+          "line": "3",
+          "level": "0",
+          "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+          "type": "css-variable"
+        },
+        {
+          "line": "3",
+          "level": "0",
+          "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+          "type": "css-variable"
+        },
+        {
+          "line": "5",
+          "level": "0",
+          "message": "Due to their dynamic nature, CSS variables are currently not statically checked",
+          "type": "css-variable"
+        }
+      ]
+    }
+  }
+}

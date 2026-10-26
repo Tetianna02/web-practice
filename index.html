@@ -30,8 +30,8 @@
 
       <nav class="desktop-navigation home-navigation" aria-label="Основна навігація">
         <a class="navigation-link is-current" href="/web-practice/#top" aria-current="page">Головна</a>
-        <button class="navigation-link navigation-button" type="button" data-coming-soon>Контакти</button>
-        <button class="navigation-link navigation-button" type="button" data-coming-soon>Про нас</button>
+        <a class="navigation-link navigation-button" href="/web-practice/#contacts">Контакти</a>
+        <a class="navigation-link navigation-button" href="/web-practice/#services">Про нас</a>
         <a class="navigation-link navigation-button" href="/web-practice/login.html">Вхід</a>
         <a class="navigation-link navigation-button" href="/web-practice/signup.html">Реєстрація</a>
       </nav>
@@ -48,9 +48,9 @@
         <button class="icon-button favorite-button" type="button" data-coming-soon aria-label="Обране">
           <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg>
         </button>
-        <button class="icon-button cart-button" type="button" data-coming-soon aria-label="Кошик">
+        <a class="icon-button cart-button" href="/web-practice/cart.html" aria-label="Кошик">
           <svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-cart"></use></svg>
-        </button>
+        </a>
         <button class="menu-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Відкрити меню">
           <span></span><span></span><span></span>
         </button>
@@ -77,8 +77,8 @@
       <li><a href="/web-practice/#top">Головна</a></li>
       <li><a href="/web-practice/#categories">Категорії</a></li>
       <li><a href="/web-practice/#explore-products">Товари</a></li>
-      <li><button type="button" data-coming-soon>Про нас</button></li>
-      <li><button type="button" data-coming-soon>Контакти</button></li>
+      <li><a href="/web-practice/#services">Про нас</a></li>
+      <li><a href="/web-practice/#contacts">Контакти</a></li>
       <li><a href="/web-practice/login.html">Вхід</a><a href="/web-practice/signup.html">Реєстрація</a></li>
     </ul>
     <h2 class="mobile-categories-title">Категорії товарів</h2>
@@ -188,7 +188,7 @@
             </div>
             <p class="countdown-expired" data-countdown-expired role="status" hidden>Акцію завершено</p>
           </div>
-          <a class="promo-button" href="/web-practice/#explore-products">Купити</a>
+          <a class="promo-button" href="/web-practice/product.html">Купити</a>
         </div>
         <div class="promo-image-wrap">
           <img src="assets/images/optimized/promo-banner-jbl-lossless.webp" alt="Портативна колонка JBL Boombox" loading="lazy" decoding="async">
@@ -301,7 +301,7 @@
           </button>
         </form>
       </div>
-      <div class="footer-column">
+      <div class="footer-column" id="contacts">
         <h2>Підтримка</h2>
         <address>Україна<br>Пн–Пт, 09:00–18:00</address>
         <a href="mailto:demo@example.com">demo@example.com</a>
@@ -309,9 +309,9 @@
       </div>
       <div class="footer-column home-account-column">
         <h2>Акаунт</h2>
-        <button type="button" data-coming-soon>Мій акаунт</button>
+        <a href="/web-practice/account.html">Мій акаунт</a>
         <a href="/web-practice/login.html">Вхід</a>
-        <button type="button" data-coming-soon>Кошик</button>
+        <a href="/web-practice/cart.html">Кошик</a>
         <button type="button" data-coming-soon>Обране</button>
         <a href="/web-practice/#explore-products">Каталог</a>
       </div>
@@ -320,7 +320,7 @@
         <button type="button" data-coming-soon>Приватність</button>
         <button type="button" data-coming-soon>Умови</button>
         <button type="button" data-coming-soon>Питання</button>
-        <button type="button" data-coming-soon>Контакти</button>
+        <a href="/web-practice/#contacts">Контакти</a>
       </div>
       <div class="footer-column footer-app-column">
         <h2>Застосунок</h2>

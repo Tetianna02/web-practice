@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="assets/css/_variables.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/shop-pages.css">
+  <link rel="stylesheet" href="assets/css/product-question.css">
   <script src="assets/js/site.js" defer></script>
   <script src="assets/js/shop.js" defer></script>
   <script src="assets/js/product.js" defer></script>
+  <script src="assets/js/product-question.js" defer></script>
 </head>
 <body class="shop-page product-page">
 
@@ -35,8 +37,8 @@
 
       <nav class="desktop-navigation shop-navigation" aria-label="Основна навігація">
         <a class="navigation-link" href="/web-practice/">Головна</a>
-        <button class="navigation-link navigation-button" type="button" data-coming-soon>Контакти</button>
-        <button class="navigation-link navigation-button" type="button" data-coming-soon>Про нас</button>
+        <a class="navigation-link navigation-button" href="/web-practice/#contacts">Контакти</a>
+        <a class="navigation-link navigation-button" href="/web-practice/#services">Про нас</a>
         <a class="navigation-link navigation-button" href="/web-practice/login.html">Вхід</a>
         <a class="navigation-link navigation-button" href="/web-practice/signup.html">Реєстрація</a>
       </nav>
@@ -92,8 +94,8 @@
       <li><a href="/web-practice/#explore-products">Товари</a></li>
       <li><a href="/web-practice/cart.html">Кошик</a></li>
       <li><a href="/web-practice/account.html">Мій акаунт</a></li>
-      <li><button type="button" data-coming-soon>Про нас</button></li>
-      <li><button type="button" data-coming-soon>Контакти</button></li>
+      <li><a href="/web-practice/#services">Про нас</a></li>
+      <li><a href="/web-practice/#contacts">Контакти</a></li>
       <li><a href="/web-practice/login.html">Вхід</a><a href="/web-practice/signup.html">Реєстрація</a></li>
     </ul>
     <h2 class="mobile-categories-title">Категорії товарів</h2>
@@ -129,11 +131,23 @@
             <div class="delivery-row"><img src="assets/images/icons/icon-delivery.svg" alt="" width="40" height="40"><div><h2>Безкоштовна доставка</h2><p><button class="delivery-text-button" type="button" data-coming-soon>Перевірити доставку за індексом</button></p></div></div>
             <div class="delivery-row"><img src="assets/images/icons/Icon-return.svg" alt="" width="40" height="40"><div><h2>Повернення товару</h2><p>Повернення протягом 30 днів. <button class="delivery-text-button" type="button" data-coming-soon>Деталі</button></p></div></div>
           </div>
+          <button class="product-question-trigger" type="button" data-open-product-question aria-haspopup="dialog" aria-controls="product-question-dialog" disabled>Запитати про товар</button>
         </div>
       </section>
       <section class="related-section" aria-labelledby="related-title"><h2 class="related-title" id="related-title"><span class="section-marker" aria-hidden="true"></span>Схожі товари</h2><div class="related-grid"><article class="related-card"><div class="related-media product-media"><span class="related-discount">−40%</span><div class="product-image-frame" data-image-frame><img class="product-image" src="assets/images/optimized/product-gamepad-havit.webp" alt="Геймпад HAVIT HV-G92" loading="lazy"><span class="shop-image-fallback" hidden>Зображення тимчасово недоступне</span></div><div class="related-tools"><button type="button" data-coming-soon aria-label="Додати до обраного"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg></button><button type="button" data-coming-soon aria-label="Переглянути Геймпад HAVIT HV-G92"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-eye"></use></svg></button></div><button class="related-add" type="button" data-add-product="gamepad">Додати в кошик</button></div><h3>Геймпад HAVIT HV-G92</h3><p class="related-prices"><strong>1199 ₴</strong><s>1999 ₴</s></p><div class="related-rating"><span class="detail-stars" role="img" aria-label="Оцінка 5 з 5"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg></span><span>(88)</span></div></article><article class="related-card"><div class="related-media product-media"><span class="related-discount">−35%</span><div class="product-image-frame" data-image-frame><img class="product-image" src="assets/images/optimized/product-keyboard-ak900.webp" alt="Дротова клавіатура AK-900" loading="lazy"><span class="shop-image-fallback" hidden>Зображення тимчасово недоступне</span></div><div class="related-tools"><button type="button" data-coming-soon aria-label="Додати до обраного"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg></button><button type="button" data-coming-soon aria-label="Переглянути Дротова клавіатура AK-900"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-eye"></use></svg></button></div><button class="related-add" type="button" data-add-product="keyboard">Додати в кошик</button></div><h3>Дротова клавіатура AK-900</h3><p class="related-prices"><strong>2599 ₴</strong><s>3999 ₴</s></p><div class="related-rating"><span class="detail-stars" role="img" aria-label="Оцінка 4 з 5"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star-empty"></use></svg></span><span>(75)</span></div></article><article class="related-card"><div class="related-media product-media"><span class="related-discount">−30%</span><div class="product-image-frame" data-image-frame><img class="product-image" src="assets/images/optimized/product-monitor-ips.webp" alt="Ігровий IPS LCD монітор" loading="lazy"><span class="shop-image-fallback" hidden>Зображення тимчасово недоступне</span></div><div class="related-tools"><button type="button" data-coming-soon aria-label="Додати до обраного"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg></button><button type="button" data-coming-soon aria-label="Переглянути Ігровий IPS LCD монітор"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-eye"></use></svg></button></div><button class="related-add" type="button" data-add-product="monitor">Додати в кошик</button></div><h3>Ігровий IPS LCD монітор</h3><p class="related-prices"><strong>7499 ₴</strong><s>9999 ₴</s></p><div class="related-rating"><span class="detail-stars" role="img" aria-label="Оцінка 5 з 5"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg></span><span>(99)</span></div></article><article class="related-card"><div class="related-media product-media"><div class="product-image-frame" data-image-frame><img class="product-image" src="assets/images/optimized/product-cpu-cooler.webp" alt="Кулер RGB Liquid CPU" loading="lazy"><span class="shop-image-fallback" hidden>Зображення тимчасово недоступне</span></div><div class="related-tools"><button type="button" data-coming-soon aria-label="Додати до обраного"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-heart"></use></svg></button><button type="button" data-coming-soon aria-label="Переглянути Кулер RGB Liquid CPU"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-eye"></use></svg></button></div><button class="related-add" type="button" data-add-product="cooler">Додати в кошик</button></div><h3>Кулер RGB Liquid CPU</h3><p class="related-prices"><strong>3499 ₴</strong><s>4499 ₴</s></p><div class="related-rating"><span class="detail-stars" role="img" aria-label="Оцінка 4 з 5"><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star"></use></svg><svg class="icon" aria-hidden="true"><use href="assets/images/icons/sprite.svg#icon-star-empty"></use></svg></span><span>(65)</span></div></article></div></section>
     </div>
   </main>
+  <dialog class="product-question-dialog" id="product-question-dialog" aria-labelledby="product-question-title" aria-describedby="product-question-description">
+    <button class="product-question-close" type="button" data-close-product-question aria-label="Закрити запитання"><span aria-hidden="true">×</span></button>
+    <h2 id="product-question-title">Запитати про товар</h2>
+    <p class="product-question-description" id="product-question-description">Маєте запитання про Havic HV G-92 Gamepad? Заповніть форму.</p>
+    <form class="product-question-form" data-product-question-form method="dialog" novalidate>
+      <div class="shop-field"><label for="question-name">Ім’я</label><input id="question-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="question-name-error"><span class="shop-field-error" id="question-name-error"></span></div>
+      <div class="shop-field"><label for="question-email">Електронна пошта</label><input id="question-email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="question-email-error"><span class="shop-field-error" id="question-email-error"></span></div>
+      <div class="shop-field"><label for="question-text">Ваше запитання</label><textarea id="question-text" name="question" rows="4" required maxlength="1000" aria-describedby="question-text-error"></textarea><span class="shop-field-error" id="question-text-error"></span></div>
+      <button class="primary-button product-question-submit" type="submit">Надіслати запитання</button>
+    </form>
+  </dialog>
   <footer class="site-footer" id="footer">
     <div class="container footer-grid">
       <div class="footer-column footer-brand-column">
@@ -167,7 +181,7 @@
         <button type="button" data-coming-soon>Приватність</button>
         <button type="button" data-coming-soon>Умови</button>
         <button type="button" data-coming-soon>Питання</button>
-        <button type="button" data-coming-soon>Контакти</button>
+        <a href="/web-practice/#contacts">Контакти</a>
       </div>
       <div class="footer-column footer-app-column">
         <h2>Застосунок</h2>
