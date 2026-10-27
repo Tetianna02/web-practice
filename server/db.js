@@ -8,7 +8,8 @@ let pool;
 function getPool() {
   if (!pool) {
     const host = required('DATABASE_HOST');
-    const caPath = process.env.DATABASE_CA_FILE;
+    // Public Supabase CA, as linked by the official dashboard's SSL configuration.
+    const caPath = process.env.DATABASE_CA_FILE || 'server/certs/supabase-prod-ca-2021.crt';
     pool = new Pool({
       host,
       port: integer('DATABASE_PORT', 5432, 1, 65535),
@@ -18,7 +19,7 @@ function getPool() {
       ssl: {
         rejectUnauthorized: true,
         servername: host,
-        ...(caPath ? { ca: fs.readFileSync(path.resolve(__dirname, '..', caPath), 'utf8') } : {}),
+        ca: fs.readFileSync(path.resolve(__dirname, '..', caPath), 'utf8'),
       },
       max: 5,
       connectionTimeoutMillis: 7000,

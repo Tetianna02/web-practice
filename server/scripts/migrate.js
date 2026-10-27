@@ -15,7 +15,7 @@ async function migrate() {
     await client.query('REVOKE ALL ON SCHEMA shop FROM PUBLIC, anon, authenticated');
     await client.query('REVOKE ALL ON shop.migrations FROM PUBLIC, anon, authenticated');
     for (const file of files) {
-      const sql = fs.readFileSync(path.join(folder, file), 'utf8');
+      const sql = fs.readFileSync(path.join(folder, file), 'utf8').replace(/\r\n/g, '\n');
       const checksum = createHash('sha256').update(sql).digest('hex');
       const { rows } = await client.query('SELECT checksum FROM shop.migrations WHERE name = $1', [file]);
       if (rows.length) {
