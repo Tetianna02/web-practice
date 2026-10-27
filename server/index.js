@@ -7,6 +7,7 @@ const { HttpError } = require('./validation');
 const auth = require('./auth');
 const catalog = require('./catalog');
 const orders = require('./orders');
+const { getAdmin } = require('./supabase');
 
 const supabase = createClient(
   config.supabaseUrl,
@@ -60,6 +61,14 @@ app.get('/api/health/database', async (req, res) => {
   });
 });
 
+app.get('/api/health/auth', async (req, res) => {
+  getAdmin();
+  const result = await db.query('SELECT count(*)::int AS remaining FROM shop.users WHERE auth_user_id IS NULL AND password_hash IS NOT NULL');
+  res.status(result.rows[0].remaining ? 503 : 200).json({
+    provider: 'supabase', status: result.rows[0].remaining ? 'migration_required' : 'ok',
+  });
+});
+
 app.use('/api/auth', auth.router);
 app.use('/api', catalog.router);
 app.use('/api', orders.router);
@@ -78,7 +87,7 @@ app.use((error, req, res, next) => {
     return res.status(400).json({ message: 'Дані не відповідають обмеженням бази. Перевірте поля та ціни.' });
   }
   const unavailable = ['ECONNREFUSED', 'ENETUNREACH', 'ETIMEDOUT', 'ENOTFOUND', 'ENETDOWN', 'EHOSTUNREACH',
-    'ECONNRESET', '28P01', '28000', '42P01', '3F000', '53300', '57014', '08006', '57P01',
+    'ECONNRESET', '28P01', '28000', '42P01', '42703', '3F000', '53300', '57014', '08006', '57P01',
     'SELF_SIGNED_CERT_IN_CHAIN', 'UNABLE_TO_VERIFY_LEAF_SIGNATURE', 'CERT_HAS_EXPIRED'].includes(error.code)
     || /DATABASE_|JWT_SECRET|timeout|Connection terminated/i.test(error.message || '');
   if (unavailable) return res.status(503).json({ message: 'База даних недоступна або ще не налаштована. Перевірте .env та виконайте db:migrate.' });

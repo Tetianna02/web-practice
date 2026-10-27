@@ -8,6 +8,7 @@
     "start": "node index.js",
     "db:migrate": "node scripts/migrate.js",
     "db:seed": "node scripts/seed.js",
+    "auth:migrate": "node scripts/migrate-auth.js",
     "user:admin": "node scripts/make-admin.js"
   },
   "engines": {

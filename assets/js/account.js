@@ -115,7 +115,9 @@
     saving = true; save.disabled = true; form.setAttribute('aria-busy', 'true');
     try {
       const result = await Store.request('/auth/me', { method: 'PATCH', auth: true, body: payload });
-      populate(result.data); Store.updateUser(result.data);
+      populate(result.data);
+      if (result.session) Store.updateSession(result.session);
+      else Store.updateUser(result.data);
       status.textContent = 'Зміни профілю збережено.'; showToast('Профіль оновлено');
     } catch (error) { status.textContent = error.message; Store.fieldErrors(form, error, fields); }
     finally { saving = false; save.disabled = false; form.removeAttribute('aria-busy'); }

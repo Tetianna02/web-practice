@@ -5,14 +5,16 @@ window.Store = (function () {
   const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
   const deployedApi = '';
   const base = (window.STORE_API_URL || (local ? 'http://' + location.hostname + ':3000/api' : deployedApi)).replace(/\/$/, '');
-  const sessionKey = 'exclusive-auth-v1';
+  const sessionKey = 'exclusive-supabase-auth-v1';
   let session = null;
   let userPromise = null;
   let catalogPromise = null;
+  let refreshPromise = null;
   try {
     const saved = JSON.parse(sessionStorage.getItem(sessionKey));
-    if (saved && typeof saved.token === 'string' && Date.parse(saved.expiresAt) > Date.now()) session = saved;
+    if (saved && typeof saved.token === 'string' && typeof saved.refreshToken === 'string' && Number.isFinite(Date.parse(saved.expiresAt))) session = saved;
     else sessionStorage.removeItem(sessionKey);
+    sessionStorage.removeItem('exclusive-auth-v1');
   } catch (_) { /* The current page can still work without browser storage. */ }
 
   class ApiError extends Error {
@@ -20,7 +22,7 @@ window.Store = (function () {
   }
 
   function setSession(value) {
-    session = value ? { token: value.token, expiresAt: value.expiresAt } : null;
+    session = value ? { token: value.token, refreshToken: value.refreshToken, expiresAt: value.expiresAt } : null;
     userPromise = value ? Promise.resolve(value.user) : null;
     try {
       if (session) sessionStorage.setItem(sessionKey, JSON.stringify(session));
@@ -29,13 +31,33 @@ window.Store = (function () {
     window.dispatchEvent(new CustomEvent('store:auth-change'));
   }
 
+  async function refreshSession() {
+    if (!session?.refreshToken) throw new ApiError('Увійдіть у свій акаунт.', 401);
+    if (!refreshPromise) {
+      const previous = session;
+      refreshPromise = request('/auth/refresh', { method: 'POST', body: { refreshToken: previous.refreshToken } }).then(function (value) {
+        if (session !== previous) {
+          if (!session) throw new ApiError('Сеанс завершено.', 401);
+          return;
+        }
+        setSession(value);
+      }).catch(function (error) {
+        if (error.status === 401 && session === previous) setSession(null);
+        throw error;
+      }).finally(function () { refreshPromise = null; });
+    }
+    return refreshPromise;
+  }
+
+  async function ensureSession() {
+    if (!session) throw new ApiError('Увійдіть у свій акаунт.', 401);
+    if (Date.parse(session.expiresAt) <= Date.now() + 30000) await refreshSession();
+  }
+
   async function request(endpoint, options) {
     options = options || {};
     if (!base) throw new ApiError('Сервер ще не опубліковано. Поки відкрийте сайт через локальний сервер.');
-    if (options.auth && (!session || Date.parse(session.expiresAt) <= Date.now())) {
-      setSession(null);
-      throw new ApiError('Увійдіть у свій акаунт.', 401);
-    }
+    if (options.auth) await ensureSession();
     const controller = new AbortController();
     const timeout = setTimeout(function () { controller.abort(); }, 25000);
     try {
@@ -50,6 +72,10 @@ window.Store = (function () {
       const data = response.status === 204 ? null : await response.json();
       if (!response.ok) {
         if (options.auth && response.status === 401) {
+          if (!options.refreshed && session?.refreshToken) {
+            await refreshSession();
+            return request(endpoint, Object.assign({}, options, { refreshed: true }));
+          }
           setSession(null);
           if (/\/(account|checkout)\.html$/.test(location.pathname)) location.assign(loginUrl());
         }
@@ -99,6 +125,9 @@ window.Store = (function () {
   }
   async function authenticate(mode, input) {
     const result = await request('/auth/' + (mode === 'register' ? 'register' : 'login'), { method: 'POST', body: input });
+    if (!result.token || !result.refreshToken || !result.expiresAt) {
+      throw new ApiError('Запущено попередню версію сервера. Перезапустіть Node.js для Supabase Auth.', 503);
+    }
     setSession(result);
     return result.user;
   }
@@ -184,5 +213,5 @@ window.Store = (function () {
   return { request: request, page: page, productUrl: productUrl, loginUrl: loginUrl, afterLogin: afterLogin,
     currentUser: currentUser, requireUser: requireUser, authenticate: authenticate, logout: logout,
     catalog: catalog, search: search, uuid: uuid, loadScript: loadScript, fieldErrors: fieldErrors,
-    updateUser: function (user) { userPromise = Promise.resolve(user); }, ApiError: ApiError };
+    updateUser: function (user) { userPromise = Promise.resolve(user); }, updateSession: setSession, ApiError: ApiError };
 })();
