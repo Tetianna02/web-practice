@@ -1,5 +1,14 @@
 'use strict';
 
+window.StoreReady = new Promise(function (resolve, reject) {
+  const script = document.createElement('script');
+  script.src = new URL('api.js', document.currentScript.src).href;
+  script.onload = function () { resolve(window.Store); };
+  script.onerror = function () { reject(new Error('Не вдалося завантажити API-модуль. Оновіть сторінку.')); };
+  document.head.append(script);
+});
+window.StoreReady.catch(function () {});
+
 const comingSoonMessage = 'Буде доступно на наступному етапі';
 
 function showToast(message) {

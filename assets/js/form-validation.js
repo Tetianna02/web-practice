@@ -35,6 +35,8 @@ window.FormValidation = (function () {
     }
     if (password && (!password.value.trim() || password.value.length < 8)) {
       errorFor(password, 'Пароль має містити щонайменше 8 символів.');
+    } else if (password && new TextEncoder().encode(password.value).length > 72) {
+      errorFor(password, 'Пароль має бути не довшим за 72 байти UTF-8.');
     }
     if (mode === 'register' && confirmation && password) {
       if (!confirmation.value) errorFor(confirmation, 'Підтвердьте пароль.');

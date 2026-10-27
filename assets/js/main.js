@@ -1,5 +1,14 @@
 'use strict';
 
+window.StoreReady = new Promise(function (resolve, reject) {
+  const script = document.createElement('script');
+  script.src = new URL('api.js', document.currentScript.src).href;
+  script.onload = function () { resolve(window.Store); };
+  script.onerror = function () { reject(new Error('Не вдалося завантажити API-модуль. Оновіть сторінку.')); };
+  document.head.append(script);
+});
+window.StoreReady.catch(function () {});
+
 const iconSprite = 'assets/images/icons/sprite.svg#icon-';
 const comingSoonMessage = 'Буде доступно на наступному етапі';
 const categories = [
@@ -23,32 +32,9 @@ const sidebarCategories = [
   { name: 'Здоров’я та краса', filter: 'beauty' }
 ];
 
-const saleProducts = [
-  { id: 'gamepad-havit', name: 'Геймпад HAVIT HV-G92', category: 'gaming', price: 1199, oldPrice: 1999, discount: 40, rating: 5, reviews: 88, image: 'product-gamepad-havit.webp', alt: 'Червоний ігровий контролер Havit' },
-  { id: 'keyboard-ak900', name: 'Дротова клавіатура AK-900', category: 'computers', price: 2599, oldPrice: 3999, discount: 35, rating: 4, reviews: 75, image: 'product-keyboard-ak900.webp', alt: 'Чорна клавіатура AK-900' },
-  { id: 'monitor-ips', name: 'Ігровий IPS LCD монітор', category: 'computers', price: 7499, oldPrice: 9999, discount: 30, rating: 5, reviews: 99, image: 'product-monitor-ips.webp', alt: 'Монітор із тонкою рамкою' },
-  { id: 'comfort-chair', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре м’яке крісло' },
-  { id: 'comfort-chair-beige', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре крісло S-Series Comfort' },
-  { id: 'canon-camera', name: 'Цифрова камера Canon для подорожей', category: 'camera', price: 14999, oldPrice: 16999, discount: 12, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Цифрова камера Canon' }
-];
-
-const bestProducts = [
-  { id: 'north-coat', name: 'Пальто The North', category: 'clothing', price: 9999, oldPrice: 13999, rating: 5, reviews: 65, image: 'product-coat-north.webp', alt: 'Рожеве зимове пальто' },
-  { id: 'gucci-bag', name: 'Сумка Gucci', category: 'clothing', price: 12999, oldPrice: 15999, rating: 4.5, reviews: 65, image: 'product-bag-gucci.webp', alt: 'Шкіряна сумка з кольоровою стрічкою' },
-  { id: 'cpu-cooler', name: 'Кулер RGB Liquid CPU', category: 'computers', price: 3499, oldPrice: 3999, rating: 4.5, reviews: 65, image: 'product-cpu-cooler.webp', alt: 'Система охолодження з RGB-підсвічуванням' },
-  { id: 'bookshelf', name: 'Книжкова полиця', category: 'home', price: 2299, rating: 5, reviews: 65, image: 'product-bookshelf.webp', alt: 'Дерев’яна книжкова полиця' }
-];
-
-const exploreProducts = [
-  { id: 'dog-food', name: 'Сухий корм для собак', category: 'pets', price: 799, rating: 3, reviews: 35, image: 'product-dog-food.webp', alt: 'Паковання сухого корму для собак' },
-  { id: 'canon-eos', name: 'Фотоапарат CANON EOS', category: 'camera', price: 21999, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Фотоапарат Canon з об’єктивом' },
-  { id: 'gaming-laptop', name: 'Ігровий ноутбук ASUS', category: 'computers', price: 34999, rating: 5, reviews: 325, image: 'product-laptop-asus.webp', alt: 'Ігровий ноутбук ASUS' },
-  { id: 'skin-care', name: 'Набір догляду Curology', category: 'beauty', price: 1299, rating: 4, reviews: 145, image: 'product-cosmetics-curology.webp', alt: 'Набір косметичних засобів' },
-  { id: 'toy-car', isNew: true, colors: ['#fb1313', '#db4444'], name: 'Дитячий електромобіль', category: 'children', price: 8999, rating: 5, reviews: 65, image: 'product-toy-car.webp', alt: 'Червоний дитячий електромобіль' },
-  { id: 'football-cleats', colors: ['#e2ff54', '#db4444'], name: 'Бутси Jr. Zoom Soccer', category: 'sports', price: 2899, rating: 5, reviews: 35, image: 'product-shoes-cleats.webp', alt: 'Футбольні бутси жовтого кольору' },
-  { id: 'wireless-gamepad', isNew: true, colors: ['#000000', '#db4444'], name: 'Геймпад GP11 Shooter USB', category: 'gaming', price: 1699, rating: 4.5, reviews: 55, image: 'product-gamepad-fantech.webp', alt: 'Чорний бездротовий ігровий контролер' },
-  { id: 'satin-jacket', colors: ['#184a48', '#db4444'], name: 'Сатинова куртка Quilted', category: 'clothing', price: 3299, rating: 4.5, reviews: 55, image: 'product-jacket-satin.webp', alt: 'Темно-зелена сатинова куртка' }
-];
+let saleProducts = [];
+let bestProducts = [];
+let exploreProducts = [];
 
 const heroSlides = [
   { eyebrow: 'Аудіотехніка JBL', title: 'Музика без меж', image: 'assets/images/optimized/figma-jbl-boombox.webp', alt: 'Портативна колонка JBL Boombox' },
@@ -122,7 +108,7 @@ function createProductCard(product) {
   preview.className = 'product-tool';
   preview.type = 'button';
   preview.setAttribute('aria-label', 'Переглянути товар: ' + product.name);
-  preview.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
+  preview.addEventListener('click', function () { window.location.href = '/web-practice/product.html?id=' + encodeURIComponent(product.id); });
   preview.append(createIcon('eye'));
   tools.append(favorite, preview);
 
@@ -136,7 +122,7 @@ function createProductCard(product) {
   addButton.className = 'product-add-button';
   addButton.type = 'button';
   addButton.textContent = 'Купити';
-  addButton.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
+  addButton.addEventListener('click', function () { window.location.href = '/web-practice/product.html?id=' + encodeURIComponent(product.id); });
   media.append(addButton);
 
   const name = document.createElement('h3');
@@ -176,7 +162,7 @@ function createProductCard(product) {
   meta.className = 'product-meta';
   meta.append(prices, rating);
   card.append(media, name, meta);
-  if (product.colors) {
+  if (product.colors && product.colors.length) {
     card.classList.add('has-swatches');
     const swatches = document.createElement('div');
     swatches.className = 'product-swatches';
@@ -294,10 +280,47 @@ function updateProductVisibility(resetScroll = true) {
   }
 }
 
-renderProductList('flash', saleProducts, true);
-renderProductList('best', bestProducts, true);
-renderProductList('explore', exploreProducts, true);
-updateProductVisibility(false);
+async function loadHomeProducts() {
+  const lists = document.querySelectorAll('[data-product-list]');
+  lists.forEach(function (list) { list.setAttribute('aria-busy', 'true'); });
+  if (searchStatus) searchStatus.textContent = 'Завантажуємо товари…';
+  try {
+    const api = await window.StoreReady;
+    const results = await Promise.all([api.catalog(), api.request('/categories')]);
+    const products = results[0];
+    saleProducts = products.filter(function (item) { return item.section === 'flash'; });
+    bestProducts = products.filter(function (item) { return item.section === 'best'; });
+    exploreProducts = products.filter(function (item) { return item.section === 'catalog'; });
+    renderProductList('flash', saleProducts, true);
+    renderProductList('best', bestProducts, true);
+    renderProductList('explore', exploreProducts, true);
+    results[1].data.forEach(function (category) {
+      const button = document.querySelector('[data-category-filter="' + category.id + '"]');
+      if (button) { button.querySelector('span').textContent = category.name; button.querySelector('span').title = category.name; }
+    });
+    const query = new URLSearchParams(location.search);
+    activeQuery = (query.get('q') || '').trim().toLocaleLowerCase('uk-UA');
+    activeCategory = query.get('category') || null;
+    document.querySelectorAll('.search-form input').forEach(function (input) { input.value = query.get('q') || ''; });
+    updateProductVisibility(false);
+    if (!products.length && searchStatus) searchStatus.textContent = 'У каталозі поки немає товарів.';
+    scheduleRailControls();
+  } catch (error) { if (searchStatus) searchStatus.textContent = error.message; }
+  finally { lists.forEach(function (list) { list.removeAttribute('aria-busy'); }); }
+}
+window.HomeReady = loadHomeProducts();
+
+const promoBuy = document.querySelector('.promo-button');
+if (promoBuy) promoBuy.addEventListener('click', async function (event) {
+  event.preventDefault();
+  try {
+    const api = await window.StoreReady;
+    const products = await api.catalog();
+    const product = products.find(function (item) { return /jbl/i.test(item.name); });
+    if (product) location.assign(api.productUrl(product.id));
+    else showToast('Товар JBL ще не додано до каталогу.');
+  } catch (error) { showToast(error.message); }
+});
 
 function selectCategory(categoryId) {
   activeCategory = activeCategory === categoryId ? null : categoryId;
@@ -334,7 +357,8 @@ document.querySelectorAll('.search-form').forEach(function (form) {
     event.preventDefault();
     activeQuery = input.value.trim().toLocaleLowerCase('uk-UA');
     updateProductVisibility();
-    const target = document.getElementById('explore-products');
+    const first = document.querySelector('.product-card:not([hidden])');
+    const target = first ? first.closest('section') : document.getElementById('explore-products');
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     closeMobileMenu();
   });
