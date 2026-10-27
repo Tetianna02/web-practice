@@ -102,7 +102,8 @@ app.use((error, req, res, next) => {
 
 if (require.main === module) {
   const port = config.port;
-  const server = app.listen(port, () => {
+  const server = app.listen(port);
+  server.on('listening', () => {
     console.log(`Сервер запущено: http://localhost:${port}/api/health`);
   });
 

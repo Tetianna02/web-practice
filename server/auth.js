@@ -2,7 +2,7 @@ const express = require('express');
 const { rateLimit } = require('express-rate-limit');
 const db = require('./db');
 const v = require('./validation');
-const { createAuthClient, getAdmin, authError } = require('./supabase');
+const { createAuthClient, getAdmin, authError, sessionAlreadyEnded } = require('./supabase');
 
 const router = express.Router();
 const verifier = createAuthClient();
@@ -143,7 +143,7 @@ router.get('/me', requireAuth, (req, res) => res.json({ data: publicUser(req.use
 
 router.post('/logout', requireAuth, async (req, res) => {
   const result = await getAdmin().auth.admin.signOut(req.accessToken, 'local');
-  if (result.error && ![401, 403, 404].includes(result.error.status)) authError(result.error);
+  if (result.error && !sessionAlreadyEnded(result.error)) authError(result.error);
   await db.query('DELETE FROM shop.sessions WHERE id = $1 AND user_id = $2', [req.sessionId, req.user.id]);
   res.status(204).end();
 });
@@ -168,7 +168,7 @@ router.patch('/me', requireAuth, async (req, res) => {
       v.fail('currentPassword', 'Введіть правильний поточний пароль.');
     }
     const signedOut = await admin.auth.admin.signOut(checked.data.session.access_token, 'local');
-    authError(signedOut.error);
+    if (!sessionAlreadyEnded(signedOut.error)) authError(signedOut.error);
     if (changes.email !== undefined) {
       const conflict = await db.query('SELECT id FROM shop.users WHERE email = $1 AND id <> $2', [changes.email, req.user.id]);
       if (conflict.rows.length) throw new v.HttpError(409, 'Цю електронну пошту вже використовує інший акаунт.');
@@ -189,7 +189,7 @@ router.patch('/me', requireAuth, async (req, res) => {
     } else row = req.user;
     if (credentialsChanged) {
       const signOut = await admin.auth.admin.signOut(req.accessToken, 'global');
-      if (signOut.error && ![401, 403, 404].includes(signOut.error.status)) authError(signOut.error);
+      if (signOut.error && !sessionAlreadyEnded(signOut.error)) authError(signOut.error);
       await db.query('DELETE FROM shop.sessions WHERE user_id = $1', [req.user.id]);
       const session = await sessionResponse(await signIn(changes.email || req.authUser.email, input.newPassword || input.currentPassword));
       return res.json({ data: publicUser(row), session });

@@ -46,4 +46,9 @@ function authError(error, login = false) {
   throw new HttpError(503, 'Не вдалося виконати операцію Supabase Auth. Перевірте серверний ключ і налаштування проєкту.');
 }
 
-module.exports = { createAuthClient, getAdmin, authError };
+function sessionAlreadyEnded(error) {
+  return Boolean(error && (error.name === 'AuthSessionMissingError'
+    || error.code === 'session_not_found' || [401, 403, 404].includes(error.status)));
+}
+
+module.exports = { createAuthClient, getAdmin, authError, sessionAlreadyEnded };
