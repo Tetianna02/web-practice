@@ -335,6 +335,26 @@ function selectCategory(categoryId) {
 }
 
 document.addEventListener('click', function (event) {
+  if (event.target.closest('[data-reset-products]')) {
+    event.preventDefault();
+    activeCategory = null;
+    activeQuery = '';
+    document.querySelectorAll('[data-category-filter]').forEach(function (button) {
+      button.classList.remove('is-active');
+      button.setAttribute('aria-pressed', 'false');
+    });
+    document.querySelectorAll('.search-form input[type="search"]').forEach(function (input) { input.value = ''; });
+    const url = new URL(location.href);
+    url.searchParams.delete('category');
+    url.searchParams.delete('q');
+    url.hash = 'explore-products';
+    history.replaceState(null, '', url);
+    updateProductVisibility();
+    scheduleRailControls();
+    closeMobileMenu();
+    document.getElementById('explore-products').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
   const categoryButton = event.target.closest('[data-category-filter]');
   if (categoryButton) {
     selectCategory(categoryButton.dataset.categoryFilter);
