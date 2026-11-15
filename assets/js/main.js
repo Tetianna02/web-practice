@@ -1,5 +1,14 @@
 'use strict';
 
+window.StoreReady = new Promise(function (resolve, reject) {
+  const script = document.createElement('script');
+  script.src = new URL('api.js', document.currentScript.src).href;
+  script.onload = function () { resolve(window.Store); };
+  script.onerror = function () { reject(new Error('Не вдалося завантажити API-модуль. Оновіть сторінку.')); };
+  document.head.append(script);
+});
+window.StoreReady.catch(function () {});
+
 const iconSprite = 'assets/images/icons/sprite.svg#icon-';
 const comingSoonMessage = 'Буде доступно на наступному етапі';
 const categories = [
@@ -23,32 +32,9 @@ const sidebarCategories = [
   { name: 'Здоров’я та краса', filter: 'beauty' }
 ];
 
-const saleProducts = [
-  { id: 'gamepad-havit', name: 'Геймпад HAVIT HV-G92', category: 'gaming', price: 1199, oldPrice: 1999, discount: 40, rating: 5, reviews: 88, image: 'product-gamepad-havit.webp', alt: 'Червоний ігровий контролер Havit' },
-  { id: 'keyboard-ak900', name: 'Дротова клавіатура AK-900', category: 'computers', price: 2599, oldPrice: 3999, discount: 35, rating: 4, reviews: 75, image: 'product-keyboard-ak900.webp', alt: 'Чорна клавіатура AK-900' },
-  { id: 'monitor-ips', name: 'Ігровий IPS LCD монітор', category: 'computers', price: 7499, oldPrice: 9999, discount: 30, rating: 5, reviews: 99, image: 'product-monitor-ips.webp', alt: 'Монітор із тонкою рамкою' },
-  { id: 'comfort-chair', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре м’яке крісло' },
-  { id: 'comfort-chair-beige', name: 'Крісло S-Series Comfort', category: 'home', price: 5499, oldPrice: 6999, discount: 25, rating: 4.5, reviews: 99, image: 'product-chair-comfort.webp', alt: 'Сіре крісло S-Series Comfort' },
-  { id: 'canon-camera', name: 'Цифрова камера Canon для подорожей', category: 'camera', price: 14999, oldPrice: 16999, discount: 12, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Цифрова камера Canon' }
-];
-
-const bestProducts = [
-  { id: 'north-coat', name: 'Пальто The North', category: 'clothing', price: 9999, oldPrice: 13999, rating: 5, reviews: 65, image: 'product-coat-north.webp', alt: 'Рожеве зимове пальто' },
-  { id: 'gucci-bag', name: 'Сумка Gucci', category: 'clothing', price: 12999, oldPrice: 15999, rating: 4.5, reviews: 65, image: 'product-bag-gucci.webp', alt: 'Шкіряна сумка з кольоровою стрічкою' },
-  { id: 'cpu-cooler', name: 'Кулер RGB Liquid CPU', category: 'computers', price: 3499, oldPrice: 3999, rating: 4.5, reviews: 65, image: 'product-cpu-cooler.webp', alt: 'Система охолодження з RGB-підсвічуванням' },
-  { id: 'bookshelf', name: 'Книжкова полиця', category: 'home', price: 2299, rating: 5, reviews: 65, image: 'product-bookshelf.webp', alt: 'Дерев’яна книжкова полиця' }
-];
-
-const exploreProducts = [
-  { id: 'dog-food', name: 'Сухий корм для собак', category: 'pets', price: 799, rating: 3, reviews: 35, image: 'product-dog-food.webp', alt: 'Паковання сухого корму для собак' },
-  { id: 'canon-eos', name: 'Фотоапарат CANON EOS', category: 'camera', price: 21999, rating: 4, reviews: 95, image: 'product-camera-canon.webp', alt: 'Фотоапарат Canon з об’єктивом' },
-  { id: 'gaming-laptop', name: 'Ігровий ноутбук ASUS', category: 'computers', price: 34999, rating: 5, reviews: 325, image: 'product-laptop-asus.webp', alt: 'Ігровий ноутбук ASUS' },
-  { id: 'skin-care', name: 'Набір догляду Curology', category: 'beauty', price: 1299, rating: 4, reviews: 145, image: 'product-cosmetics-curology.webp', alt: 'Набір косметичних засобів' },
-  { id: 'toy-car', isNew: true, colors: ['#fb1313', '#db4444'], name: 'Дитячий електромобіль', category: 'children', price: 8999, rating: 5, reviews: 65, image: 'product-toy-car.webp', alt: 'Червоний дитячий електромобіль' },
-  { id: 'football-cleats', colors: ['#e2ff54', '#db4444'], name: 'Бутси Jr. Zoom Soccer', category: 'sports', price: 2899, rating: 5, reviews: 35, image: 'product-shoes-cleats.webp', alt: 'Футбольні бутси жовтого кольору' },
-  { id: 'wireless-gamepad', isNew: true, colors: ['#000000', '#db4444'], name: 'Геймпад GP11 Shooter USB', category: 'gaming', price: 1699, rating: 4.5, reviews: 55, image: 'product-gamepad-fantech.webp', alt: 'Чорний бездротовий ігровий контролер' },
-  { id: 'satin-jacket', colors: ['#184a48', '#db4444'], name: 'Сатинова куртка Quilted', category: 'clothing', price: 3299, rating: 4.5, reviews: 55, image: 'product-jacket-satin.webp', alt: 'Темно-зелена сатинова куртка' }
-];
+let saleProducts = [];
+let bestProducts = [];
+let exploreProducts = [];
 
 const heroSlides = [
   { eyebrow: 'Аудіотехніка JBL', title: 'Музика без меж', image: 'assets/images/optimized/figma-jbl-boombox.webp', alt: 'Портативна колонка JBL Boombox' },
@@ -122,7 +108,7 @@ function createProductCard(product) {
   preview.className = 'product-tool';
   preview.type = 'button';
   preview.setAttribute('aria-label', 'Переглянути товар: ' + product.name);
-  preview.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
+  preview.addEventListener('click', function () { window.location.href = '/web-practice/product.html?id=' + encodeURIComponent(product.id); });
   preview.append(createIcon('eye'));
   tools.append(favorite, preview);
 
@@ -136,7 +122,7 @@ function createProductCard(product) {
   addButton.className = 'product-add-button';
   addButton.type = 'button';
   addButton.textContent = 'Купити';
-  addButton.addEventListener('click', function () { window.location.href = '/web-practice/product.html'; });
+  addButton.addEventListener('click', function () { window.location.href = '/web-practice/product.html?id=' + encodeURIComponent(product.id); });
   media.append(addButton);
 
   const name = document.createElement('h3');
@@ -176,7 +162,7 @@ function createProductCard(product) {
   meta.className = 'product-meta';
   meta.append(prices, rating);
   card.append(media, name, meta);
-  if (product.colors) {
+  if (product.colors && product.colors.length) {
     card.classList.add('has-swatches');
     const swatches = document.createElement('div');
     swatches.className = 'product-swatches';
@@ -294,10 +280,47 @@ function updateProductVisibility(resetScroll = true) {
   }
 }
 
-renderProductList('flash', saleProducts, true);
-renderProductList('best', bestProducts, true);
-renderProductList('explore', exploreProducts, true);
-updateProductVisibility(false);
+async function loadHomeProducts() {
+  const lists = document.querySelectorAll('[data-product-list]');
+  lists.forEach(function (list) { list.setAttribute('aria-busy', 'true'); });
+  if (searchStatus) searchStatus.textContent = 'Завантажуємо товари…';
+  try {
+    const api = await window.StoreReady;
+    const results = await Promise.all([api.catalog(), api.request('/categories')]);
+    const products = results[0];
+    saleProducts = products.filter(function (item) { return item.section === 'flash'; });
+    bestProducts = products.filter(function (item) { return item.section === 'best'; });
+    exploreProducts = products.filter(function (item) { return item.section === 'catalog'; });
+    renderProductList('flash', saleProducts, true);
+    renderProductList('best', bestProducts, true);
+    renderProductList('explore', exploreProducts, true);
+    results[1].data.forEach(function (category) {
+      const button = document.querySelector('[data-category-filter="' + category.id + '"]');
+      if (button) { button.querySelector('span').textContent = category.name; button.querySelector('span').title = category.name; }
+    });
+    const query = new URLSearchParams(location.search);
+    activeQuery = (query.get('q') || '').trim().toLocaleLowerCase('uk-UA');
+    activeCategory = query.get('category') || null;
+    document.querySelectorAll('.search-form input').forEach(function (input) { input.value = query.get('q') || ''; });
+    updateProductVisibility(false);
+    if (!products.length && searchStatus) searchStatus.textContent = 'У каталозі поки немає товарів.';
+    scheduleRailControls();
+  } catch (error) { if (searchStatus) searchStatus.textContent = error.message; }
+  finally { lists.forEach(function (list) { list.removeAttribute('aria-busy'); }); }
+}
+window.HomeReady = loadHomeProducts();
+
+const promoBuy = document.querySelector('.promo-button');
+if (promoBuy) promoBuy.addEventListener('click', async function (event) {
+  event.preventDefault();
+  try {
+    const api = await window.StoreReady;
+    const products = await api.catalog();
+    const product = products.find(function (item) { return /jbl/i.test(item.name); });
+    if (product) location.assign(api.productUrl(product.id));
+    else showToast('Товар JBL ще не додано до каталогу.');
+  } catch (error) { showToast(error.message); }
+});
 
 function selectCategory(categoryId) {
   activeCategory = activeCategory === categoryId ? null : categoryId;
@@ -312,6 +335,26 @@ function selectCategory(categoryId) {
 }
 
 document.addEventListener('click', function (event) {
+  if (event.target.closest('[data-reset-products]')) {
+    event.preventDefault();
+    activeCategory = null;
+    activeQuery = '';
+    document.querySelectorAll('[data-category-filter]').forEach(function (button) {
+      button.classList.remove('is-active');
+      button.setAttribute('aria-pressed', 'false');
+    });
+    document.querySelectorAll('.search-form input[type="search"]').forEach(function (input) { input.value = ''; });
+    const url = new URL(location.href);
+    url.searchParams.delete('category');
+    url.searchParams.delete('q');
+    url.hash = 'explore-products';
+    history.replaceState(null, '', url);
+    updateProductVisibility();
+    scheduleRailControls();
+    closeMobileMenu();
+    document.getElementById('explore-products').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
   const categoryButton = event.target.closest('[data-category-filter]');
   if (categoryButton) {
     selectCategory(categoryButton.dataset.categoryFilter);
@@ -334,7 +377,8 @@ document.querySelectorAll('.search-form').forEach(function (form) {
     event.preventDefault();
     activeQuery = input.value.trim().toLocaleLowerCase('uk-UA');
     updateProductVisibility();
-    const target = document.getElementById('explore-products');
+    const first = document.querySelector('.product-card:not([hidden])');
+    const target = first ? first.closest('section') : document.getElementById('explore-products');
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     closeMobileMenu();
   });
@@ -431,157 +475,6 @@ if (mobileMenu) {
 window.addEventListener('resize', function () {
   if (desktopMenuQuery.matches) closeMobileMenu();
 });
-
-const authDialog = document.querySelector('.auth-dialog');
-const authForm = document.querySelector('.auth-form');
-const authPanel = document.getElementById('auth-panel');
-const authStatus = document.querySelector('[data-form-status]');
-const authNameField = document.querySelector('[data-field="name"]');
-const authConfirmField = document.querySelector('[data-field="confirm-password"]');
-const authConsentField = document.querySelector('[data-field="consent"]');
-const authPassword = document.getElementById('auth-password');
-let authMode = 'register';
-let lastAuthTrigger = null;
-
-function openAuthDialog(trigger) {
-  const triggerIsInMobileMenu = trigger && mobileMenu && mobileMenu.contains(trigger);
-  closeMobileMenu();
-  if (!authDialog || typeof authDialog.showModal !== 'function') return;
-  setAuthMode(trigger && trigger.dataset.authStart === 'login' ? 'login' : 'register');
-  lastAuthTrigger = triggerIsInMobileMenu ? menuToggle : (trigger || document.activeElement);
-  authDialog.showModal();
-  document.body.classList.add('dialog-is-open');
-  const firstField = authForm.querySelector('.form-field:not([hidden]) input');
-  if (firstField) firstField.focus();
-}
-
-function setAuthMode(mode) {
-  authMode = mode;
-  const isRegister = mode === 'register';
-  if (authNameField) authNameField.hidden = !isRegister;
-  if (authConfirmField) authConfirmField.hidden = !isRegister;
-  if (authConsentField) authConsentField.hidden = !isRegister;
-  const nameInput = document.getElementById('auth-name');
-  const confirmInput = document.getElementById('auth-confirm-password');
-  const consentInput = document.getElementById('auth-consent');
-  if (nameInput) nameInput.required = isRegister;
-  if (confirmInput) confirmInput.required = isRegister;
-  if (consentInput) consentInput.required = isRegister;
-  if (authPassword) authPassword.autocomplete = isRegister ? 'new-password' : 'current-password';
-  document.querySelectorAll('[data-auth-mode]').forEach(function (button) {
-    button.setAttribute('aria-selected', String(button.dataset.authMode === mode));
-    button.tabIndex = button.dataset.authMode === mode ? 0 : -1;
-  });
-  if (authPanel) authPanel.setAttribute('aria-labelledby', 'auth-tab-' + mode);
-  const submit = document.querySelector('.form-submit');
-  if (submit) submit.textContent = isRegister ? 'Створити обліковий запис' : 'Увійти';
-  if (authStatus) authStatus.textContent = '';
-  clearFormErrors();
-}
-
-document.querySelectorAll('[data-open-auth]').forEach(function (trigger) {
-  trigger.addEventListener('click', function () {
-    openAuthDialog(trigger);
-  });
-});
-document.querySelectorAll('[data-auth-mode]').forEach(function (button) {
-  button.addEventListener('click', function () {
-    setAuthMode(button.dataset.authMode);
-  });
-  button.addEventListener('keydown', function (event) {
-    if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
-    event.preventDefault();
-    const mode = event.key === 'Home' ? 'register' : event.key === 'End' ? 'login'
-      : authMode === 'register' ? 'login' : 'register';
-    setAuthMode(mode);
-    document.querySelector('[data-auth-mode="' + mode + '"]').focus();
-  });
-});
-
-function clearFormErrors() {
-  document.querySelectorAll('.field-error').forEach(function (error) {
-    error.textContent = '';
-  });
-  document.querySelectorAll('.auth-form input').forEach(function (input) {
-    input.removeAttribute('aria-invalid');
-  });
-}
-
-function setFieldError(fieldName, message, input) {
-  const error = document.getElementById('auth-' + fieldName + '-error');
-  if (error) error.textContent = message;
-  if (input) input.setAttribute('aria-invalid', 'true');
-}
-
-if (authForm) {
-  authForm.addEventListener('submit', function (event) {
-    event.preventDefault();
-    clearFormErrors();
-    if (authStatus) authStatus.textContent = '';
-    let valid = true;
-    const nameInput = document.getElementById('auth-name');
-    const emailInput = document.getElementById('auth-email');
-    const confirmInput = document.getElementById('auth-confirm-password');
-    const consentInput = document.getElementById('auth-consent');
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/u;
-
-    if (authMode === 'register' && nameInput.value.trim().length < 2) {
-      setFieldError('name', 'Введіть ім’я (щонайменше 2 символи).', nameInput);
-      valid = false;
-    }
-    if (!emailPattern.test(emailInput.value.trim())) {
-      setFieldError('email', 'Введіть коректну адресу електронної пошти.', emailInput);
-      valid = false;
-    }
-    if (authPassword.value.length < 8) {
-      setFieldError('password', 'Пароль має містити щонайменше 8 символів.', authPassword);
-      valid = false;
-    }
-    if (authMode === 'register' && confirmInput.value !== authPassword.value) {
-      setFieldError('confirm-password', 'Паролі не збігаються.', confirmInput);
-      valid = false;
-    }
-    if (authMode === 'register' && !consentInput.checked) {
-      setFieldError('consent', 'Потрібна згода з умовами.', consentInput);
-      valid = false;
-    }
-
-    if (!valid) {
-      const firstInvalid = authForm.querySelector('[aria-invalid="true"]');
-      if (firstInvalid) firstInvalid.focus();
-      return;
-    }
-    if (authStatus) {
-      authStatus.textContent = authMode === 'register'
-        ? 'Дані перевірено. Реєстрацію буде підключено на наступному етапі.'
-        : 'Дані перевірено. Вхід буде підключено на наступному етапі.';
-    }
-    showToast(comingSoonMessage);
-  });
-}
-
-const dialogClose = document.querySelector('.dialog-close');
-if (dialogClose && authDialog) {
-  dialogClose.addEventListener('click', function () {
-    authDialog.close();
-  });
-}
-if (authDialog) {
-  authDialog.addEventListener('click', function (event) {
-    if (event.target !== authDialog) return;
-    const bounds = authDialog.getBoundingClientRect();
-    const clickedOutside = event.clientX < bounds.left || event.clientX > bounds.right
-      || event.clientY < bounds.top || event.clientY > bounds.bottom;
-    if (clickedOutside) authDialog.close();
-  });
-  authDialog.addEventListener('close', function () {
-    document.body.classList.remove('dialog-is-open');
-    clearFormErrors();
-    if (authForm) authForm.reset();
-    setAuthMode('register');
-    if (lastAuthTrigger && typeof lastAuthTrigger.focus === 'function') lastAuthTrigger.focus({ preventScroll: true });
-  });
-}
 
 function updateCountdown(root, endAt) {
   const now = Date.now();

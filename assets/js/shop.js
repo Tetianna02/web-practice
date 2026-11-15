@@ -1,64 +1,78 @@
 'use strict';
 
 window.Shop = (function () {
-  const products = {
-    white: { id: 'white', name: 'Havic HV G-92 Gamepad', price: 192, image: 'gamepad-main.webp', width: 892, height: 630 },
-    gamepad: { id: 'gamepad', name: 'Геймпад HAVIT HV-G92', price: 1199, image: 'product-gamepad-havit.webp' },
-    keyboard: { id: 'keyboard', name: 'Дротова клавіатура AK-900', price: 2599, image: 'product-keyboard-ak900.webp' },
-    monitor: { id: 'monitor', name: 'Ігровий IPS LCD монітор', price: 7499, image: 'product-monitor-ips.webp' },
-    cooler: { id: 'cooler', name: 'Кулер RGB Liquid CPU', price: 3499, image: 'product-cpu-cooler.webp' }
-  };
-  const key = 'exclusive-layout-cart-v1';
-  const seed = [{ id: 'monitor', quantity: 1 }, { id: 'gamepad', quantity: 2 }];
-  let memory = seed.map(function (item) { return Object.assign({}, item); });
+  const products = Object.create(null);
+  const aliases = { gamepad: 'gamepad-havit', keyboard: 'keyboard-ak900', monitor: 'monitor-ips', cooler: 'cpu-cooler' };
+  const key = 'exclusive-cart-v2';
+  let memory = [];
+  let available = false;
+  function canonical(id) { return Object.hasOwn(aliases, id) ? aliases[id] : id; }
   function readCart() {
     try {
       const saved = sessionStorage.getItem(key);
-      if (saved !== null) {
-        const parsed = JSON.parse(saved);
+      const legacy = saved === null ? sessionStorage.getItem('exclusive-layout-cart-v1') : null;
+      if (saved !== null || legacy !== null) {
+        const parsed = JSON.parse(saved === null ? legacy : saved);
         if (Array.isArray(parsed)) {
           const unique = new Map();
-          parsed.forEach(function (item) {
-            if (item && Object.hasOwn(products, item.id) && Number.isInteger(item.quantity) && item.quantity > 0 && item.quantity <= 99) {
-              unique.set(item.id, { id: item.id, quantity: item.quantity });
+          parsed.slice(0, 100).forEach(function (item) {
+            if (!item || typeof item.id !== 'string' || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(item.id)) return;
+            if (Number.isInteger(item.quantity) && item.quantity > 0 && item.quantity <= 99) {
+              const id = canonical(item.id);
+              unique.set(id, { id: id, quantity: item.quantity });
             }
           });
           memory = Array.from(unique.values());
         }
       }
-    } catch (error) {
-      // The visual prototype also works when browser storage is unavailable.
-    }
+    } catch (_) { /* Use memory when storage is unavailable. */ }
     return memory.map(function (item) { return Object.assign({}, item); });
   }
   function saveCart(items) {
-    memory = items.map(function (item) { return { id: item.id, quantity: item.quantity }; });
-    try { sessionStorage.setItem(key, JSON.stringify(memory)); } catch (error) { /* Keep the in-memory demo usable. */ }
+    memory = items.map(function (item) { return { id: canonical(item.id), quantity: item.quantity }; });
+    try { sessionStorage.setItem(key, JSON.stringify(memory)); } catch (_) { /* Keep this page usable. */ }
     updateBadge();
     window.dispatchEvent(new CustomEvent('shop:cart-change'));
   }
-  function add(id, quantity) {
-    if (!Object.hasOwn(products, id)) return;
+  async function add(id, quantity) {
+    await ready;
+    id = canonical(id);
+    const product = products[id];
+    if (!product || !product.stock) { showToast('Цей товар зараз недоступний.'); return false; }
     const items = readCart();
     const item = items.find(function (entry) { return entry.id === id; });
-    if (item) item.quantity = Math.min(99, item.quantity + quantity);
-    else items.push({ id: id, quantity: Math.max(1, Math.min(99, quantity)) });
+    const max = Math.min(99, product.stock);
+    const requested = Math.max(1, Math.trunc(Number(quantity)) || 1);
+    if (item) item.quantity = Math.min(max, item.quantity + requested);
+    else items.push({ id: id, quantity: Math.min(max, requested) });
     saveCart(items);
+    return true;
   }
   function money(value) { return new Intl.NumberFormat('uk-UA').format(value) + ' ₴'; }
-  function total(items) { return items.reduce(function (sum, item) { return sum + products[item.id].price * item.quantity; }, 0); }
+  function total(items) { return items.reduce(function (sum, item) { return sum + Math.round(products[item.id].price * 100) * item.quantity; }, 0) / 100; }
   function updateBadge() {
     document.querySelectorAll('[data-cart-badge]').forEach(function (badge) {
-      const count = readCart().length;
-      badge.textContent = String(count);
-      badge.hidden = count === 0;
+      const count = readCart().reduce(function (sum, item) { return sum + item.quantity; }, 0);
+      badge.textContent = String(count); badge.hidden = count === 0;
     });
   }
+  const ready = window.StoreReady.then(function (api) { return api.catalog(); }).then(function (items) {
+    items.forEach(function (product) { products[product.id] = product; });
+    available = true;
+    const saved = readCart();
+    const valid = saved.filter(function (item) { return products[item.id] && products[item.id].stock > 0; })
+      .map(function (item) { return { id: item.id, quantity: Math.min(item.quantity, products[item.id].stock, 99) }; });
+    if (JSON.stringify(valid) !== JSON.stringify(saved)) {
+      saveCart(valid); showToast('Кошик оновлено відповідно до наявності товарів.');
+    }
+    return products;
+  });
+  ready.catch(function () {});
   document.querySelectorAll('.shop-page .search-form').forEach(function (form) {
     form.addEventListener('submit', function (event) {
       event.preventDefault();
       closeMobileMenu();
-      showToast(comingSoonMessage);
+      window.StoreReady.then(function (api) { api.search(form.querySelector('input').value); }).catch(function (error) { showToast(error.message); });
     });
   });
   const toggle = document.querySelector('.shop-profile-toggle');
@@ -85,9 +99,11 @@ window.Shop = (function () {
     menu.addEventListener('click', function () { closeAccountMenu(false); });
   }
   document.querySelectorAll('[data-add-product]').forEach(function (button) {
-    button.addEventListener('click', function () {
-      add(button.dataset.addProduct, 1);
-      showToast('Товар додано до демонстраційного кошика');
+    button.addEventListener('click', async function () {
+      button.disabled = true;
+      try { if (await add(button.dataset.addProduct, 1)) showToast('Товар додано до кошика'); }
+      catch (error) { showToast(error.message); }
+      finally { button.disabled = false; }
     });
   });
   function setupImageFallbacks() {
@@ -126,6 +142,6 @@ window.Shop = (function () {
   }
   setupImageFallbacks();
   updateBadge();
-  return { products: products, readCart: readCart, saveCart: saveCart, add: add, money: money, total: total,
+  return { ready: ready, canonical: canonical, isAvailable: function () { return available; }, products: products, readCart: readCart, saveCart: saveCart, add: add, money: money, total: total,
     updateBadge: updateBadge, setupImageFallbacks: setupImageFallbacks, clearErrors: clearErrors, fieldError: fieldError, validate: validate };
 })();

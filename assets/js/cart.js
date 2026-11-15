@@ -7,6 +7,7 @@
   const checkout = document.querySelector('.cart-checkout');
   const update = document.querySelector('[data-update-cart]');
   function render() {
+    if (!Shop.isAvailable()) return;
     const items = Shop.readCart();
     list.replaceChildren();
     table.hidden = items.length === 0;
@@ -41,12 +42,11 @@
       remove.addEventListener('click', function () {
         Shop.saveCart(Shop.readCart().filter(function (entry) { return entry.id !== item.id; }));
         render();
-        showToast('Товар видалено з демонстраційного кошика');
+        showToast('Товар видалено з кошика');
       });
       frame.append(img, fallback, remove);
-      const title = document.createElement(item.id === 'white' ? 'a' : 'button');
-      if (item.id === 'white') title.href = '/web-practice/product.html';
-      else { title.type = 'button'; title.setAttribute('data-coming-soon', ''); }
+      const title = document.createElement('a');
+      title.href = Store.productUrl(item.id);
       title.textContent = product.name;
       productCell.append(frame, title);
       const price = document.createElement('div');
@@ -61,15 +61,15 @@
       const field = document.createElement('div');
       field.className = 'cart-quantity';
       const input = document.createElement('input');
-      input.type = 'number'; input.min = '1'; input.max = '99';
+      input.type = 'number'; input.min = '1'; input.max = String(Math.min(99, product.stock));
       input.name = 'quantity-' + item.id; input.id = 'quantity-' + item.id;
       input.value = String(item.quantity).padStart(2, '0');
       input.setAttribute('aria-label', 'Кількість: ' + product.name);
       function change(value) {
-        const quantity = Math.max(1, Math.min(99, Math.trunc(Number(value)) || 1));
+        const quantity = Math.max(1, Math.min(99, product.stock, Math.trunc(Number(value)) || 1));
         Shop.saveCart(Shop.readCart().map(function (entry) { return entry.id === item.id ? { id: item.id, quantity: quantity } : entry; }));
         input.value = String(quantity).padStart(2, '0');
-        more.disabled = quantity === 99;
+        more.disabled = quantity >= Math.min(99, product.stock);
         less.disabled = quantity === 1;
         subtotal.textContent = Shop.money(product.price * quantity);
         updateTotal();
@@ -77,7 +77,7 @@
       const more = document.createElement('button');
       more.type = 'button'; more.setAttribute('aria-label', 'Збільшити кількість: ' + product.name);
       more.innerHTML = '<img src="assets/images/icons/icon-quantity-up.svg" width="16" height="16" alt="">';
-      more.disabled = item.quantity === 99;
+      more.disabled = item.quantity >= Math.min(99, product.stock);
       const less = document.createElement('button');
       less.type = 'button'; less.setAttribute('aria-label', 'Зменшити кількість: ' + product.name);
       less.innerHTML = '<img src="assets/images/icons/icon-quantity-down.svg" width="16" height="16" alt="">';
@@ -106,9 +106,15 @@
     const code = event.currentTarget.elements.coupon.value.trim();
     document.querySelector('[data-coupon-status]').textContent = code ? comingSoonMessage : 'Введіть промокод.';
   });
-  update.addEventListener('click', function () { render(); showToast('Демонстраційний кошик оновлено'); });
+  update.addEventListener('click', function () { render(); showToast('Кошик оновлено'); });
   checkout.addEventListener('click', function (event) {
-    if (!Shop.readCart().length) { event.preventDefault(); showToast('Спочатку додайте товар у кошик'); }
+    if (!Shop.isAvailable() || !Shop.readCart().length) { event.preventDefault(); showToast('Спочатку додайте товар у кошик'); }
   });
-  render();
+  checkout.setAttribute('aria-disabled', 'true');
+  update.disabled = true;
+  list.setAttribute('aria-busy', 'true');
+  Shop.ready.then(render).catch(function (error) {
+    document.querySelector('[data-coupon-status]').textContent = error.message;
+    checkout.setAttribute('aria-disabled', 'true');
+  }).finally(function () { list.removeAttribute('aria-busy'); });
 })();
