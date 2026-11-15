@@ -3,7 +3,7 @@
 window.Store = (function () {
   const scriptUrl = document.currentScript.src;
   const local = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
-  const deployedApi = '';
+  const deployedApi = 'https://web-practice-4iew.onrender.com/api';
   const base = (window.STORE_API_URL || (local ? 'http://' + location.hostname + ':3000/api' : deployedApi)).replace(/\/$/, '');
   const sessionKey = 'exclusive-supabase-auth-v1';
   let session = null;
